@@ -1,0 +1,309 @@
+{
+  "nav": {
+    "how": "Nasıl çalışır",
+    "compare": "Karşılaştır",
+    "faq": "SSS",
+    "security": "Güvenlik",
+    "wishlist": "İstek listesi",
+    "github": "GitHub"
+  },
+  "meta": {
+    "homeTitle": "Porthole - LAN ve kendi barındırdığın oyunları Steam üzerinden arkadaşlarınla oyna",
+    "homeDescription": "Porthole, seçtiğin bir portu Steam arkadaşlarına yönlendiren bir proxy'dir; onlar da sanki senin LAN'ındaymış gibi bağlanır. Port yönlendirme yok, genel IP yok, modem ayarı yok. LAN ve kendi barındırdığın oyunları uzaktaki arkadaşlarınla oyna. Hamachi ve Radmin'in Steam tabanlı bir yorumu.",
+    "securityTitle": "Gizlilik ve güvenlik - Porthole",
+    "securityDescription": "Porthole üzerinden hangi verilerin aktığı, neden yalnızca seçtiğin portları paylaştığı ve Steam Datagram Relay'in her bağlantıyı nasıl şifrelediği.",
+    "ogAlt": "Porthole - Steam üzerinden yerel port paylaşımı"
+  },
+  "hero": {
+    "badge": "Yakında Steam'de",
+    "title": "LAN ve kendi barındırdığın oyunları",
+    "titleAccent": "her yerdeki arkadaşlarınla oyna",
+    "sub": "Porthole, seçtiğin bir portu Steam arkadaşlarına yönlendiren bir proxy'dir; onlar da sanki senin LAN'ındaymış gibi bağlanır. Port yönlendirme yok, genel IP yok, modem ayarı yok. Hamachi ve Radmin'in Steam tabanlı bir yorumu.",
+    "points": [
+      "Port yönlendirme yok",
+      "Genel IP yok",
+      "Yalnızca senin seçtiğin portlar"
+    ],
+    "ctaPrimary": "Steam'de istek listene ekle",
+    "ctaSecondary": "Nasıl çalıştığını gör",
+    "note": "Ücretsiz. NAT ve CGNAT arkasında çalışır. Windows ve Linux / SteamOS."
+  },
+  "demo": {
+    "heading": "Tek bir paylaşım kodu, arkadaşın oyunda",
+    "body": "Bir lobi oluştur, paylaşacağın portları seç ve kodu gönder. Arkadaşın her portu onaylar ve port kendi bilgisayarında açılır. Akışın tamamı bu kadar.",
+    "caption": "Porthole bir oyun sunucusu barındırırken bir arkadaş Steam üzerinden katılıyor."
+  },
+  "how": {
+    "heading": "Oyun trafiğin, Steam üzerinden tünellenir",
+    "body": "Porthole seni asla açık bir adrese çıkarmaz. Yalnızca paylaştığın portların trafiğini Steam'in kendi ağı üzerinden, doğrudan davet ettiğin arkadaşlara taşır.",
+    "steps": [
+      {
+        "title": "Bir lobi oluştur",
+        "body": "Porthole'u aç ve bir lobi başlat. Kısa bir paylaşım kodu alırsın."
+      },
+      {
+        "title": "Portlarını seç",
+        "body": "Paylaşacağın TCP veya UDP portlarını seç ya da çalışan bir oyundan otomatik algılat."
+      },
+      {
+        "title": "Arkadaşlarını davet et",
+        "body": "Paylaşım kodunu gönder ya da doğrudan Steam arkadaş listenden davet et."
+      },
+      {
+        "title": "Onlar onaylasın",
+        "body": "Her arkadaşın istediği portları onaylar. Onlar evet demeden bilgisayarlarında hiçbir şey açılmaz."
+      },
+      {
+        "title": "Birlikte oyna",
+        "body": "Trafik Steam üzerinden tünellenir. Her arkadaş kendi bilgisayarından, sunucu sanki kendi LAN'ındaymış gibi bağlanır."
+      }
+    ],
+    "diagram": {
+      "hostTitle": "Sen (ev sahibi)",
+      "hostGame": "Oyun sunucusu",
+      "guestTitle": "Arkadaş (misafir)",
+      "guestGame": "Onların oyunu",
+      "network": "Steam ağı",
+      "flow": "Yalnızca paylaştığın portlar",
+      "caption": "Açık internete hiçbir şey çıkmaz. Trafik yalnızca sen ve davet ettiğin arkadaşların arasında akar."
+    }
+  },
+  "features": {
+    "heading": "Gerçek oyun barındırmak için tasarlandı",
+    "items": [
+      {
+        "title": "Yalnızca senin seçtiğin portlar",
+        "body": "Tüm bilgisayarını değil, tek bir TCP veya UDP portunu paylaş. Bu tam bir VPN değil, bir ağ aracıdır."
+      },
+      {
+        "title": "Port yönlendirme yok",
+        "body": "Modemsiz port yönlendirme. NAT ve CGNAT arkasında, genel IP ve modem ayarı olmadan çalışır."
+      },
+      {
+        "title": "Otomatik port algılama",
+        "body": "Porthole'u çalışan bir oyuna yönelt; dinlediği portları kendisi bulur. Elle arama derdi yok."
+      },
+      {
+        "title": "Kodla ya da arkadaş listesiyle katılım",
+        "body": "Arkadaşların kısa bir paylaşım koduyla ya da doğrudan Steam arkadaş listenden katılır."
+      },
+      {
+        "title": "Port başına onay",
+        "body": "Misafirler her portu, bilgisayarlarında açılmadan önce onaylar. İstediğin an istediğini atabilir ya da yasaklayabilirsin."
+      },
+      {
+        "title": "Doğrudan P2P ya da Valve relay",
+        "body": "Steam her bağlantı için en hızlı yolu seçer: doğrudan eşler arası bir bağlantı ya da Valve'ın relay ağı."
+      },
+      {
+        "title": "TCP ve UDP",
+        "body": "İkisiyle de çalışır; özel sunucular da UDP oyunları da aynı rahatlıkla döner."
+      },
+      {
+        "title": "Yerel uygulama ve CLI",
+        "body": "Windows ve Linux / SteamOS için sade bir tepsi uygulaması, üstüne betiklerle kullanabileceğin bir komut satırı."
+      }
+    ]
+  },
+  "usecases": {
+    "heading": "İnsanlar Porthole'u ne için kullanıyor",
+    "items": [
+      {
+        "title": "Arkadaşların için bir sunucu barındır",
+        "body": "Bir Minecraft dünyası ya da özel bir oyun sunucusu çalıştır; modemine hiç dokunmadan arkadaşlarını içeri al."
+      },
+      {
+        "title": "LAN oyunlarını internet üzerinden oyna",
+        "body": "Yerel çok oyunculu ve yalnızca LAN destekli oyunları, kendi bilgisayarlarına yapılan bir Direct Connect ile ülkenin öbür ucundaki arkadaşlarına ulaştır."
+      },
+      {
+        "title": "Herhangi bir yerel servisi paylaş",
+        "body": "Başka herhangi bir yerel TCP ya da UDP servisini yalnızca güvendiğin kişilere aç, başka kimseye değil."
+      }
+    ]
+  },
+  "compare": {
+    "heading": "Porthole'a karşı Hamachi, Radmin, ZeroTier ve Tailscale",
+    "body": "Uzaktaki arkadaşlarınla oynamak için daha önce sanal bir LAN ya da tünel kullandıysan, Porthole'un farkı işte tam burada.",
+    "columns": {
+      "porthole": "Porthole",
+      "hamachi": "Hamachi",
+      "radmin": "Radmin VPN",
+      "zerotier": "ZeroTier",
+      "tailscale": "Tailscale",
+      "playit": "playit.gg"
+    },
+    "rows": [
+      {
+        "label": "Neyi paylaşır",
+        "porthole": "Yalnızca seçtiğin portlar",
+        "hamachi": "Bilgisayarın tamamı (sanal LAN)",
+        "radmin": "Bilgisayarın tamamı (sanal LAN)",
+        "zerotier": "Bilgisayarın tamamı (sanal LAN)",
+        "tailscale": "Bilgisayarın tamamı (mesh VPN)",
+        "playit": "Genel bir internet adresi"
+      },
+      {
+        "label": "Kim erişebilir",
+        "porthole": "Davet ettiğin arkadaşlar, port başına",
+        "hamachi": "Ağdaki herkes",
+        "radmin": "Ağdaki herkes",
+        "zerotier": "Ağdaki herkes",
+        "tailscale": "Ağdaki herkes",
+        "playit": "Adresi bilen herkes"
+      },
+      {
+        "label": "Genel IP ya da açık port",
+        "porthole": "Yok",
+        "hamachi": "Yok",
+        "radmin": "Yok",
+        "zerotier": "Yok",
+        "tailscale": "Yok",
+        "playit": "Var"
+      },
+      {
+        "label": "Hesap",
+        "porthole": "Steam hesabın",
+        "hamachi": "LogMeIn hesabı",
+        "radmin": "Radmin hesabı",
+        "zerotier": "ZeroTier hesabı",
+        "tailscale": "Tailscale hesabı",
+        "playit": "playit hesabı"
+      },
+      {
+        "label": "Ücretsiz sürüm",
+        "porthole": "Ücretsiz, eş sınırı yok",
+        "hamachi": "En fazla 5 cihaz",
+        "radmin": "Ücretsiz",
+        "zerotier": "En fazla 10 cihaz",
+        "tailscale": "En fazla 6 kullanıcı",
+        "playit": "Ücretsiz, ücretli yükseltmeler"
+      },
+      {
+        "label": "Platformlar",
+        "porthole": "Windows, Linux / SteamOS",
+        "hamachi": "Windows, macOS, Linux",
+        "radmin": "Windows",
+        "zerotier": "Tüm büyük platformlar",
+        "tailscale": "Tüm büyük platformlar",
+        "playit": "Windows, macOS, Linux"
+      },
+      {
+        "label": "Açık kaynak",
+        "porthole": "Planlanıyor",
+        "hamachi": "Hayır",
+        "radmin": "Hayır",
+        "zerotier": "Evet",
+        "tailscale": "Yalnızca istemci",
+        "playit": "Yalnızca istemci"
+      }
+    ],
+    "footnote": "Karşılaştırma, 2026 itibarıyla her ürünün herkese açık bilgilerine dayanır. Ücretsiz sürümler ve özellikler değişebilir; güncel ayrıntılar için her ürünü kendin kontrol et. Hamachi, Radmin, ZeroTier, Tailscale ve playit.gg, ilgili sahiplerinin ticari markalarıdır ve Porthole ile bir bağlantısı yoktur."
+  },
+  "faq": {
+    "heading": "Aklına takılanlar",
+    "items": [
+      {
+        "q": "Porthole bir VPN mi?",
+        "a": "Hayır. VPN, makinelerin tamamını tek bir ağda birleştirir. Porthole ise yalnızca paylaşmayı seçtiğin portları tek tek tüneller ve misafirler her portu, kendi bilgisayarlarında açılmadan önce onaylar."
+      },
+      {
+        "q": "Hamachi ya da Radmin alternatifi mi?",
+        "a": "Evet, ama bir VPN'den çok bir proxy gibi çalışır. Hamachi, Radmin, ZeroTier ya da Tailscale ile aynı derdi çözer: uzaktaki arkadaşlarınla sanki aynı LAN'daymışsınız gibi oynamak. Ama tüm bilgisayarını sanal bir ağa katmak yerine, Steam ağı üzerinden yalnızca senin seçtiğin portları proxy'ler."
+      },
+      {
+        "q": "Port yönlendirmeye ya da genel IP'ye ihtiyacım var mı?",
+        "a": "Hayır. Porthole sana modemsiz port yönlendirme verir. NAT ve CGNAT arkasında, genel IP ve modem ayarı olmadan çalışır."
+      },
+      {
+        "q": "Bununla LAN oyunlarını internet üzerinden oynayabilir miyim?",
+        "a": "Evet, host ya da listen sunucusu olan oyunlarda. Arkadaşın paylaşılan porta kendi bilgisayarından ulaşır; varsayılan olarak 127.0.0.1 üzerinden ya da senin belirlediğin başka bir yerel adresten, genellikle oyunun Direct Connect özelliğiyle. Porthole yalnızca senin seçtiğin portları yönlendirir, LAN keşfini yeniden yayınlamaz; bu yüzden LAN tarayıcısı yerine Direct Connect kullan."
+      },
+      {
+        "q": "Arkadaşlarımın da Porthole'a ihtiyacı var mı?",
+        "a": "Evet, üstelik ücretsiz. Katılmak için tek bir paylaşım kodu yeter, kurulacak başka bir şey yok."
+      },
+      {
+        "q": "Paylaştığım kişiler ağımı ya da dosyalarımı görebilir mi?",
+        "a": "Hayır. Bir misafir yalnızca senin sunduğun ve onun kabul ettiği portlara erişebilir, başka hiçbir şeye değil. İstediğin an istediğini atabilir ya da yasaklayabilirsin."
+      },
+      {
+        "q": "Peki ya gecikme?",
+        "a": "Porthole, Valve'ın kendi çok oyunculu oyunlarının kullandığı altyapının aynısı olan Steam ağı üzerinden çalışır. Her bağlantıyı doğrudan eşler arası bir bağlantı ya da Valve'ın relay ağı üzerinden yönlendirir; relay çoğu zaman en az onun kadar, hatta daha hızlıdır, çünkü Valve'ın kendi omurgası üzerinden akar."
+      },
+      {
+        "q": "Gerçekten ücretsiz mi?",
+        "a": "Evet, tamamen ücretsiz."
+      },
+      {
+        "q": "Hangi platformlar destekleniyor?",
+        "a": "Windows ve Linux, Steam Deck ve Steam Machine üzerindeki SteamOS dahil. Steam istemcisinin çalışıyor ve giriş yapılmış olması gerekir."
+      }
+    ]
+  },
+  "steam": {
+    "heading": "Porthole'u istek listene ekle",
+    "body": "Porthole, Steam'de ücretsiz bir uygulama olarak çıkıyor. İstek listene ekle, yayına girdiği anı ilk sen duy."
+  },
+  "cta": {
+    "heading": "Bir port seç, bir kod paylaş ve oyna",
+    "body": "Çıkışta haberdar olmak için Porthole'u Steam'de istek listene ekle. Tamamen ücretsiz.",
+    "primary": "Steam'de istek listene ekle",
+    "secondary": "GitHub'da takip et"
+  },
+  "security": {
+    "title": "Gizlilik ve güvenlik",
+    "intro": "Porthole bir ağ aracıdır; o yüzden tam olarak neye dokunduğunu açıkça anlatalım. Yalnızca senin seçtiğin portları paylaşır, açık internete hiçbir şey çıkarmaz ve Steam'in kendi ağı üzerinde çalışır.",
+    "sections": [
+      {
+        "heading": "Porthole üzerinden neler akar",
+        "body": "Porthole yalnızca paylaştığın portların ham baytlarını yönlendirir, başka hiçbir şeyi değil. Bu trafiği okumaz ya da saklamaz; dosyalarına, diğer portlarına ya da ağının geri kalanına asla dokunmaz.",
+        "bullets": [
+          "Yalnızca paylaştığın TCP veya UDP portları.",
+          "Yalnızca davet ettiğin arkadaşlarla ve yalnızca sen onları çıkarana kadar.",
+          "Dosya yok, disk yok, bilgisayarındaki başka servisler yok."
+        ]
+      },
+      {
+        "heading": "Yalnızca senin seçtiğin portlar",
+        "body": "Bir VPN, tüm bilgisayarını paylaşılan bir ağa katar. Porthole tam tersini yapar: her port teker teker sunulur ve bir misafirin bilgisayarında yalnızca o onayladıktan sonra açılır. Bir portu yeniden eşleyebilir, reddedebilir ya da istediğin an bir misafiri atıp yasaklayabilirsin.",
+        "bullets": []
+      },
+      {
+        "heading": "Şifreleme: relay ya da doğrudan",
+        "body": "Porthole, Steam Datagram Relay (SDR) adı verilen Steam ağı üzerinde çalışır; bu, Valve'ın kendi çok oyunculu oyunlarının kullandığı sistemin aynısıdır. Her bağlantı şifrelenir ve gerçek bir Steam hesabına bağlanır; Steam bunu iki yoldan biriyle yönlendirir:",
+        "bullets": [
+          "Valve'ın relay ağı üzerinden: Valve'ın kendi ifadesiyle, aldığın tüm trafik doğrulanır, şifrelenir ve hız sınırlamasına tabi tutulur; IP adresin asla açığa çıkmaz. Valve'ın omurgası üzerinden aktığı için çoğu zaman doğrudan bir bağlantı kadar hızlıdır, bazen daha da hızlı.",
+          "Doğrudan eşler arası: bir durak daha az; bu gecikmeye yardımcı olabilir ama her zaman değil. Bağlanmak için sen ve arkadaşın IP adreslerinizi paylaşırsınız, yani IP'n onlardan gizlenmez.",
+          "Steam her bağlantı için daha hızlı olan yolu otomatik seçer ve Valve'ın omurgası sayesinde bu çoğu zaman relay olur. Her zaman relay üzerinde kalmayı ve IP'ni gizli tutmayı tercih edersen, Porthole'un ayarlarından ya da Steam'in kendi ağ ayarlarından relay'i zorunlu kılabilirsin."
+        ]
+      },
+      {
+        "heading": "Kontrol hep sende",
+        "body": "Lobiler parola korumalı olabilir. Kimin katılacağını ve her misafirin hangi portları alacağını sen seçersin; istediğini atabilir ya da yasaklayabilirsin. Porthole'u kapat; paylaşılan her port onunla birlikte kapanır.",
+        "bullets": []
+      },
+      {
+        "heading": "Açık kaynak yolda",
+        "body": "Porthole, herkese açık ve açık kaynaklı bir sürüm için hazırlanıyor; böylece herkes tam olarak nasıl çalıştığını okuyabilecek. Depoyu GitHub'da takip et.",
+        "bullets": []
+      }
+    ],
+    "cta": "GitHub'da takip et",
+    "backHome": "Ana sayfaya dön"
+  },
+  "footer": {
+    "tagline": "Yerel port paylaşımı artık çok kolay.",
+    "links": {
+      "security": "Gizlilik ve güvenlik",
+      "steam": "Steam sayfası",
+      "github": "GitHub",
+      "studio": "SeStudio"
+    },
+    "copyright": "© SeStudio",
+    "disclaimer": "Steam ve Valve, Valve Corporation'ın ticari markalarıdır. Hamachi, Radmin, ZeroTier, Tailscale ve playit.gg, ilgili sahiplerinin ticari markalarıdır ve Porthole ile bir bağlantısı yoktur."
+  },
+  "misc": {
+    "changeLanguage": "Dili değiştir"
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "nav": {
+    "how": "Cum funcționează",
+    "compare": "Comparație",
+    "faq": "Întrebări frecvente",
+    "security": "Securitate",
+    "wishlist": "Wishlist",
+    "github": "GitHub"
+  },
+  "meta": {
+    "homeTitle": "Porthole - joacă jocuri de LAN și găzduite local cu prietenii prin Steam",
+    "homeDescription": "Porthole este un proxy care redirecționează un port ales de tine către prietenii tăi de pe Steam, ca ei să se conecteze de parcă ar fi în LAN-ul tău. Fără redirecționarea porturilor, fără IP public, fără setări de router. Joacă jocuri de LAN și găzduite local cu prieteni de departe. Hamachi și Radmin, reinventate pe Steam.",
+    "securityTitle": "Confidențialitate și securitate - Porthole",
+    "securityDescription": "Ce date trec prin Porthole, de ce partajează doar porturile pe care le alegi și cum Steam Datagram Relay criptează fiecare conexiune.",
+    "ogAlt": "Porthole - partajare de porturi locale prin Steam"
+  },
+  "hero": {
+    "badge": "În curând pe Steam",
+    "title": "Joacă jocuri de LAN și găzduite local cu",
+    "titleAccent": "prietenii de oriunde",
+    "sub": "Porthole este un proxy care redirecționează un port ales de tine către prietenii tăi de pe Steam, ca ei să se conecteze de parcă ar fi în LAN-ul tău. Fără redirecționarea porturilor, fără IP public, fără setări de router. Hamachi și Radmin, reinventate pe Steam.",
+    "points": [
+      "Fără redirecționarea porturilor",
+      "Fără IP public",
+      "Doar porturile pe care le alegi"
+    ],
+    "ctaPrimary": "Adaugă în wishlist pe Steam",
+    "ctaSecondary": "Vezi cum funcționează",
+    "note": "Gratuit. Merge în spatele NAT și CGNAT. Windows și Linux / SteamOS."
+  },
+  "demo": {
+    "heading": "Un cod de invitație și prietenul tău e conectat",
+    "body": "Creezi un lobby, alegi porturile de partajat și trimiți un cod. Prietenul tău aprobă fiecare port, iar acesta se deschide pe calculatorul lui. Cam ăsta e tot procesul.",
+    "caption": "Porthole găzduiește un server de joc în timp ce un prieten intră prin Steam."
+  },
+  "how": {
+    "heading": "Traficul jocului tău, tunelat prin Steam",
+    "body": "Porthole nu te expune niciodată pe o adresă publică. Duce doar traficul porturilor pe care le partajezi, prin rețeaua proprie a Steam, direct la prietenii pe care îi inviți.",
+    "steps": [
+      {
+        "title": "Creezi un lobby",
+        "body": "Deschizi Porthole și pornești un lobby. Primești un cod scurt de invitație."
+      },
+      {
+        "title": "Alegi porturile",
+        "body": "Selectezi porturile TCP sau UDP de partajat sau le detectezi automat dintr-un joc pornit."
+      },
+      {
+        "title": "Îți inviți prietenii",
+        "body": "Trimiți codul de invitație sau inviți direct din lista ta de prieteni Steam."
+      },
+      {
+        "title": "Ei aprobă",
+        "body": "Fiecare prieten aprobă porturile pe care le vrea. Nimic nu se deschide pe calculatorul lui până nu spune da."
+      },
+      {
+        "title": "Jucați împreună",
+        "body": "Traficul se tunelează prin Steam. Fiecare prieten se conectează pe propriul calculator, ca și cum serverul ar fi în LAN-ul lui."
+      }
+    ],
+    "diagram": {
+      "hostTitle": "Tu (gazdă)",
+      "hostGame": "Server de joc",
+      "guestTitle": "Prieten (invitat)",
+      "guestGame": "Jocul lui",
+      "network": "Rețeaua Steam",
+      "flow": "Doar porturile pe care le partajezi",
+      "caption": "Nimic nu este expus pe internetul public. Traficul circulă doar între tine și prietenii pe care îi inviți."
+    }
+  },
+  "features": {
+    "heading": "Gândit pentru găzduire de jocuri pe bune",
+    "items": [
+      {
+        "title": "Doar porturile pe care le alegi",
+        "body": "Partajezi un singur port TCP sau UDP, nu tot calculatorul. Este un instrument de rețea, nu un VPN complet."
+      },
+      {
+        "title": "Fără redirecționarea porturilor",
+        "body": "Redirecționare de porturi fără router. Merge în spatele NAT și CGNAT, fără IP public și fără setări de router."
+      },
+      {
+        "title": "Detectare automată a porturilor",
+        "body": "Îndrepți Porthole spre un joc pornit și acesta găsește porturile pe care ascultă. Fără căutări manuale."
+      },
+      {
+        "title": "Intri cu un cod sau din lista de prieteni",
+        "body": "Prietenii intră cu un cod scurt de invitație sau direct din lista ta de prieteni Steam."
+      },
+      {
+        "title": "Aprobare port cu port",
+        "body": "Invitații aprobă fiecare port înainte să se deschidă pe calculatorul lor. Poți da kick sau ban oricui, oricând."
+      },
+      {
+        "title": "Direct P2P sau releu Valve",
+        "body": "Steam alege cea mai rapidă rută pentru fiecare conexiune, o legătură directă peer-to-peer sau releul Valve."
+      },
+      {
+        "title": "TCP și UDP",
+        "body": "Merge cu ambele, așa că serverele dedicate și jocurile UDP se simt la fel de bine."
+      },
+      {
+        "title": "Aplicație nativă și CLI",
+        "body": "O aplicație curată în bara de sistem pentru Windows și Linux / SteamOS, plus o linie de comandă pentru scripturi."
+      }
+    ]
+  },
+  "usecases": {
+    "heading": "Pentru ce folosesc oamenii Porthole",
+    "items": [
+      {
+        "title": "Găzduiești un server pentru prieteni",
+        "body": "Rulezi o lume Minecraft sau un server de joc dedicat și îți inviți prietenii, fără să umbli la router."
+      },
+      {
+        "title": "Joci jocuri de LAN pe internet",
+        "body": "Aduci jocurile cu multiplayer local și cele doar pentru LAN prietenilor de la celălalt capăt al țării, printr-un Direct Connect la propriul lor calculator."
+      },
+      {
+        "title": "Partajezi orice serviciu local",
+        "body": "Oferi orice alt serviciu local TCP sau UDP doar oamenilor în care ai încredere, și nimănui altcuiva."
+      }
+    ]
+  },
+  "compare": {
+    "heading": "Porthole vs Hamachi, Radmin, ZeroTier și Tailscale",
+    "body": "Dacă ai folosit un LAN virtual sau un tunel ca să joci cu prieteni de departe, iată prin ce e diferit Porthole.",
+    "columns": {
+      "porthole": "Porthole",
+      "hamachi": "Hamachi",
+      "radmin": "Radmin VPN",
+      "zerotier": "ZeroTier",
+      "tailscale": "Tailscale",
+      "playit": "playit.gg"
+    },
+    "rows": [
+      {
+        "label": "Ce partajează",
+        "porthole": "Doar porturile pe care le alegi",
+        "hamachi": "Tot calculatorul (LAN virtual)",
+        "radmin": "Tot calculatorul (LAN virtual)",
+        "zerotier": "Tot calculatorul (LAN virtual)",
+        "tailscale": "Tot calculatorul (VPN de tip mesh)",
+        "playit": "O adresă publică de internet"
+      },
+      {
+        "label": "Cine poate ajunge la el",
+        "porthole": "Prietenii pe care îi inviți, port cu port",
+        "hamachi": "Oricine din rețea",
+        "radmin": "Oricine din rețea",
+        "zerotier": "Oricine din rețea",
+        "tailscale": "Oricine din rețea",
+        "playit": "Oricine are adresa"
+      },
+      {
+        "label": "IP public sau port deschis",
+        "porthole": "Niciunul",
+        "hamachi": "Niciunul",
+        "radmin": "Niciunul",
+        "zerotier": "Niciunul",
+        "tailscale": "Niciunul",
+        "playit": "Da"
+      },
+      {
+        "label": "Cont",
+        "porthole": "Contul tău Steam",
+        "hamachi": "Cont LogMeIn",
+        "radmin": "Cont Radmin",
+        "zerotier": "Cont ZeroTier",
+        "tailscale": "Cont Tailscale",
+        "playit": "Cont playit"
+      },
+      {
+        "label": "Nivel gratuit",
+        "porthole": "Gratuit, fără limită de participanți",
+        "hamachi": "Până la 5 dispozitive",
+        "radmin": "Gratuit",
+        "zerotier": "Până la 10 dispozitive",
+        "tailscale": "Până la 6 utilizatori",
+        "playit": "Gratuit, upgrade-uri cu plată"
+      },
+      {
+        "label": "Platforme",
+        "porthole": "Windows, Linux / SteamOS",
+        "hamachi": "Windows, macOS, Linux",
+        "radmin": "Windows",
+        "zerotier": "Toate platformele majore",
+        "tailscale": "Toate platformele majore",
+        "playit": "Windows, macOS, Linux"
+      },
+      {
+        "label": "Cod sursă deschis",
+        "porthole": "Planificat",
+        "hamachi": "Nu",
+        "radmin": "Nu",
+        "zerotier": "Da",
+        "tailscale": "Doar clientul",
+        "playit": "Doar clientul"
+      }
+    ],
+    "footnote": "Comparație bazată pe informațiile publice ale fiecărui produs, valabile în 2026. Nivelurile gratuite și funcțiile se schimbă, așa că verifică fiecare produs pentru detalii actuale. Hamachi, Radmin, ZeroTier, Tailscale și playit.gg sunt mărci comerciale ale deținătorilor lor și nu sunt afiliate cu Porthole."
+  },
+  "faq": {
+    "heading": "Întrebări, cu răspunsuri",
+    "items": [
+      {
+        "q": "Este Porthole un VPN?",
+        "a": "Nu. Un VPN unește calculatoare întregi într-o singură rețea. Porthole tunelează doar porturile individuale pe care alegi să le partajezi, iar invitații aprobă fiecare port înainte să se deschidă pe calculatorul lor."
+      },
+      {
+        "q": "Este o alternativă la Hamachi sau Radmin?",
+        "a": "Da, deși funcționează mai degrabă ca un proxy decât ca un VPN. Rezolvă aceeași problemă ca Hamachi, Radmin, ZeroTier sau Tailscale, adică să joci cu prieteni de departe ca și cum ați fi în același LAN, dar în loc să-ți pună tot calculatorul într-o rețea virtuală, trece prin proxy doar porturile pe care le alegi, prin rețeaua Steam."
+      },
+      {
+        "q": "Am nevoie de redirecționarea porturilor sau de un IP public?",
+        "a": "Nu. Porthole îți oferă redirecționare de porturi fără router. Merge în spatele NAT și CGNAT, fără IP public și fără setări de router."
+      },
+      {
+        "q": "Pot juca jocuri de LAN pe internet cu el?",
+        "a": "Da, pentru jocurile cu server gazdă sau listen server. Prietenul tău ajunge la portul partajat pe propriul calculator, la 127.0.0.1 în mod implicit sau la altă adresă locală setată de tine, de obicei prin funcția Direct Connect a jocului. Porthole redirecționează porturile pe care le alegi, dar nu retransmite descoperirea în LAN, așa că folosește Direct Connect, nu lista de servere din LAN."
+      },
+      {
+        "q": "Le trebuie și prietenilor mei Porthole?",
+        "a": "Da, și e gratuit. Ca să intre, le ajunge un cod de invitație și nu au nimic de configurat."
+      },
+      {
+        "q": "Pot cei cu care partajez să-mi vadă rețeaua sau fișierele?",
+        "a": "Nu. Un invitat ajunge doar la porturile pe care i le-ai oferit și pe care le-a acceptat, nimic mai mult. Poți da kick sau ban oricui, oricând."
+      },
+      {
+        "q": "Cum stă treaba cu latența?",
+        "a": "Porthole rulează pe rețeaua Steam, aceeași infrastructură pe care o folosesc și jocurile multiplayer ale Valve. Rutează fiecare conexiune printr-o legătură directă peer-to-peer sau prin releul Valve, iar releul este adesea la fel de rapid sau chiar mai rapid, fiindcă merge prin rețeaua principală a Valve."
+      },
+      {
+        "q": "Chiar este gratuit?",
+        "a": "Da, este complet gratuit."
+      },
+      {
+        "q": "Ce platforme sunt suportate?",
+        "a": "Windows și Linux, inclusiv SteamOS pe Steam Deck și Steam Machine. Clientul Steam trebuie să ruleze și să fie autentificat."
+      }
+    ]
+  },
+  "steam": {
+    "heading": "Adaugă Porthole în wishlist",
+    "body": "Porthole se lansează pe Steam ca aplicație gratuită. Adaugă-l în wishlist ca să afli imediat ce devine disponibil."
+  },
+  "cta": {
+    "heading": "Alegi un port, dai un cod și jucați",
+    "body": "Adaugă Porthole în wishlist pe Steam ca să primești notificare la lansare. Este complet gratuit.",
+    "primary": "Adaugă în wishlist pe Steam",
+    "secondary": "Urmărește pe GitHub"
+  },
+  "security": {
+    "title": "Confidențialitate și securitate",
+    "intro": "Porthole este un instrument de rețea, așa că merită spus exact ce atinge. Partajează doar porturile pe care le alegi, nu pune nimic pe internetul public și rulează pe rețeaua proprie a Steam.",
+    "sections": [
+      {
+        "heading": "Ce trece prin Porthole",
+        "body": "Porthole redirecționează octeții bruți ai porturilor pe care le partajezi și nimic altceva. Nu citește și nu stochează acel trafic și nu atinge niciodată fișierele tale, celelalte porturi sau restul rețelei tale.",
+        "bullets": [
+          "Doar porturile TCP sau UDP pe care le partajezi.",
+          "Doar cu prietenii pe care îi inviți și doar până când îi elimini.",
+          "Fără fișiere, fără discuri, fără alte servicii de pe calculatorul tău."
+        ]
+      },
+      {
+        "heading": "Doar porturile pe care le alegi",
+        "body": "Un VPN îți pune tot calculatorul într-o rețea comună. Porthole face exact invers: fiecare port este oferit pe rând și se deschide pe calculatorul unui invitat doar după ce acesta îl aprobă. Îl poți remapa, îl poți respinge sau poți da kick și ban unui invitat în orice moment.",
+        "bullets": []
+      },
+      {
+        "heading": "Criptare: prin releu sau direct",
+        "body": "Porthole rulează pe rețeaua Steam, numită Steam Datagram Relay (SDR), același sistem folosit de jocurile multiplayer ale Valve. Fiecare conexiune este criptată și legată de un cont Steam real, iar Steam o rutează în unul din două moduri:",
+        "bullets": [
+          "Prin releul Valve: cum spune chiar Valve, tot traficul pe care îl primești este autentificat, criptat și limitat ca debit, iar adresa ta IP nu este dezvăluită niciodată. Merge prin rețeaua principală a Valve, așa că este adesea la fel de rapid ca o legătură directă, uneori chiar mai rapid.",
+          "Direct peer-to-peer: un pas mai puțin, ceea ce poate reduce latența, dar nu întotdeauna, iar tu și prietenul tău faceți schimb de adrese IP ca să vă conectați, așa că IP-ul tău nu le este ascuns.",
+          "Steam alege automat ruta mai rapidă pentru fiecare conexiune, iar datorită rețelei principale a Valve aceasta este adesea releul. Dacă preferi să rămâi mereu pe releu și să-ți păstrezi IP-ul privat, poți forța releul din setările Porthole sau din setările de rețea ale Steam."
+        ]
+      },
+      {
+        "heading": "Tu deții controlul",
+        "body": "Lobby-urile pot fi protejate cu parolă. Tu alegi cine intră și ce porturi primește fiecare invitat și poți da kick sau ban oricui. Închizi Porthole și fiecare port partajat se închide odată cu el.",
+        "bullets": []
+      },
+      {
+        "heading": "Codul sursă deschis urmează",
+        "body": "Porthole se pregătește pentru o lansare publică, cu cod sursă deschis, ca oricine să poată vedea exact cum funcționează. Urmărește depozitul pe GitHub.",
+        "bullets": []
+      }
+    ],
+    "cta": "Urmărește pe GitHub",
+    "backHome": "Înapoi la pagina principală"
+  },
+  "footer": {
+    "tagline": "Partajarea porturilor locale, simplu.",
+    "links": {
+      "security": "Confidențialitate și securitate",
+      "steam": "Pagina de Steam",
+      "github": "GitHub",
+      "studio": "SeStudio"
+    },
+    "copyright": "© SeStudio",
+    "disclaimer": "Steam și Valve sunt mărci comerciale ale Valve Corporation. Hamachi, Radmin, ZeroTier, Tailscale și playit.gg sunt mărci comerciale ale deținătorilor lor și nu sunt afiliate cu Porthole."
+  },
+  "misc": {
+    "changeLanguage": "Schimbă limba"
+  }
+}

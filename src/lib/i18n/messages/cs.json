@@ -1,0 +1,309 @@
+{
+  "nav": {
+    "how": "Jak to funguje",
+    "compare": "Srovnání",
+    "faq": "Časté dotazy",
+    "security": "Zabezpečení",
+    "wishlist": "Přidat do přání",
+    "github": "GitHub"
+  },
+  "meta": {
+    "homeTitle": "Porthole - hraj s kamarády hry po LAN i na vlastním serveru přes Steam",
+    "homeDescription": "Porthole je proxy, která přeposílá port podle tvého výběru kamarádům na Steamu, takže se připojí, jako by byli u tebe na LAN. Žádné otevírání portů, žádná veřejná IP, žádné nastavování routeru. Hraj hry po LAN i na vlastním serveru s kamarády na dálku. Hamachi a Radmin v podání Steamu.",
+    "securityTitle": "Soukromí a zabezpečení - Porthole",
+    "securityDescription": "Jaká data přes Porthole tečou, proč sdílí jen porty, které si vybereš, a jak Steam Datagram Relay šifruje každé spojení.",
+    "ogAlt": "Porthole - sdílení místních portů přes Steam"
+  },
+  "hero": {
+    "badge": "Už brzy na Steamu",
+    "title": "Hraj hry po LAN i na vlastním serveru s",
+    "titleAccent": "kamarády odkudkoli",
+    "sub": "Porthole je proxy, která přeposílá port podle tvého výběru kamarádům na Steamu, takže se připojí, jako by seděli u tebe na LAN. Žádné otevírání portů, žádná veřejná IP, žádné nastavování routeru. Hamachi a Radmin v podání Steamu.",
+    "points": [
+      "Žádné otevírání portů",
+      "Žádná veřejná IP",
+      "Jen porty, které si vybereš"
+    ],
+    "ctaPrimary": "Přidat do přání na Steamu",
+    "ctaSecondary": "Podívej se, jak to funguje",
+    "note": "Zdarma. Funguje i za NAT a CGNAT. Windows a Linux / SteamOS."
+  },
+  "demo": {
+    "heading": "Jeden kód a kamarád je ve hře",
+    "body": "Vytvoř lobby, vyber porty ke sdílení a pošli kód. Kamarád si každý port schválí a ten se mu otevře na počítači. A to je celé.",
+    "caption": "Porthole hostí herní server, zatímco se kamarád připojuje přes Steam."
+  },
+  "how": {
+    "heading": "Provoz tvé hry, tunelovaný přes Steam",
+    "body": "Porthole tě nikdy nevystaví na veřejné adrese. Přenáší provoz přesně těch portů, které nasdílíš, přes vlastní síť Steamu rovnou ke kamarádům, které pozveš.",
+    "steps": [
+      {
+        "title": "Vytvoř lobby",
+        "body": "Spusť Porthole a založ lobby. Dostaneš krátký kód ke sdílení."
+      },
+      {
+        "title": "Vyber porty",
+        "body": "Zvol TCP nebo UDP porty ke sdílení, nebo je nech automaticky najít podle běžící hry."
+      },
+      {
+        "title": "Pozvi kamarády",
+        "body": "Pošli kód ke sdílení, nebo pozvi rovnou ze seznamu přátel na Steamu."
+      },
+      {
+        "title": "Oni schválí",
+        "body": "Každý kamarád si schválí porty, které chce. Dokud neřekne ano, na jeho počítači se nic neotevře."
+      },
+      {
+        "title": "Hrajte spolu",
+        "body": "Provoz teče tunelem přes Steam. Každý kamarád se připojí na svém vlastním počítači, jako by server běžel u něj na LAN."
+      }
+    ],
+    "diagram": {
+      "hostTitle": "Ty (hostitel)",
+      "hostGame": "Herní server",
+      "guestTitle": "Kamarád (připojuje se)",
+      "guestGame": "Jeho hra",
+      "network": "Síť Steamu",
+      "flow": "Jen porty, které nasdílíš",
+      "caption": "Nic se nevystavuje veřejnému internetu. Provoz teče jen mezi tebou a kamarády, které pozveš."
+    }
+  },
+  "features": {
+    "heading": "Stavěné na opravdové hostování her",
+    "items": [
+      {
+        "title": "Jen porty, které si vybereš",
+        "body": "Nasdílíš jediný TCP nebo UDP port, ne celý svůj počítač. Je to síťový nástroj, ne plnohodnotná VPN."
+      },
+      {
+        "title": "Žádné otevírání portů",
+        "body": "Otevřené porty i bez routeru. Funguje i za NAT a CGNAT, bez veřejné IP a bez nastavování routeru."
+      },
+      {
+        "title": "Automatické hledání portů",
+        "body": "Namíříš Porthole na běžící hru a on sám najde porty, na kterých naslouchá. Nic nemusíš ručně dohledávat."
+      },
+      {
+        "title": "Připojení kódem nebo ze seznamu přátel",
+        "body": "Kamarádi se připojí krátkým kódem, nebo rovnou ze seznamu přátel na Steamu."
+      },
+      {
+        "title": "Schvalování jednotlivých portů",
+        "body": "Hosté si každý port schválí, než se jim otevře na počítači. Kohokoli můžeš kdykoli vyhodit nebo zabanovat."
+      },
+      {
+        "title": "Přímé P2P nebo relay od Valve",
+        "body": "Steam vybere pro každé spojení nejrychlejší cestu, přímé peer-to-peer spojení nebo relay od Valve."
+      },
+      {
+        "title": "TCP i UDP",
+        "body": "Funguje s obojím, takže dedikované servery i UDP hry jsou tu stejně doma."
+      },
+      {
+        "title": "Nativní aplikace i CLI",
+        "body": "Přehledná aplikace v systémové liště pro Windows a Linux / SteamOS, plus příkazová řádka pro skriptování."
+      }
+    ]
+  },
+  "usecases": {
+    "heading": "K čemu lidé Porthole používají",
+    "items": [
+      {
+        "title": "Hostit server pro kamarády",
+        "body": "Rozjeď svět v Minecraftu nebo dedikovaný herní server a pusť kamarády dovnitř, aniž bys sahal na router."
+      },
+      {
+        "title": "Hrát LAN hry přes internet",
+        "body": "Přines kamarádům na druhém konci republiky hry s lokálním multiplayerem i ty jen pro LAN, přes Direct Connect rovnou na jejich vlastní počítač."
+      },
+      {
+        "title": "Nasdílet jakoukoli místní službu",
+        "body": "Zpřístupni jakoukoli další místní TCP nebo UDP službu lidem, kterým věříš, a jen jim."
+      }
+    ]
+  },
+  "compare": {
+    "heading": "Porthole vs Hamachi, Radmin, ZeroTier a Tailscale",
+    "body": "Pokud jsi někdy použil virtuální LAN nebo tunel, aby sis zahrál s kamarády na dálku, tady je, čím se Porthole liší.",
+    "columns": {
+      "porthole": "Porthole",
+      "hamachi": "Hamachi",
+      "radmin": "Radmin VPN",
+      "zerotier": "ZeroTier",
+      "tailscale": "Tailscale",
+      "playit": "playit.gg"
+    },
+    "rows": [
+      {
+        "label": "Co sdílí",
+        "porthole": "Jen porty, které si vybereš",
+        "hamachi": "Celý počítač (virtuální LAN)",
+        "radmin": "Celý počítač (virtuální LAN)",
+        "zerotier": "Celý počítač (virtuální LAN)",
+        "tailscale": "Celý počítač (mesh VPN)",
+        "playit": "Veřejnou internetovou adresu"
+      },
+      {
+        "label": "Kdo se k tomu dostane",
+        "porthole": "Kamarádi, které pozveš, port po portu",
+        "hamachi": "Kdokoli v síti",
+        "radmin": "Kdokoli v síti",
+        "zerotier": "Kdokoli v síti",
+        "tailscale": "Kdokoli v síti",
+        "playit": "Kdokoli, kdo zná adresu"
+      },
+      {
+        "label": "Veřejná IP nebo otevřený port",
+        "porthole": "Žádná",
+        "hamachi": "Žádná",
+        "radmin": "Žádná",
+        "zerotier": "Žádná",
+        "tailscale": "Žádná",
+        "playit": "Ano"
+      },
+      {
+        "label": "Účet",
+        "porthole": "Tvůj účet na Steamu",
+        "hamachi": "Účet LogMeIn",
+        "radmin": "Účet Radmin",
+        "zerotier": "Účet ZeroTier",
+        "tailscale": "Účet Tailscale",
+        "playit": "Účet playit"
+      },
+      {
+        "label": "Verze zdarma",
+        "porthole": "Zdarma, bez limitu kamarádů",
+        "hamachi": "Až 5 zařízení",
+        "radmin": "Zdarma",
+        "zerotier": "Až 10 zařízení",
+        "tailscale": "Až 6 uživatelů",
+        "playit": "Zdarma, placená vylepšení"
+      },
+      {
+        "label": "Platformy",
+        "porthole": "Windows, Linux / SteamOS",
+        "hamachi": "Windows, macOS, Linux",
+        "radmin": "Windows",
+        "zerotier": "Všechny hlavní platformy",
+        "tailscale": "Všechny hlavní platformy",
+        "playit": "Windows, macOS, Linux"
+      },
+      {
+        "label": "Otevřený zdrojový kód",
+        "porthole": "V plánu",
+        "hamachi": "Ne",
+        "radmin": "Ne",
+        "zerotier": "Ano",
+        "tailscale": "Jen klient",
+        "playit": "Jen klient"
+      }
+    ],
+    "footnote": "Srovnání vychází z veřejně dostupných informací o jednotlivých produktech k roku 2026. Verze zdarma i funkce se mění, takže si aktuální podrobnosti ověř u každého produktu. Hamachi, Radmin, ZeroTier, Tailscale a playit.gg jsou ochranné známky příslušných vlastníků a nejsou nijak spojeny s Porthole."
+  },
+  "faq": {
+    "heading": "Odpovědi na otázky",
+    "items": [
+      {
+        "q": "Je Porthole VPN?",
+        "a": "Ne. VPN spojí celé počítače do jedné sítě. Porthole tuneluje jen jednotlivé porty, které se rozhodneš nasdílet, a hosté si každý port před otevřením na svém počítači sami schválí."
+      },
+      {
+        "q": "Je to alternativa k Hamachi nebo Radminu?",
+        "a": "Ano, i když funguje spíš jako proxy než VPN. Řeší stejný problém jako Hamachi, Radmin, ZeroTier nebo Tailscale, tedy hrát s kamarády na dálku, jako byste byli na jedné LAN, ale místo aby posadil celý tvůj počítač do virtuální sítě, proxuje jen porty, které si vybereš, přes síť Steamu."
+      },
+      {
+        "q": "Potřebuji otevírat porty nebo mít veřejnou IP?",
+        "a": "Ne. Porthole ti dá otevřené porty i bez routeru. Funguje i za NAT a CGNAT, bez veřejné IP a bez nastavování routeru."
+      },
+      {
+        "q": "Můžu s ním hrát LAN hry přes internet?",
+        "a": "Ano, u her s hostem nebo listen serverem. Kamarád se dostane na sdílený port na svém vlastním počítači, ve výchozím nastavení na 127.0.0.1 nebo na jiné místní adrese, kterou si nastavíš, obvykle přes Direct Connect ve hře. Porthole přeposílá porty, které si vybereš, ale nešíří dál objevování na LAN, takže použij Direct Connect místo procházení LAN sítě."
+      },
+      {
+        "q": "Musí mít Porthole i moji kamarádi?",
+        "a": "Ano, a je to zdarma. K připojení stačí jeden kód a není potřeba nic nastavovat."
+      },
+      {
+        "q": "Uvidí lidé, kterým něco sdílím, moji síť nebo soubory?",
+        "a": "Ne. Host se dostane jen k portům, které jsi nabídl a on je přijal, k ničemu jinému. Kohokoli můžeš kdykoli vyhodit nebo zabanovat."
+      },
+      {
+        "q": "A co odezva?",
+        "a": "Porthole běží přes síť Steamu, stejnou infrastrukturu, na které běží i multiplayerové hry samotného Valve. Každé spojení vede buď přímo peer-to-peer, nebo přes relay od Valve, přičemž relay bývá často stejně rychlý nebo i rychlejší, protože běží po páteřní síti Valve."
+      },
+      {
+        "q": "Je to fakt zdarma?",
+        "a": "Ano, je to úplně zdarma."
+      },
+      {
+        "q": "Které platformy jsou podporované?",
+        "a": "Windows a Linux, včetně SteamOS na Steam Decku a Steam Machine. Klient Steamu musí běžet a být přihlášený."
+      }
+    ]
+  },
+  "steam": {
+    "heading": "Přidej si Porthole do přání",
+    "body": "Porthole vychází na Steamu jako bezplatná aplikace. Přidej si ho do přání a dozvíš se hned, jakmile bude venku."
+  },
+  "cta": {
+    "heading": "Vyber port, pošli kód a hraj",
+    "body": "Přidej si Porthole na Steamu do přání a dáme ti vědět, až vyjde. Je to úplně zdarma.",
+    "primary": "Přidat do přání na Steamu",
+    "secondary": "Sledovat na GitHubu"
+  },
+  "security": {
+    "title": "Soukromí a zabezpečení",
+    "intro": "Porthole je síťový nástroj, takže tady je přesně to, čeho se dotýká. Sdílí jen porty, které si vybereš, nic nevystavuje veřejnému internetu a běží na vlastní síti Steamu.",
+    "sections": [
+      {
+        "heading": "Co přes Porthole teče",
+        "body": "Porthole přeposílá čistá data portů, které nasdílíš, a nic víc. Ten provoz nečte ani neukládá a nikdy nesahá na tvoje soubory, ostatní porty ani zbytek tvé sítě.",
+        "bullets": [
+          "Jen TCP nebo UDP porty, které nasdílíš.",
+          "Jen s kamarády, které pozveš, a jen dokud je neodebereš.",
+          "Žádné soubory, žádné disky, žádné další služby na tvém počítači."
+        ]
+      },
+      {
+        "heading": "Jen porty, které si vybereš",
+        "body": "VPN posadí celý tvůj počítač do sdílené sítě. Porthole dělá pravý opak: každý port se nabízí po jednom a na počítači hosta se otevře, až když ho schválí. Můžeš ho přemapovat, odmítnout, nebo hosta kdykoli vyhodit a zabanovat.",
+        "bullets": []
+      },
+      {
+        "heading": "Šifrování: relay nebo přímé spojení",
+        "body": "Porthole běží na síti Steamu, zvané Steam Datagram Relay (SDR), na stejném systému, na kterém běží i multiplayerové hry samotného Valve. Každé spojení je šifrované a navázané na skutečný účet na Steamu a Steam ho vede jednou ze dvou cest:",
+        "bullets": [
+          "Přes relay od Valve: řečeno slovy samotného Valve, veškerý provoz, který přijmeš, je ověřený, šifrovaný a s omezenou rychlostí, přičemž tvoje IP adresa se nikdy neprozradí. Vede po páteřní síti Valve, takže bývá často stejně rychlý jako přímé spojení, někdy i rychlejší.",
+          "Přímé peer-to-peer: o jeden přeskok míň, což může pomoct odezvě, ale ne vždy, a ty a tvůj kamarád si k připojení vyměníte IP adresy, takže tvoje IP před ním není skrytá.",
+          "Steam vybere pro každé spojení rychlejší cestu automaticky a díky páteřní síti Valve to často bývá relay. Pokud chceš raději zůstat vždy na relay a mít IP soukromou, můžeš relay vynutit v nastavení Porthole nebo v síťovém nastavení samotného Steamu."
+        ]
+      },
+      {
+        "heading": "Máš to pod kontrolou",
+        "body": "Lobby může být chráněné heslem. Ty vybíráš, kdo se připojí a které porty každý host dostane, a kohokoli můžeš vyhodit nebo zabanovat. Zavřeš Porthole a s ním se zavře i každý sdílený port.",
+        "bullets": []
+      },
+      {
+        "heading": "Otevřený zdrojový kód se blíží",
+        "body": "Porthole se připravuje na veřejné vydání s otevřeným zdrojovým kódem, takže si každý bude moct přečíst, jak přesně funguje. Sleduj repozitář na GitHubu.",
+        "bullets": []
+      }
+    ],
+    "cta": "Sledovat na GitHubu",
+    "backHome": "Zpět na hlavní stránku"
+  },
+  "footer": {
+    "tagline": "Sdílení místních portů, které je hračka.",
+    "links": {
+      "security": "Soukromí a zabezpečení",
+      "steam": "Stránka na Steamu",
+      "github": "GitHub",
+      "studio": "SeStudio"
+    },
+    "copyright": "© SeStudio",
+    "disclaimer": "Steam a Valve jsou ochranné známky společnosti Valve Corporation. Hamachi, Radmin, ZeroTier, Tailscale a playit.gg jsou ochranné známky příslušných vlastníků a nejsou nijak spojeny s Porthole."
+  },
+  "misc": {
+    "changeLanguage": "Změnit jazyk"
+  }
+}

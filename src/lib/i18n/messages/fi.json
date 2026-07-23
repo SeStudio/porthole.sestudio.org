@@ -1,0 +1,309 @@
+{
+  "nav": {
+    "how": "Näin se toimii",
+    "compare": "Vertailu",
+    "faq": "UKK",
+    "security": "Tietoturva",
+    "wishlist": "Toivelista",
+    "github": "GitHub"
+  },
+  "meta": {
+    "homeTitle": "Porthole - pelaa lähiverkkopelejä ja omia servereitä kavereiden kanssa Steamin kautta",
+    "homeDescription": "Porthole on proxy, joka välittää valitsemasi portin Steam-kavereillesi, jotta he yhdistävät kuin olisivat samassa lähiverkossa kanssasi. Ei porttiohjauksia, ei julkista IP:tä, ei reititinsäätöjä. Pelaa lähiverkkopelejä ja omia servereitä kaukaisten kavereiden kanssa. Steamin päällä toimiva vastine Hamachille ja Radminille.",
+    "securityTitle": "Yksityisyys ja tietoturva - Porthole",
+    "securityDescription": "Mitä tietoa Portholen läpi kulkee, miksi se jakaa vain valitsemasi portit ja miten Steam Datagram Relay salaa jokaisen yhteyden.",
+    "ogAlt": "Porthole - paikallisten porttien jakaminen Steamin kautta"
+  },
+  "hero": {
+    "badge": "Tulossa pian Steamiin",
+    "title": "Pelaa lähiverkkopelejä ja omia servereitä",
+    "titleAccent": "kavereiden kanssa mistä tahansa",
+    "sub": "Porthole on proxy, joka välittää valitsemasi portin Steam-kavereillesi, jotta he yhdistävät kuin olisivat samassa lähiverkossa kanssasi. Ei porttiohjauksia, ei julkista IP:tä, ei reititinsäätöjä. Steamin päällä toimiva vastine Hamachille ja Radminille.",
+    "points": [
+      "Ei porttiohjauksia",
+      "Ei julkista IP:tä",
+      "Vain valitsemasi portit"
+    ],
+    "ctaPrimary": "Lisää toivelistalle Steamissa",
+    "ctaSecondary": "Katso, miten se toimii",
+    "note": "Ilmainen. Toimii NAT:n ja CGNAT:n takaa. Windows ja Linux / SteamOS."
+  },
+  "demo": {
+    "heading": "Yksi jakokoodi, ja kaveri on mukana",
+    "body": "Luo aula, valitse jaettavat portit ja lähetä koodi. Kaveri hyväksyy jokaisen portin, ja se avautuu hänen koneellaan. Siinä koko homma.",
+    "caption": "Porthole pyörittää peliserveriä samalla, kun kaveri liittyy Steamin kautta."
+  },
+  "how": {
+    "heading": "Pelisi liikenne tunneloituna Steamin läpi",
+    "body": "Porthole ei koskaan laita sinua julkiseen osoitteeseen. Se kuljettaa juuri niiden porttien liikenteen, jotka jaat, Steamin oman verkon kautta suoraan kutsumillesi kavereille.",
+    "steps": [
+      {
+        "title": "Luo aula",
+        "body": "Avaa Porthole ja käynnistä aula. Saat lyhyen jakokoodin."
+      },
+      {
+        "title": "Valitse portit",
+        "body": "Valitse jaettavat TCP- tai UDP-portit tai anna sovelluksen tunnistaa ne käynnissä olevasta pelistä."
+      },
+      {
+        "title": "Kutsu kaverit",
+        "body": "Lähetä jakokoodi tai kutsu suoraan Steam-kaverilistaltasi."
+      },
+      {
+        "title": "He hyväksyvät",
+        "body": "Jokainen kaveri hyväksyy haluamansa portit. Heidän koneelleen ei avaudu mitään ennen kuin he antavat luvan."
+      },
+      {
+        "title": "Pelatkaa yhdessä",
+        "body": "Liikenne tunneloituu Steamin kautta. Kukin kaveri yhdistää omalla koneellaan, ikään kuin serveri olisi hänen lähiverkossaan."
+      }
+    ],
+    "diagram": {
+      "hostTitle": "Sinä (host)",
+      "hostGame": "Peliserveri",
+      "guestTitle": "Kaveri (vieras)",
+      "guestGame": "Hänen pelinsä",
+      "network": "Steamin verkko",
+      "flow": "Vain jakamasi portit",
+      "caption": "Mitään ei paljasteta avoimeen nettiin. Liikenne kulkee vain sinun ja kutsumiesi kavereiden välillä."
+    }
+  },
+  "features": {
+    "heading": "Tehty oikeaan pelien hostaamiseen",
+    "items": [
+      {
+        "title": "Vain valitsemasi portit",
+        "body": "Jaa yksittäinen TCP- tai UDP-portti, ei koko konettasi. Tämä on verkkotyökalu, ei täysi VPN."
+      },
+      {
+        "title": "Ei porttiohjauksia",
+        "body": "Porttiohjaus ilman reititintä. Toimii NAT:n ja CGNAT:n takaa, ilman julkista IP:tä ja ilman reititinsäätöjä."
+      },
+      {
+        "title": "Automaattinen porttien tunnistus",
+        "body": "Osoita Porthole käynnissä olevaan peliin, niin se löytää portit, joita peli kuuntelee. Mitään ei tarvitse etsiä käsin."
+      },
+      {
+        "title": "Liity koodilla tai kaverilistalta",
+        "body": "Kaverit liittyvät lyhyellä jakokoodilla tai suoraan Steam-kaverilistaltasi."
+      },
+      {
+        "title": "Porttikohtainen hyväksyntä",
+        "body": "Vieraat hyväksyvät jokaisen portin ennen kuin se avautuu heidän koneellaan. Potki tai bannaa kenet tahansa milloin tahansa."
+      },
+      {
+        "title": "Suora P2P tai Valven välitys",
+        "body": "Steam valitsee kullekin yhteydelle nopeimman reitin, joko suoran vertaisyhteyden tai Valven välityksen."
+      },
+      {
+        "title": "TCP ja UDP",
+        "body": "Toimii molempien kanssa, joten dedikoidut serverit ja UDP-pelit ovat yhtä lailla kotonaan."
+      },
+      {
+        "title": "Natiivisovellus ja CLI",
+        "body": "Siisti ilmaisinaluesovellus Windowsille ja Linuxille / SteamOS:lle sekä skriptattava komentorivi."
+      }
+    ]
+  },
+  "usecases": {
+    "heading": "Mihin Portholea käytetään",
+    "items": [
+      {
+        "title": "Hostaa serveri kavereille",
+        "body": "Pyöritä Minecraft-maailmaa tai dedikoitua peliserveriä ja päästä kaverit sisään koskematta reitittimeen."
+      },
+      {
+        "title": "Pelaa lähiverkkopelejä netin yli",
+        "body": "Tuo paikallinen moninpeli ja pelkkään lähiverkkoon tarkoitetut pelit toisella puolella maata asuville kavereille Direct Connectilla heidän omaan koneeseensa."
+      },
+      {
+        "title": "Jaa mikä tahansa paikallinen palvelu",
+        "body": "Tarjoa mikä tahansa muu paikallinen TCP- tai UDP-palvelu vain luottamillesi ihmisille."
+      }
+    ]
+  },
+  "compare": {
+    "heading": "Porthole vs Hamachi, Radmin, ZeroTier ja Tailscale",
+    "body": "Jos olet joskus pelannut kaukaisten kavereiden kanssa virtuaalisen lähiverkon tai tunnelin kautta, tästä näet, missä Porthole eroaa niistä.",
+    "columns": {
+      "porthole": "Porthole",
+      "hamachi": "Hamachi",
+      "radmin": "Radmin VPN",
+      "zerotier": "ZeroTier",
+      "tailscale": "Tailscale",
+      "playit": "playit.gg"
+    },
+    "rows": [
+      {
+        "label": "Mitä se jakaa",
+        "porthole": "Vain valitsemasi portit",
+        "hamachi": "Koko koneen (virtuaalinen lähiverkko)",
+        "radmin": "Koko koneen (virtuaalinen lähiverkko)",
+        "zerotier": "Koko koneen (virtuaalinen lähiverkko)",
+        "tailscale": "Koko koneen (mesh-VPN)",
+        "playit": "Julkisen nettiosoitteen"
+      },
+      {
+        "label": "Kuka pääsee käsiksi",
+        "porthole": "Kutsumasi kaverit, porttikohtaisesti",
+        "hamachi": "Kuka tahansa verkossa",
+        "radmin": "Kuka tahansa verkossa",
+        "zerotier": "Kuka tahansa verkossa",
+        "tailscale": "Kuka tahansa verkossa",
+        "playit": "Kuka tahansa, jolla on osoite"
+      },
+      {
+        "label": "Julkinen IP tai avoin portti",
+        "porthole": "Ei kumpaakaan",
+        "hamachi": "Ei kumpaakaan",
+        "radmin": "Ei kumpaakaan",
+        "zerotier": "Ei kumpaakaan",
+        "tailscale": "Ei kumpaakaan",
+        "playit": "Kyllä"
+      },
+      {
+        "label": "Tili",
+        "porthole": "Steam-tilisi",
+        "hamachi": "LogMeIn-tili",
+        "radmin": "Radmin-tili",
+        "zerotier": "ZeroTier-tili",
+        "tailscale": "Tailscale-tili",
+        "playit": "playit-tili"
+      },
+      {
+        "label": "Ilmaisversio",
+        "porthole": "Ilmainen, ei pelaajarajaa",
+        "hamachi": "Enintään 5 laitetta",
+        "radmin": "Ilmainen",
+        "zerotier": "Enintään 10 laitetta",
+        "tailscale": "Enintään 6 käyttäjää",
+        "playit": "Ilmainen, maksulliset lisäominaisuudet"
+      },
+      {
+        "label": "Alustat",
+        "porthole": "Windows, Linux / SteamOS",
+        "hamachi": "Windows, macOS, Linux",
+        "radmin": "Windows",
+        "zerotier": "Kaikki tärkeimmät alustat",
+        "tailscale": "Kaikki tärkeimmät alustat",
+        "playit": "Windows, macOS, Linux"
+      },
+      {
+        "label": "Avoin lähdekoodi",
+        "porthole": "Suunnitteilla",
+        "hamachi": "Ei",
+        "radmin": "Ei",
+        "zerotier": "Kyllä",
+        "tailscale": "Vain asiakassovellus",
+        "playit": "Vain asiakassovellus"
+      }
+    ],
+    "footnote": "Vertailu perustuu kunkin tuotteen julkisiin tietoihin vuonna 2026. Ilmaisversiot ja ominaisuudet muuttuvat, joten tarkista ajantasaiset tiedot kultakin tuotteelta. Hamachi, Radmin, ZeroTier, Tailscale ja playit.gg ovat omistajiensa tavaramerkkejä eivätkä ole sidoksissa Portholeen."
+  },
+  "faq": {
+    "heading": "Vastauksia kysymyksiin",
+    "items": [
+      {
+        "q": "Onko Porthole VPN?",
+        "a": "Ei. VPN liittää kokonaiset koneet yhteen verkkoon. Porthole tunneloi vain ne yksittäiset portit, jotka valitset jaettavaksi, ja vieraat hyväksyvät jokaisen portin ennen kuin se avautuu heidän koneellaan."
+      },
+      {
+        "q": "Onko se Hamachi- tai Radmin-vaihtoehto?",
+        "a": "Kyllä, joskin se toimii enemmän proxyn kuin VPN:n tavoin. Se ratkaisee saman ongelman kuin Hamachi, Radmin, ZeroTier tai Tailscale eli pelaamisen kaukaisten kavereiden kanssa kuin olisitte samassa lähiverkossa, mutta sen sijaan että se laittaisi koko koneesi virtuaaliverkkoon, se välittää proxyna vain valitsemasi portit Steamin verkon kautta."
+      },
+      {
+        "q": "Tarvitsenko porttiohjauksia tai julkista IP:tä?",
+        "a": "Et. Porthole antaa sinulle porttiohjauksen ilman reititintä. Se toimii NAT:n ja CGNAT:n takaa, ilman julkista IP:tä ja ilman reititinsäätöjä."
+      },
+      {
+        "q": "Voinko pelata lähiverkkopelejä netin yli sillä?",
+        "a": "Kyllä, jos pelissä on host- tai listen-serveri. Kaverisi tavoittaa jaetun portin omalla koneellaan, oletuksena osoitteessa 127.0.0.1 tai muussa asettamassasi paikallisessa osoitteessa, yleensä pelin Direct Connectin kautta. Porthole välittää valitsemasi portit, mutta se ei lähetä lähiverkon laitehakua uudelleen, joten käytä Direct Connectia äläkä lähiverkkoselainta."
+      },
+      {
+        "q": "Tarvitsevatko kaverini myös Portholen?",
+        "a": "Kyllä, ja se on ilmainen. Liittymiseen riittää yksi jakokoodi, eikä mitään tarvitse asentaa erikseen."
+      },
+      {
+        "q": "Näkevätkö ne, joiden kanssa jaan, verkkoni tai tiedostoni?",
+        "a": "Eivät. Vieras pääsee käsiksi vain niihin portteihin, jotka tarjosit ja jotka hän hyväksyi, ei mihinkään muuhun. Voit potkia tai bannata kenet tahansa milloin tahansa."
+      },
+      {
+        "q": "Entä viive?",
+        "a": "Porthole pyörii Steamin verkon päällä, samalla infrastruktuurilla, jota Valven omat moninpelit käyttävät. Se reitittää jokaisen yhteyden joko suoran vertaisyhteyden tai Valven välityksen kautta, ja välitys on usein yhtä nopea tai nopeampi, koska se kulkee Valven runkoverkon läpi."
+      },
+      {
+        "q": "Onko se todella ilmainen?",
+        "a": "Kyllä, täysin ilmainen."
+      },
+      {
+        "q": "Mitä alustoja tuetaan?",
+        "a": "Windows ja Linux, mukaan lukien SteamOS Steam Deckillä ja Steam Machinella. Steam-clientin täytyy olla käynnissä ja sisäänkirjautuneena."
+      }
+    ]
+  },
+  "steam": {
+    "heading": "Lisää Porthole toivelistalle",
+    "body": "Porthole julkaistaan Steamissa ilmaisena sovelluksena. Lisää se toivelistallesi, niin saat tiedon heti kun se julkaistaan."
+  },
+  "cta": {
+    "heading": "Valitse portti, jaa koodi ja pelatkaa",
+    "body": "Lisää Porthole toivelistallesi Steamissa, niin saat ilmoituksen julkaisusta. Se on täysin ilmainen.",
+    "primary": "Lisää toivelistalle Steamissa",
+    "secondary": "Seuraa GitHubissa"
+  },
+  "security": {
+    "title": "Yksityisyys ja tietoturva",
+    "intro": "Porthole on verkkotyökalu, joten kerromme tarkalleen, mihin se koskee. Se jakaa vain valitsemasi portit, se ei laita mitään avoimeen nettiin, ja se pyörii Steamin omassa verkossa.",
+    "sections": [
+      {
+        "heading": "Mitä Portholen läpi kulkee",
+        "body": "Porthole välittää jakamiesi porttien raakatavut, ei mitään muuta. Se ei lue eikä tallenna tuota liikennettä, eikä se koskaan kosketa tiedostojasi, muita porttejasi tai muuta osaa verkostasi.",
+        "bullets": [
+          "Vain ne TCP- tai UDP-portit, jotka jaat.",
+          "Vain niiden kavereiden kanssa, jotka kutsut, ja vain siihen asti kunnes poistat heidät.",
+          "Ei tiedostoja, ei levyjä, ei koneesi muita palveluita."
+        ]
+      },
+      {
+        "heading": "Vain valitsemasi portit",
+        "body": "VPN laittaa koko koneesi jaettuun verkkoon. Porthole tekee päinvastoin: jokainen portti tarjotaan yksi kerrallaan, ja se avautuu vieraan koneella vasta kun hän hyväksyy sen. Voit reitittää sen uudelleen, hylätä sen tai potkia ja bannata vieraan milloin tahansa.",
+        "bullets": []
+      },
+      {
+        "heading": "Salaus: välitys tai suora yhteys",
+        "body": "Porthole pyörii Steamin verkon päällä, jota kutsutaan nimellä Steam Datagram Relay (SDR), samalla järjestelmällä, jota Valven omat moninpelit käyttävät. Jokainen yhteys on salattu ja sidottu aitoon Steam-tiliin, ja Steam reitittää sen jommallakummalla kahdesta tavasta:",
+        "bullets": [
+          "Valven välityksen kautta: Valven omin sanoin kaikki vastaanottamasi liikenne on todennettua, salattua ja nopeusrajoitettua, eikä IP-osoitettasi koskaan paljasteta. Se kulkee Valven runkoverkkoa pitkin, joten se on usein yhtä nopea kuin suora yhteys, joskus nopeampi.",
+          "Suora vertaisyhteys: yksi hyppy vähemmän, mikä voi pienentää viivettä mutta ei aina, ja sinä ja kaverisi vaihdatte IP-osoitteet yhteyttä varten, joten IP:täsi ei ole piilotettu häneltä.",
+          "Steam valitsee kullekin yhteydelle nopeamman reitin automaattisesti, ja Valven runkoverkon ansiosta se on usein välitys. Jos haluat mieluummin pysyä aina välityksessä ja pitää IP:si yksityisenä, voit pakottaa välityksen Portholen asetuksista tai Steamin omista verkkoasetuksista."
+        ]
+      },
+      {
+        "heading": "Sinä pidät ohjat",
+        "body": "Aulat voi suojata salasanalla. Sinä valitset, kuka liittyy ja mitkä portit kukin vieras saa, ja voit potkia tai bannata kenet tahansa. Sulje Porthole, niin jokainen jaettu portti sulkeutuu sen mukana.",
+        "bullets": []
+      },
+      {
+        "heading": "Avoin lähdekoodi on tulossa",
+        "body": "Portholea valmistellaan julkiseen, avoimen lähdekoodin julkaisuun, jotta kuka tahansa voi lukea tarkalleen, miten se toimii. Seuraa repositoriota GitHubissa.",
+        "bullets": []
+      }
+    ],
+    "cta": "Seuraa GitHubissa",
+    "backHome": "Takaisin etusivulle"
+  },
+  "footer": {
+    "tagline": "Paikallisten porttien jakaminen helposti.",
+    "links": {
+      "security": "Yksityisyys ja tietoturva",
+      "steam": "Steam-sivu",
+      "github": "GitHub",
+      "studio": "SeStudio"
+    },
+    "copyright": "© SeStudio",
+    "disclaimer": "Steam ja Valve ovat Valve Corporationin tavaramerkkejä. Hamachi, Radmin, ZeroTier, Tailscale ja playit.gg ovat omistajiensa tavaramerkkejä eivätkä ole sidoksissa Portholeen."
+  },
+  "misc": {
+    "changeLanguage": "Vaihda kieli"
+  }
+}

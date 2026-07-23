@@ -1,0 +1,309 @@
+{
+  "nav": {
+    "how": "工作原理",
+    "compare": "横向对比",
+    "faq": "常见问题",
+    "security": "安全性",
+    "wishlist": "加入愿望单",
+    "github": "GitHub"
+  },
+  "meta": {
+    "homeTitle": "Porthole - 通过 Steam 和好友一起玩局域网与自建服务器游戏",
+    "homeDescription": "Porthole 是一款代理工具，把你选定的端口转发给你的 Steam 好友，让他们像在你的局域网里一样连过来。无需端口映射，无需公网 IP，也不用配置路由器。和远方的好友一起玩局域网与自建服务器游戏。一款基于 Steam 打造的 Hamachi、Radmin 同类工具。",
+    "securityTitle": "隐私与安全 - Porthole",
+    "securityDescription": "哪些数据会流经 Porthole、它为何只分享你选定的端口，以及 Steam Datagram Relay 如何为每一条连接加密。",
+    "ogAlt": "Porthole - 通过 Steam 分享本地端口"
+  },
+  "hero": {
+    "badge": "即将登陆 Steam",
+    "title": "和好友一起玩局域网与自建服务器游戏，",
+    "titleAccent": "无论他们在哪",
+    "sub": "Porthole 是一款代理工具，把你选定的端口转发给你的 Steam 好友，让他们连过来时就像身处你的局域网。无需端口映射，无需公网 IP，也不用配置路由器。一款基于 Steam 打造的 Hamachi、Radmin 同类工具。",
+    "points": [
+      "无需端口映射",
+      "无需公网 IP",
+      "只开放你选定的端口"
+    ],
+    "ctaPrimary": "在 Steam 加入愿望单",
+    "ctaSecondary": "看看工作原理",
+    "note": "免费。在 NAT 和 CGNAT 后面也能用。支持 Windows 与 Linux / SteamOS。"
+  },
+  "demo": {
+    "heading": "一串分享码，好友就进来了",
+    "body": "创建一个房间，挑选要分享的端口，把分享码发出去。好友逐个确认端口，端口就会在他们的机器上打开。整个流程就这么简单。",
+    "caption": "Porthole 正在托管一台游戏服务器，好友通过 Steam 加入进来。"
+  },
+  "how": {
+    "heading": "你的游戏流量，通过 Steam 建立通道",
+    "body": "Porthole 绝不会把你放到公网地址上。它只为你分享的那几个端口传送流量，走的是 Steam 自家的网络，直达你邀请的好友。",
+    "steps": [
+      {
+        "title": "创建房间",
+        "body": "打开 Porthole，开一个房间，你会得到一串简短的分享码。"
+      },
+      {
+        "title": "挑选端口",
+        "body": "选好要分享的 TCP 或 UDP 端口，也可以从正在运行的游戏里自动识别。"
+      },
+      {
+        "title": "邀请好友",
+        "body": "发送分享码，或直接从你的 Steam 好友列表发出邀请。"
+      },
+      {
+        "title": "好友确认",
+        "body": "每位好友确认自己想要的端口。在他们同意之前，机器上不会绑定任何端口。"
+      },
+      {
+        "title": "一起开玩",
+        "body": "流量通过 Steam 建立通道传输。每位好友都在自己的机器上连接，就像服务器就在他们的局域网里一样。"
+      }
+    ],
+    "diagram": {
+      "hostTitle": "你（房主）",
+      "hostGame": "游戏服务器",
+      "guestTitle": "好友（客人）",
+      "guestGame": "他们的游戏",
+      "network": "Steam 网络",
+      "flow": "只走你分享的端口",
+      "caption": "不会有任何东西暴露在公网上。流量只在你和你邀请的好友之间流动。"
+    }
+  },
+  "features": {
+    "heading": "为真正的游戏托管而生",
+    "items": [
+      {
+        "title": "只开放你选定的端口",
+        "body": "只分享单个 TCP 或 UDP 端口，而不是整台机器。它是一款网络工具，而不是完整的 VPN。"
+      },
+      {
+        "title": "无需端口映射",
+        "body": "不碰路由器也能实现端口映射。在 NAT 和 CGNAT 后面也能用，无需公网 IP，也不用配置路由器。"
+      },
+      {
+        "title": "自动识别端口",
+        "body": "把 Porthole 指向正在运行的游戏，它就能找出游戏正在监听的端口，不必自己动手查。"
+      },
+      {
+        "title": "凭分享码或好友列表加入",
+        "body": "好友用一串简短的分享码，或直接从你的 Steam 好友列表加入。"
+      },
+      {
+        "title": "逐个端口审批",
+        "body": "端口在客人机器上绑定之前，需由客人逐个确认。你随时可以踢人或封禁任何人。"
+      },
+      {
+        "title": "P2P 直连或 Valve 中继",
+        "body": "Steam 会为每条连接挑选最快的路径，要么是点对点直连，要么走 Valve 的中继。"
+      },
+      {
+        "title": "支持 TCP 与 UDP",
+        "body": "两者都能用，专用服务器和 UDP 游戏都同样适用。"
+      },
+      {
+        "title": "原生应用与命令行",
+        "body": "面向 Windows 与 Linux / SteamOS 的清爽托盘应用，另附可用于脚本的命令行。"
+      }
+    ]
+  },
+  "usecases": {
+    "heading": "大家都用 Porthole 做什么",
+    "items": [
+      {
+        "title": "为好友搭一台服务器",
+        "body": "运行一个 Minecraft 世界或专用游戏服务器，全程不碰路由器就能把好友请进来。"
+      },
+      {
+        "title": "隔着互联网玩局域网游戏",
+        "body": "让身处异地的好友通过 Direct Connect 连到自己的机器，就能一起玩那些只支持本地多人或局域网联机的游戏。"
+      },
+      {
+        "title": "分享任何本地服务",
+        "body": "任何其他本地 TCP 或 UDP 服务，都只开放给你信任的人。"
+      }
+    ]
+  },
+  "compare": {
+    "heading": "Porthole 对比 Hamachi、Radmin、ZeroTier 与 Tailscale",
+    "body": "如果你曾用虚拟局域网或隧道工具来和远方的好友联机，这里就能看出 Porthole 的不同之处。",
+    "columns": {
+      "porthole": "Porthole",
+      "hamachi": "Hamachi",
+      "radmin": "Radmin VPN",
+      "zerotier": "ZeroTier",
+      "tailscale": "Tailscale",
+      "playit": "playit.gg"
+    },
+    "rows": [
+      {
+        "label": "分享的内容",
+        "porthole": "只有你挑选的端口",
+        "hamachi": "整台机器（虚拟局域网）",
+        "radmin": "整台机器（虚拟局域网）",
+        "zerotier": "整台机器（虚拟局域网）",
+        "tailscale": "整台机器（网状 VPN）",
+        "playit": "一个公网地址"
+      },
+      {
+        "label": "谁能连进来",
+        "porthole": "你邀请的好友，按端口授权",
+        "hamachi": "网络里的任何人",
+        "radmin": "网络里的任何人",
+        "zerotier": "网络里的任何人",
+        "tailscale": "网络里的任何人",
+        "playit": "任何拿到地址的人"
+      },
+      {
+        "label": "公网 IP 或开放端口",
+        "porthole": "都不需要",
+        "hamachi": "都不需要",
+        "radmin": "都不需要",
+        "zerotier": "都不需要",
+        "tailscale": "都不需要",
+        "playit": "需要"
+      },
+      {
+        "label": "账号",
+        "porthole": "你的 Steam 账号",
+        "hamachi": "LogMeIn 账号",
+        "radmin": "Radmin 账号",
+        "zerotier": "ZeroTier 账号",
+        "tailscale": "Tailscale 账号",
+        "playit": "playit 账号"
+      },
+      {
+        "label": "免费版",
+        "porthole": "免费，不限连接人数",
+        "hamachi": "最多 5 台设备",
+        "radmin": "免费",
+        "zerotier": "最多 10 台设备",
+        "tailscale": "最多 6 位用户",
+        "playit": "免费，另有付费升级"
+      },
+      {
+        "label": "支持平台",
+        "porthole": "Windows、Linux / SteamOS",
+        "hamachi": "Windows、macOS、Linux",
+        "radmin": "Windows",
+        "zerotier": "所有主流平台",
+        "tailscale": "所有主流平台",
+        "playit": "Windows、macOS、Linux"
+      },
+      {
+        "label": "开源",
+        "porthole": "计划中",
+        "hamachi": "否",
+        "radmin": "否",
+        "zerotier": "是",
+        "tailscale": "仅客户端",
+        "playit": "仅客户端"
+      }
+    ],
+    "footnote": "对比基于各产品截至 2026 年的公开信息。免费版和功能会有变化，请以各产品的最新说明为准。Hamachi、Radmin、ZeroTier、Tailscale 与 playit.gg 均为各自所有者的商标，与 Porthole 无关联。"
+  },
+  "faq": {
+    "heading": "你想问的，都在这里",
+    "items": [
+      {
+        "q": "Porthole 是 VPN 吗？",
+        "a": "不是。VPN 会把整台机器接入同一个网络，而 Porthole 只为你选择分享的那几个端口建立通道，而且每个端口都要经客人确认，才会在他们的机器上绑定。"
+      },
+      {
+        "q": "它是 Hamachi 或 Radmin 的替代品吗？",
+        "a": "是的，不过它更像代理，而不是 VPN。它解决的问题和 Hamachi、Radmin、ZeroTier 或 Tailscale 一样：像身处同一个局域网那样，和远方的好友一起玩；只不过它不会把你的整台机器接入虚拟网络，而是通过 Steam 网络，只代理你挑选的那几个端口。"
+      },
+      {
+        "q": "我需要端口映射或公网 IP 吗？",
+        "a": "不需要。Porthole 让你不碰路由器就能实现端口映射。它在 NAT 和 CGNAT 后面也能用，无需公网 IP，也不用配置路由器。"
+      },
+      {
+        "q": "我能用它隔着互联网玩局域网游戏吗？",
+        "a": "可以，前提是游戏支持主机或监听服务器。好友在自己的机器上连到被分享的端口，默认是 127.0.0.1，也可以是你设定的另一个本地地址，通常经由游戏的 Direct Connect。Porthole 只转发你选定的端口，不会再广播局域网发现，所以请用 Direct Connect，而不是局域网列表。"
+      },
+      {
+        "q": "我的好友也需要装 Porthole 吗？",
+        "a": "需要，而且免费。加入只要一串分享码，什么都不用配置。"
+      },
+      {
+        "q": "我分享的对象能看到我的网络或文件吗？",
+        "a": "不能。客人只能访问你开放、且他们接受了的那些端口，除此之外什么都碰不到。你随时可以踢人或封禁任何人。"
+      },
+      {
+        "q": "延迟会怎么样？",
+        "a": "Porthole 依托 Steam 网络运行，也就是 Valve 自家联机游戏所用的同一套设施。它会把每条连接引导到点对点直连，或是 Valve 的中继，而中继往往同样快、甚至更快，因为它走的是 Valve 的骨干网络。"
+      },
+      {
+        "q": "真的免费吗？",
+        "a": "是的，完全免费。"
+      },
+      {
+        "q": "支持哪些平台？",
+        "a": "Windows 和 Linux，包括 Steam Deck 和 Steam Machine 上的 SteamOS。Steam 客户端需要处于运行并已登录的状态。"
+      }
+    ]
+  },
+  "steam": {
+    "heading": "把 Porthole 加入愿望单",
+    "body": "Porthole 将作为一款免费应用登陆 Steam。加入愿望单，上线的那一刻就能第一时间收到通知。"
+  },
+  "cta": {
+    "heading": "选一个端口，发一串分享码，开玩",
+    "body": "在 Steam 把 Porthole 加入愿望单，上线时便会收到通知。它完全免费。",
+    "primary": "在 Steam 加入愿望单",
+    "secondary": "在 GitHub 关注"
+  },
+  "security": {
+    "title": "隐私与安全",
+    "intro": "Porthole 是一款网络工具，所以有必要说清楚它究竟碰到了什么。它只分享你选择的端口，不会把任何东西放到公网上，而且运行在 Steam 自家的网络上。",
+    "sections": [
+      {
+        "heading": "哪些数据会流经 Porthole",
+        "body": "Porthole 只转发你分享的那些端口的原始字节，除此之外别无其他。它不会读取或存储这些流量，也绝不会碰你的文件、你的其他端口，或你网络中的其余部分。",
+        "bullets": [
+          "只有你分享的那些 TCP 或 UDP 端口。",
+          "只在你邀请的好友之间传输，直到你把他们移除为止。",
+          "不涉及文件，不涉及磁盘，也不涉及你机器上的其他服务。"
+        ]
+      },
+      {
+        "heading": "只开放你选定的端口",
+        "body": "VPN 会把你的整台机器接入一个共享网络，Porthole 恰恰相反：每个端口都是逐个开放的，只有在客人确认之后，才会在他们的机器上绑定。你可以重映射端口、拒绝端口，也可以随时踢人和封禁客人。",
+        "bullets": []
+      },
+      {
+        "heading": "加密：中继或直连",
+        "body": "Porthole 运行在 Steam 网络之上，也就是所谓的 Steam Datagram Relay（SDR），与 Valve 自家联机游戏用的是同一套系统。每一条连接都会加密，并绑定到一个真实的 Steam 账号，Steam 会用以下两种方式之一来路由它：",
+        "bullets": [
+          "走 Valve 的中继：用 Valve 自己的话说，你收到的所有流量都经过认证、加密和限速，你的 IP 地址绝不会暴露。它走的是 Valve 的骨干网络，所以往往和直连一样快，有时还更快。",
+          "点对点直连：少一跳，有时能降低延迟，但并非总是如此；而且你和好友需要互换 IP 地址才能连接，所以你的 IP 不会对他们隐藏。",
+          "Steam 会自动为每条连接挑选更快的路径，得益于 Valve 的骨干网络，那往往就是中继。如果你更想始终走中继、让自己的 IP 保持私密，可以在 Porthole 的设置里，或在 Steam 自己的网络设置里，强制使用中继。"
+        ]
+      },
+      {
+        "heading": "掌控权始终在你手中",
+        "body": "房间可以设置密码。谁能加入、每位客人拿到哪些端口，都由你决定，你还可以踢人或封禁任何人。关掉 Porthole，所有分享的端口都会随之关闭。",
+        "bullets": []
+      },
+      {
+        "heading": "开源即将到来",
+        "body": "Porthole 正在准备公开开源发布，让任何人都能看清它究竟如何运作。欢迎在 GitHub 上关注该仓库。",
+        "bullets": []
+      }
+    ],
+    "cta": "在 GitHub 关注",
+    "backHome": "返回首页"
+  },
+  "footer": {
+    "tagline": "轻松分享本地端口。",
+    "links": {
+      "security": "隐私与安全",
+      "steam": "Steam 页面",
+      "github": "GitHub",
+      "studio": "SeStudio"
+    },
+    "copyright": "© SeStudio",
+    "disclaimer": "Steam 和 Valve 是 Valve Corporation 的商标。Hamachi、Radmin、ZeroTier、Tailscale 与 playit.gg 均为各自所有者的商标，与 Porthole 无关联。"
+  },
+  "misc": {
+    "changeLanguage": "切换语言"
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "nav": {
+    "how": "Így működik",
+    "compare": "Összehasonlítás",
+    "faq": "GYIK",
+    "security": "Biztonság",
+    "wishlist": "Kívánságlista",
+    "github": "GitHub"
+  },
+  "meta": {
+    "homeTitle": "Porthole - játssz LAN-os és saját szerveres játékokkal a barátaiddal a Steamen át",
+    "homeDescription": "A Porthole egy proxy, amely egy általad választott portot továbbít a Steam-barátaidnak, így úgy csatlakoznak, mintha a LAN-odon lennének. Nincs portnyitás, nincs publikus IP, nincs routerbeállítás. Játssz LAN-os és saját szerveres játékokkal a távoli haverjaiddal. Steam-alapú válasz a Hamachira és a Radminra.",
+    "securityTitle": "Adatvédelem és biztonság - Porthole",
+    "securityDescription": "Milyen adat halad át a Porthole-on, miért csak az általad választott portokat osztja meg, és hogyan titkosít minden kapcsolatot a Steam Datagram Relay.",
+    "ogAlt": "Porthole - helyi portok megosztása a Steamen át"
+  },
+  "hero": {
+    "badge": "Hamarosan a Steamen",
+    "title": "Játssz LAN-os és saját szerveres játékokkal",
+    "titleAccent": "a barátaiddal, bárhol is legyenek",
+    "sub": "A Porthole egy proxy, amely egy általad választott portot továbbít a Steam-barátaidnak, így úgy csatlakoznak, mintha a LAN-odon ülnének. Nincs portnyitás, nincs publikus IP, nincs routerbeállítás. Steam-alapú válasz a Hamachira és a Radminra.",
+    "points": [
+      "Nincs portnyitás",
+      "Nincs publikus IP",
+      "Csak az általad választott portok"
+    ],
+    "ctaPrimary": "Fel a Steam-kívánságlistára",
+    "ctaSecondary": "Nézd meg, hogyan működik",
+    "note": "Ingyenes. NAT és CGNAT mögött is működik. Windows és Linux / SteamOS."
+  },
+  "demo": {
+    "heading": "Egy megosztókód, és a haverod már bent is van",
+    "body": "Hozz létre egy lobbit, válaszd ki a megosztandó portokat, és küldj egy kódot. A haverod minden portot jóváhagy, és az megnyílik a gépén. Ennyi az egész.",
+    "caption": "A Porthole egy játékszervert üzemeltet, miközben egy barát a Steamen át csatlakozik."
+  },
+  "how": {
+    "heading": "A játékforgalmad a Steamen át, alagútban",
+    "body": "A Porthole soha nem ad neked publikus címet. Pontosan a megosztott portok forgalmát viszi át a Steam saját hálózatán, egyenesen a meghívott haverjaidhoz.",
+    "steps": [
+      {
+        "title": "Hozz létre egy lobbit",
+        "body": "Nyisd meg a Porthole-t, és indíts egy lobbit. Kapsz egy rövid megosztókódot."
+      },
+      {
+        "title": "Válaszd ki a portokat",
+        "body": "Add meg a megosztandó TCP- vagy UDP-portokat, vagy hagyd, hogy a Porthole automatikusan felismerje őket egy futó játékból."
+      },
+      {
+        "title": "Hívd meg a haverjaidat",
+        "body": "Küldd el a megosztókódot, vagy hívj meg valakit egyenesen a Steam-barátlistádról."
+      },
+      {
+        "title": "Ők jóváhagyják",
+        "body": "Minden haver maga hagyja jóvá a kívánt portokat. Amíg igent nem mond, semmi sem nyílik meg a gépén."
+      },
+      {
+        "title": "Játsszatok együtt",
+        "body": "A forgalom a Steamen át, alagútban halad. Minden haver a saját gépén csatlakozik, mintha a szerver az ő LAN-ján futna."
+      }
+    ],
+    "diagram": {
+      "hostTitle": "Te (házigazda)",
+      "hostGame": "Játékszerver",
+      "guestTitle": "Barát (vendég)",
+      "guestGame": "A barát játéka",
+      "network": "Steam hálózata",
+      "flow": "Csak az általad megosztott portok",
+      "caption": "Semmi sem kerül ki a nyílt internetre. A forgalom csak közted és a meghívott haverjaid között áramlik."
+    }
+  },
+  "features": {
+    "heading": "Igazi játékszerverekhez tervezve",
+    "items": [
+      {
+        "title": "Csak az általad választott portok",
+        "body": "Egyetlen TCP- vagy UDP-portot osztasz meg, nem az egész gépedet. Ez egy hálózati segédeszköz, nem teljes értékű VPN."
+      },
+      {
+        "title": "Nincs portnyitás",
+        "body": "Portnyitás router nélkül. NAT és CGNAT mögött is működik, publikus IP és routerbeállítás nélkül."
+      },
+      {
+        "title": "Automatikus portfelismerés",
+        "body": "Ráállítod a Porthole-t egy futó játékra, és magától megtalálja, mely portokon figyel. Semmit sem kell kézzel keresgélni."
+      },
+      {
+        "title": "Csatlakozás kóddal vagy barátlistáról",
+        "body": "A haverjaid egy rövid megosztókóddal vagy egyenesen a Steam-barátlistádról lépnek be."
+      },
+      {
+        "title": "Portonkénti jóváhagyás",
+        "body": "A vendégek minden portot külön jóváhagynak, mielőtt az megnyílna a gépükön. Bárkit bármikor kirúghatsz vagy kitilthatsz."
+      },
+      {
+        "title": "Közvetlen P2P vagy Valve relay",
+        "body": "A Steam minden kapcsolatnál a leggyorsabb útvonalat választja: közvetlen peer-to-peer kapcsolatot vagy a Valve relay-ét."
+      },
+      {
+        "title": "TCP és UDP",
+        "body": "Mindkettővel elboldogul, így a dedikált szerverek és a UDP-s játékok egyaránt otthon érzik magukat."
+      },
+      {
+        "title": "Natív alkalmazás és CLI",
+        "body": "Letisztult tálcaalkalmazás Windowsra és Linuxra / SteamOS-re, plusz egy szkriptelhető parancssor."
+      }
+    ]
+  },
+  "usecases": {
+    "heading": "Mire használják az emberek a Porthole-t",
+    "items": [
+      {
+        "title": "Üzemeltess szervert a haverjaidnak",
+        "body": "Futtass egy Minecraft-világot vagy egy dedikált játékszervert, és engedd be a haverjaidat anélkül, hogy a routeredhez nyúlnál."
+      },
+      {
+        "title": "Játssz LAN-os játékokkal az interneten át",
+        "body": "Vidd el a helyi többjátékos és csak LAN-t tudó játékokat az ország másik végében élő haverjaidhoz is, egy Direct Connect kapcsolattal a saját gépükön."
+      },
+      {
+        "title": "Ossz meg bármilyen helyi szolgáltatást",
+        "body": "Bármilyen más helyi TCP- vagy UDP-szolgáltatást felkínálhatsz azoknak, akikben megbízol, és csak nekik."
+      }
+    ]
+  },
+  "compare": {
+    "heading": "Porthole vs Hamachi, Radmin, ZeroTier és Tailscale",
+    "body": "Ha már használtál virtuális LAN-t vagy alagutat, hogy távoli haverjaiddal játssz, itt van, miben más a Porthole.",
+    "columns": {
+      "porthole": "Porthole",
+      "hamachi": "Hamachi",
+      "radmin": "Radmin VPN",
+      "zerotier": "ZeroTier",
+      "tailscale": "Tailscale",
+      "playit": "playit.gg"
+    },
+    "rows": [
+      {
+        "label": "Mit oszt meg",
+        "porthole": "Csak az általad választott portokat",
+        "hamachi": "Az egész gépet (virtuális LAN)",
+        "radmin": "Az egész gépet (virtuális LAN)",
+        "zerotier": "Az egész gépet (virtuális LAN)",
+        "tailscale": "Az egész gépet (mesh VPN)",
+        "playit": "Egy publikus internetcímet"
+      },
+      {
+        "label": "Ki éri el",
+        "porthole": "A meghívott haverjaid, portonként",
+        "hamachi": "Bárki a hálózaton",
+        "radmin": "Bárki a hálózaton",
+        "zerotier": "Bárki a hálózaton",
+        "tailscale": "Bárki a hálózaton",
+        "playit": "Bárki, aki ismeri a címet"
+      },
+      {
+        "label": "Publikus IP vagy nyitott port",
+        "porthole": "Nincs",
+        "hamachi": "Nincs",
+        "radmin": "Nincs",
+        "zerotier": "Nincs",
+        "tailscale": "Nincs",
+        "playit": "Van"
+      },
+      {
+        "label": "Fiók",
+        "porthole": "A Steam-fiókod",
+        "hamachi": "LogMeIn-fiók",
+        "radmin": "Radmin-fiók",
+        "zerotier": "ZeroTier-fiók",
+        "tailscale": "Tailscale-fiók",
+        "playit": "playit-fiók"
+      },
+      {
+        "label": "Ingyenes csomag",
+        "porthole": "Ingyenes, résztvevőkorlát nélkül",
+        "hamachi": "Legfeljebb 5 eszköz",
+        "radmin": "Ingyenes",
+        "zerotier": "Legfeljebb 10 eszköz",
+        "tailscale": "Legfeljebb 6 felhasználó",
+        "playit": "Ingyenes, fizetős bővítésekkel"
+      },
+      {
+        "label": "Platformok",
+        "porthole": "Windows, Linux / SteamOS",
+        "hamachi": "Windows, macOS, Linux",
+        "radmin": "Windows",
+        "zerotier": "Minden nagyobb platform",
+        "tailscale": "Minden nagyobb platform",
+        "playit": "Windows, macOS, Linux"
+      },
+      {
+        "label": "Nyílt forráskód",
+        "porthole": "Tervben",
+        "hamachi": "Nem",
+        "radmin": "Nem",
+        "zerotier": "Igen",
+        "tailscale": "Csak a kliens",
+        "playit": "Csak a kliens"
+      }
+    ],
+    "footnote": "Az összehasonlítás az egyes termékek 2026-os nyilvános információi alapján készült. Az ingyenes csomagok és a funkciók változhatnak, ezért az aktuális részletekért nézz utána az adott terméknél. A Hamachi, a Radmin, a ZeroTier, a Tailscale és a playit.gg a jogtulajdonosaik védjegyei, és nem állnak kapcsolatban a Porthole-lal."
+  },
+  "faq": {
+    "heading": "Kérdések, megválaszolva",
+    "items": [
+      {
+        "q": "A Porthole egy VPN?",
+        "a": "Nem. A VPN egész gépeket kapcsol össze egyetlen hálózatba. A Porthole csak az általad megosztott egyes portokat vezeti át egy alagúton, és a vendégek minden portot jóváhagynak, mielőtt az megnyílna a gépükön."
+      },
+      {
+        "q": "Ez egy Hamachi- vagy Radmin-alternatíva?",
+        "a": "Igen, bár inkább proxyként működik, mint VPN-ként. Ugyanazt a problémát oldja meg, mint a Hamachi, a Radmin, a ZeroTier vagy a Tailscale - hogy a távoli haverjaiddal úgy játssz, mintha egy LAN-on lennétek -, de nem az egész gépedet teszi egy virtuális hálózatra, hanem csak az általad választott portokat osztja meg, a Steam hálózatán át."
+      },
+      {
+        "q": "Kell hozzá portnyitás vagy publikus IP?",
+        "a": "Nem. A Porthole router nélkül biztosít portnyitást. NAT és CGNAT mögött is működik, publikus IP és routerbeállítás nélkül."
+      },
+      {
+        "q": "Játszhatok vele LAN-os játékokkal az interneten át?",
+        "a": "Igen, olyan játékoknál, amelyek házigazda- vagy listen szervert használnak. A haverod a saját gépén éri el a megosztott portot, alapból a 127.0.0.1 címen vagy egy másik, általad megadott helyi címen, általában a játék Direct Connect funkciójával. A Porthole az általad választott portokat továbbítja, de nem sugározza újra a LAN-felderítést, ezért a LAN-böngésző helyett a Direct Connectet használd."
+      },
+      {
+        "q": "A haverjaimnak is kell a Porthole?",
+        "a": "Igen, és nekik is ingyenes. A csatlakozáshoz egyetlen megosztókód kell, semmit sem kell beállítani."
+      },
+      {
+        "q": "Akikkel megosztom, láthatják a hálózatomat vagy a fájljaimat?",
+        "a": "Nem. Egy vendég csak azokat a portokat éri el, amelyeket felkínáltál és ő elfogadott, semmi mást. Bárkit bármikor kirúghatsz vagy kitilthatsz."
+      },
+      {
+        "q": "Mi a helyzet a késleltetéssel?",
+        "a": "A Porthole a Steam hálózatán fut, ugyanazon az infrastruktúrán, amit a Valve saját többjátékos játékai is használnak. Minden kapcsolatot vagy egy közvetlen peer-to-peer kapcsolaton, vagy a Valve relay-én át irányít, és a relay gyakran ugyanolyan gyors vagy még gyorsabb is, mert a Valve gerinchálózatán halad."
+      },
+      {
+        "q": "Tényleg ingyenes?",
+        "a": "Igen, teljesen ingyenes."
+      },
+      {
+        "q": "Mely platformokat támogatja?",
+        "a": "Windows és Linux, beleértve a Steam Deck és a Steam Machine SteamOS rendszerét is. A Steam kliensnek futnia kell, és be kell jelentkezned."
+      }
+    ]
+  },
+  "steam": {
+    "heading": "Tedd a Porthole-t a kívánságlistádra",
+    "body": "A Porthole ingyenes alkalmazásként jelenik meg a Steamen. Tedd a kívánságlistádra, és abban a pillanatban szólunk, amint elérhető lesz."
+  },
+  "cta": {
+    "heading": "Válassz portot, oszd meg a kódot, és irány a játék",
+    "body": "Tedd a Porthole-t a Steam-kívánságlistádra, hogy értesülj a megjelenéséről. Teljesen ingyenes.",
+    "primary": "Fel a Steam-kívánságlistára",
+    "secondary": "Kövesd a GitHubon"
+  },
+  "security": {
+    "title": "Adatvédelem és biztonság",
+    "intro": "A Porthole egy hálózati segédeszköz, ezért nézzük pontosan, mihez nyúl. Csak az általad választott portokat osztja meg, semmit sem tesz ki a nyílt internetre, és a Steam saját hálózatán fut.",
+    "sections": [
+      {
+        "heading": "Milyen adat halad át a Porthole-on",
+        "body": "A Porthole a megosztott portok nyers bájtjait továbbítja, és semmi mást. Nem olvassa és nem tárolja ezt a forgalmat, és soha nem nyúl a fájljaidhoz, a többi portodhoz vagy a hálózatod maradék részéhez.",
+        "bullets": [
+          "Csak azok a TCP- vagy UDP-portok, amelyeket megosztasz.",
+          "Csak azokkal a haverokkal, akiket meghívtál, és csak addig, amíg el nem távolítod őket.",
+          "Semmi fájl, semmi meghajtó, semmi más szolgáltatás a gépeden."
+        ]
+      },
+      {
+        "heading": "Csak az általad választott portok",
+        "body": "A VPN az egész gépedet felteszi egy közös hálózatra. A Porthole pont az ellenkezőjét csinálja: minden portot egyesével kínálsz fel, és az csak azután nyílik meg a vendég gépén, hogy jóváhagyta. Bármikor átirányíthatod, elutasíthatod, vagy kirúghatod és kitilthatod a vendéget.",
+        "bullets": []
+      },
+      {
+        "heading": "Titkosítás: relay vagy közvetlen",
+        "body": "A Porthole a Steam hálózatára épül, amelynek neve Steam Datagram Relay (SDR), ugyanarra a rendszerre, amelyet a Valve saját többjátékos játékai is használnak. Minden kapcsolat titkosított és egy valódi Steam-fiókhoz kötött, a Steam pedig kétféleképpen irányíthatja:",
+        "bullets": [
+          "A Valve relay-én át: a Valve saját szavaival élve minden beérkező forgalom hitelesített, titkosított és sebességkorlátozott, az IP-címed pedig soha nem kerül nyilvánosságra. A Valve gerinchálózatán halad, ezért gyakran ugyanolyan gyors, mint egy közvetlen kapcsolat, néha még gyorsabb is.",
+          "Közvetlen peer-to-peer: eggyel kevesebb ugrás, ami segíthet a késleltetésen, de nem mindig, és te meg a haverod IP-címet cseréltek a kapcsolathoz, így az IP-címed nem marad rejtve előle.",
+          "A Steam minden kapcsolatnál automatikusan a gyorsabb útvonalat választja, és a Valve gerinchálózatának köszönhetően ez gyakran a relay. Ha inkább mindig a relay-en maradnál, és titokban tartanád az IP-címed, a Porthole beállításaiban vagy a Steam saját hálózati beállításaiban kikényszerítheted a relay használatát."
+        ]
+      },
+      {
+        "heading": "Nálad marad az irányítás",
+        "body": "A lobbik jelszóval védhetők. Te döntöd el, ki csatlakozhat, és melyik vendég mely portokat kapja meg. Bárkit kirúghatsz vagy kitilthatsz. Zárd be a Porthole-t, és minden megosztott port vele együtt bezárul.",
+        "bullets": []
+      },
+      {
+        "heading": "Jön a nyílt forráskód",
+        "body": "A Porthole nyilvános, nyílt forráskódú kiadásra készül, hogy bárki elolvashassa, pontosan hogyan működik. Kövesd a tárolót a GitHubon.",
+        "bullets": []
+      }
+    ],
+    "cta": "Kövesd a GitHubon",
+    "backHome": "Vissza a főoldalra"
+  },
+  "footer": {
+    "tagline": "Helyi portok megosztása egyszerűen.",
+    "links": {
+      "security": "Adatvédelem és biztonság",
+      "steam": "Steam-oldal",
+      "github": "GitHub",
+      "studio": "SeStudio"
+    },
+    "copyright": "© SeStudio",
+    "disclaimer": "A Steam és a Valve a Valve Corporation védjegyei. A Hamachi, a Radmin, a ZeroTier, a Tailscale és a playit.gg a jogtulajdonosaik védjegyei, és nem állnak kapcsolatban a Porthole-lal."
+  },
+  "misc": {
+    "changeLanguage": "Nyelv váltása"
+  }
+}

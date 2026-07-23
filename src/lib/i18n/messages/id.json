@@ -1,0 +1,309 @@
+{
+  "nav": {
+    "how": "Cara kerja",
+    "compare": "Perbandingan",
+    "faq": "FAQ",
+    "security": "Keamanan",
+    "wishlist": "Wishlist",
+    "github": "GitHub"
+  },
+  "meta": {
+    "homeTitle": "Porthole - main game LAN dan yang kamu host sendiri bareng teman lewat Steam",
+    "homeDescription": "Porthole adalah proxy yang meneruskan port yang kamu pilih ke teman Steam-mu, jadi mereka terhubung seakan satu LAN denganmu. Tanpa port forwarding, tanpa IP publik, tanpa setel router. Main game LAN dan yang kamu host sendiri bareng teman yang jauh. Versi Hamachi dan Radmin yang berbasis Steam.",
+    "securityTitle": "Privasi dan keamanan - Porthole",
+    "securityDescription": "Data apa yang mengalir lewat Porthole, kenapa cuma port yang kamu pilih yang dibagikan, dan bagaimana Steam Datagram Relay mengenkripsi setiap koneksi.",
+    "ogAlt": "Porthole - berbagi port lokal lewat Steam"
+  },
+  "hero": {
+    "badge": "Segera hadir di Steam",
+    "title": "Main game LAN dan yang kamu host sendiri bareng",
+    "titleAccent": "teman di mana saja",
+    "sub": "Porthole adalah proxy yang meneruskan port yang kamu pilih ke teman Steam-mu, jadi mereka terhubung seakan satu LAN denganmu. Tanpa port forwarding, tanpa IP publik, tanpa setel router. Versi Hamachi dan Radmin yang berbasis Steam.",
+    "points": [
+      "Tanpa port forwarding",
+      "Tanpa IP publik",
+      "Cuma port yang kamu pilih"
+    ],
+    "ctaPrimary": "Wishlist di Steam",
+    "ctaSecondary": "Lihat cara kerjanya",
+    "note": "Gratis. Jalan di balik NAT dan CGNAT. Windows dan Linux / SteamOS."
+  },
+  "demo": {
+    "heading": "Satu share code, dan temanmu langsung masuk",
+    "body": "Buat lobi, pilih port yang mau dibagikan, lalu kirim kode. Temanmu menyetujui tiap port dan port itu terbuka di komputer mereka. Cuma itu prosesnya.",
+    "caption": "Porthole meng-host server game sementara seorang teman bergabung lewat Steam."
+  },
+  "how": {
+    "heading": "Lalu lintas game-mu, dialirkan lewat Steam",
+    "body": "Porthole tidak pernah menaruhmu di alamat publik. Ia membawa lalu lintas untuk port yang kamu bagikan saja, lewat jaringan milik Steam sendiri, langsung ke teman yang kamu undang.",
+    "steps": [
+      {
+        "title": "Buat lobi",
+        "body": "Buka Porthole dan mulai lobi. Kamu langsung dapat share code singkat."
+      },
+      {
+        "title": "Pilih port-mu",
+        "body": "Pilih port TCP atau UDP yang mau dibagikan, atau deteksi otomatis dari game yang sedang jalan."
+      },
+      {
+        "title": "Undang teman",
+        "body": "Kirim share code atau undang langsung dari daftar teman Steam-mu."
+      },
+      {
+        "title": "Mereka menyetujui",
+        "body": "Tiap teman menyetujui port yang mereka mau. Tidak ada yang terpasang di komputer mereka sampai mereka bilang iya."
+      },
+      {
+        "title": "Main bareng",
+        "body": "Lalu lintas dialirkan lewat Steam. Tiap teman terhubung di komputer mereka sendiri, seakan server ada di LAN mereka."
+      }
+    ],
+    "diagram": {
+      "hostTitle": "Kamu (host)",
+      "hostGame": "Server game",
+      "guestTitle": "Teman (tamu)",
+      "guestGame": "Game mereka",
+      "network": "Jaringan Steam",
+      "flow": "Cuma port yang kamu bagikan",
+      "caption": "Tidak ada yang terekspos ke internet publik. Lalu lintas cuma mengalir antara kamu dan teman yang kamu undang."
+    }
+  },
+  "features": {
+    "heading": "Dibuat untuk hosting game beneran",
+    "items": [
+      {
+        "title": "Cuma port yang kamu pilih",
+        "body": "Bagikan satu port TCP atau UDP saja, bukan seluruh komputermu. Ini alat jaringan, bukan VPN utuh."
+      },
+      {
+        "title": "Tanpa port forwarding",
+        "body": "Port forwarding tanpa router. Jalan di balik NAT dan CGNAT, tanpa IP publik dan tanpa setel router."
+      },
+      {
+        "title": "Deteksi port otomatis",
+        "body": "Arahkan Porthole ke game yang sedang jalan dan ia langsung menemukan port yang sedang dipakainya. Tanpa perlu cari-cari manual."
+      },
+      {
+        "title": "Gabung lewat kode atau daftar teman",
+        "body": "Teman bergabung pakai share code singkat atau langsung dari daftar teman Steam-mu."
+      },
+      {
+        "title": "Persetujuan per port",
+        "body": "Tamu menyetujui tiap port sebelum terpasang di komputer mereka. Kick atau ban siapa saja kapan saja."
+      },
+      {
+        "title": "P2P langsung atau relay Valve",
+        "body": "Steam memilih jalur tercepat untuk tiap koneksi, koneksi langsung peer-to-peer atau relay Valve."
+      },
+      {
+        "title": "TCP dan UDP",
+        "body": "Mendukung keduanya, jadi server khusus maupun game UDP sama-sama jalan mulus."
+      },
+      {
+        "title": "Aplikasi native dan CLI",
+        "body": "Aplikasi tray yang rapi untuk Windows dan Linux / SteamOS, plus baris perintah yang bisa diotomasi lewat skrip."
+      }
+    ]
+  },
+  "usecases": {
+    "heading": "Untuk apa orang memakai Porthole",
+    "items": [
+      {
+        "title": "Nge-host server buat teman",
+        "body": "Jalankan dunia Minecraft atau server game khusus dan biarkan teman masuk tanpa menyentuh router."
+      },
+      {
+        "title": "Main game LAN lewat internet",
+        "body": "Bawa game multiplayer lokal dan khusus-LAN ke teman yang jauh lewat Direct Connect ke komputer mereka sendiri."
+      },
+      {
+        "title": "Bagikan layanan lokal apa pun",
+        "body": "Buka layanan TCP atau UDP lokal lainnya ke orang yang kamu percaya, dan cuma mereka."
+      }
+    ]
+  },
+  "compare": {
+    "heading": "Porthole vs Hamachi, Radmin, ZeroTier, dan Tailscale",
+    "body": "Kalau kamu pernah pakai LAN virtual atau tunnel buat main sama teman yang jauh, ini bedanya Porthole.",
+    "columns": {
+      "porthole": "Porthole",
+      "hamachi": "Hamachi",
+      "radmin": "Radmin VPN",
+      "zerotier": "ZeroTier",
+      "tailscale": "Tailscale",
+      "playit": "playit.gg"
+    },
+    "rows": [
+      {
+        "label": "Yang dibagikan",
+        "porthole": "Cuma port yang kamu pilih",
+        "hamachi": "Seluruh komputer (LAN virtual)",
+        "radmin": "Seluruh komputer (LAN virtual)",
+        "zerotier": "Seluruh komputer (LAN virtual)",
+        "tailscale": "Seluruh komputer (VPN mesh)",
+        "playit": "Alamat internet publik"
+      },
+      {
+        "label": "Siapa yang bisa mengaksesnya",
+        "porthole": "Teman yang kamu undang, per port",
+        "hamachi": "Siapa saja di jaringan",
+        "radmin": "Siapa saja di jaringan",
+        "zerotier": "Siapa saja di jaringan",
+        "tailscale": "Siapa saja di jaringan",
+        "playit": "Siapa saja yang punya alamatnya"
+      },
+      {
+        "label": "IP publik atau port terbuka",
+        "porthole": "Tidak ada",
+        "hamachi": "Tidak ada",
+        "radmin": "Tidak ada",
+        "zerotier": "Tidak ada",
+        "tailscale": "Tidak ada",
+        "playit": "Ya"
+      },
+      {
+        "label": "Akun",
+        "porthole": "Akun Steam-mu",
+        "hamachi": "Akun LogMeIn",
+        "radmin": "Akun Radmin",
+        "zerotier": "Akun ZeroTier",
+        "tailscale": "Akun Tailscale",
+        "playit": "Akun playit"
+      },
+      {
+        "label": "Paket gratis",
+        "porthole": "Gratis, tanpa batas teman",
+        "hamachi": "Hingga 5 perangkat",
+        "radmin": "Gratis",
+        "zerotier": "Hingga 10 perangkat",
+        "tailscale": "Hingga 6 pengguna",
+        "playit": "Gratis, ada upgrade berbayar"
+      },
+      {
+        "label": "Platform",
+        "porthole": "Windows, Linux / SteamOS",
+        "hamachi": "Windows, macOS, Linux",
+        "radmin": "Windows",
+        "zerotier": "Semua platform utama",
+        "tailscale": "Semua platform utama",
+        "playit": "Windows, macOS, Linux"
+      },
+      {
+        "label": "Open source",
+        "porthole": "Direncanakan",
+        "hamachi": "Tidak",
+        "radmin": "Tidak",
+        "zerotier": "Ya",
+        "tailscale": "Cuma klien",
+        "playit": "Cuma klien"
+      }
+    ],
+    "footnote": "Perbandingan berdasarkan informasi publik tiap produk per 2026. Paket gratis dan fitur bisa berubah, jadi cek langsung tiap produk untuk detail terkini. Hamachi, Radmin, ZeroTier, Tailscale, dan playit.gg adalah merek dagang pemiliknya masing-masing dan tidak berafiliasi dengan Porthole."
+  },
+  "faq": {
+    "heading": "Pertanyaan, terjawab",
+    "items": [
+      {
+        "q": "Apakah Porthole itu VPN?",
+        "a": "Bukan. VPN menggabungkan seluruh komputer ke dalam satu jaringan. Porthole cuma mengalirkan port tertentu yang kamu pilih untuk dibagikan, dan tamu menyetujui tiap port sebelum terpasang di komputer mereka."
+      },
+      {
+        "q": "Apakah ini alternatif Hamachi atau Radmin?",
+        "a": "Ya, meski cara kerjanya lebih mirip proxy daripada VPN. Ia menyelesaikan masalah yang sama seperti Hamachi, Radmin, ZeroTier, atau Tailscale, yakni main sama teman yang jauh seakan satu LAN, tapi alih-alih menaruh seluruh komputermu di jaringan virtual, Porthole cuma mem-proxy port yang kamu pilih, lewat jaringan Steam."
+      },
+      {
+        "q": "Apakah saya perlu port forwarding atau IP publik?",
+        "a": "Tidak. Porthole memberimu port forwarding tanpa router. Ia jalan di balik NAT dan CGNAT, tanpa IP publik dan tanpa setel router."
+      },
+      {
+        "q": "Bisakah saya main game LAN lewat internet dengannya?",
+        "a": "Bisa, untuk game yang punya host atau listen server. Temanmu mengakses port yang dibagikan di komputer mereka sendiri, di 127.0.0.1 secara bawaan atau alamat lokal lain yang kamu atur, biasanya lewat Direct Connect di game. Porthole meneruskan port yang kamu pilih, ia tidak menyiarkan ulang penemuan LAN, jadi pakai Direct Connect alih-alih browser LAN."
+      },
+      {
+        "q": "Apakah teman saya juga perlu Porthole?",
+        "a": "Ya, dan gratis. Bergabung cukup dengan satu share code, tanpa perlu setel apa pun."
+      },
+      {
+        "q": "Bisakah orang yang saya beri akses melihat jaringan atau file saya?",
+        "a": "Tidak. Tamu cuma bisa mengakses port yang kamu tawarkan dan mereka terima, tidak lebih. Kamu bisa kick atau ban siapa saja kapan saja."
+      },
+      {
+        "q": "Bagaimana soal latensi?",
+        "a": "Porthole berjalan di atas jaringan Steam, infrastruktur yang sama dengan yang dipakai game multiplayer buatan Valve sendiri. Ia merutekan tiap koneksi lewat koneksi langsung peer-to-peer atau relay Valve, dan relay sering kali sama cepatnya atau bahkan lebih cepat karena dialirkan lewat jaringan inti Valve."
+      },
+      {
+        "q": "Apakah benar-benar gratis?",
+        "a": "Ya, sepenuhnya gratis."
+      },
+      {
+        "q": "Platform apa saja yang didukung?",
+        "a": "Windows dan Linux, termasuk SteamOS di Steam Deck dan Steam Machine. Klien Steam harus sedang berjalan dan sudah login."
+      }
+    ]
+  },
+  "steam": {
+    "heading": "Wishlist Porthole",
+    "body": "Porthole rilis di Steam sebagai aplikasi gratis. Tambahkan ke wishlist-mu supaya tahu begitu ia tayang."
+  },
+  "cta": {
+    "heading": "Pilih port, bagikan kode, lalu main",
+    "body": "Wishlist Porthole di Steam supaya dapat notifikasi saat rilis. Sepenuhnya gratis.",
+    "primary": "Wishlist di Steam",
+    "secondary": "Ikuti di GitHub"
+  },
+  "security": {
+    "title": "Privasi dan keamanan",
+    "intro": "Porthole adalah alat jaringan, jadi ini persis apa saja yang disentuhnya. Ia cuma membagikan port yang kamu pilih, tidak menaruh apa pun di internet publik, dan berjalan di jaringan milik Steam sendiri.",
+    "sections": [
+      {
+        "heading": "Apa yang mengalir lewat Porthole",
+        "body": "Porthole meneruskan data mentah dari port yang kamu bagikan, dan tidak lebih. Ia tidak membaca atau menyimpan lalu lintas itu, dan tidak pernah menyentuh file-mu, port-mu yang lain, atau bagian lain dari jaringanmu.",
+        "bullets": [
+          "Cuma port TCP atau UDP yang kamu bagikan.",
+          "Cuma dengan teman yang kamu undang, dan cuma sampai kamu keluarkan mereka.",
+          "Tanpa file, tanpa drive, tanpa layanan lain di komputermu."
+        ]
+      },
+      {
+        "heading": "Cuma port yang kamu pilih",
+        "body": "VPN menaruh seluruh komputermu di jaringan bersama. Porthole justru sebaliknya: tiap port ditawarkan satu per satu dan baru terpasang di komputer tamu setelah mereka menyetujuinya. Kamu bisa me-remap-nya, menolaknya, atau kick dan ban tamu kapan saja.",
+        "bullets": []
+      },
+      {
+        "heading": "Enkripsi: relay atau langsung",
+        "body": "Porthole berjalan di atas jaringan Steam, yang disebut Steam Datagram Relay (SDR), sistem yang sama dengan yang dipakai game multiplayer buatan Valve sendiri. Setiap koneksi terenkripsi dan terikat ke akun Steam asli, lalu Steam merutekannya lewat salah satu dari dua cara:",
+        "bullets": [
+          "Lewat relay Valve: dalam kata-kata Valve sendiri, semua lalu lintas yang kamu terima diautentikasi, dienkripsi, dan dibatasi lajunya, serta alamat IP-mu tidak pernah terungkap. Jalurnya lewat jaringan inti Valve, jadi sering kali sama cepatnya dengan koneksi langsung, kadang lebih cepat.",
+          "Langsung peer-to-peer: satu lompatan lebih sedikit, yang bisa membantu latensi tapi tidak selalu, dan kamu serta temanmu saling bertukar alamat IP untuk terhubung, jadi IP-mu tidak tersembunyi dari mereka.",
+          "Steam memilih jalur yang lebih cepat untuk tiap koneksi secara otomatis, dan berkat jaringan inti Valve jalur itu sering kali adalah relay. Kalau kamu lebih suka selalu memakai relay dan menjaga IP-mu tetap privat, kamu bisa memaksa relay di pengaturan Porthole atau di pengaturan jaringan Steam sendiri."
+        ]
+      },
+      {
+        "heading": "Kamu tetap pegang kendali",
+        "body": "Lobi bisa dilindungi password. Kamu yang menentukan siapa yang bergabung dan port apa saja yang didapat tiap tamu, dan kamu bisa kick atau ban siapa saja. Tutup Porthole dan setiap port yang dibagikan ikut tertutup.",
+        "bullets": []
+      },
+      {
+        "heading": "Open source segera hadir",
+        "body": "Porthole sedang disiapkan untuk rilis publik dan open-source, jadi siapa pun bisa membaca persis bagaimana ia bekerja. Ikuti repositorinya di GitHub.",
+        "bullets": []
+      }
+    ],
+    "cta": "Ikuti di GitHub",
+    "backHome": "Kembali ke beranda"
+  },
+  "footer": {
+    "tagline": "Berbagi port lokal jadi gampang.",
+    "links": {
+      "security": "Privasi dan keamanan",
+      "steam": "Halaman Steam",
+      "github": "GitHub",
+      "studio": "SeStudio"
+    },
+    "copyright": "© SeStudio",
+    "disclaimer": "Steam dan Valve adalah merek dagang Valve Corporation. Hamachi, Radmin, ZeroTier, Tailscale, dan playit.gg adalah merek dagang pemiliknya masing-masing dan tidak berafiliasi dengan Porthole."
+  },
+  "misc": {
+    "changeLanguage": "Ganti bahasa"
+  }
+}

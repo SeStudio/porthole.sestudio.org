@@ -1,0 +1,309 @@
+{
+  "nav": {
+    "how": "Sådan virker det",
+    "compare": "Sammenlign",
+    "faq": "FAQ",
+    "security": "Sikkerhed",
+    "wishlist": "Ønskeliste",
+    "github": "GitHub"
+  },
+  "meta": {
+    "homeTitle": "Porthole - spil LAN- og selvhostede spil med venner over Steam",
+    "homeDescription": "Porthole er en proxy, der videresender en port, du vælger, til dine Steam-venner, så de kobler sig på, som var de på dit eget LAN. Ingen port forwarding, ingen offentlig IP, ingen router-opsætning. Spil LAN- og selvhostede spil med venner langt væk. Som Hamachi og Radmin, men bygget på Steam.",
+    "securityTitle": "Privatliv og sikkerhed - Porthole",
+    "securityDescription": "Hvilke data der løber gennem Porthole, hvorfor den kun deler de porte, du vælger, og hvordan Steam Datagram Relay krypterer hver forbindelse.",
+    "ogAlt": "Porthole - deling af lokale porte over Steam"
+  },
+  "hero": {
+    "badge": "Kommer snart på Steam",
+    "title": "Spil LAN- og selvhostede spil med",
+    "titleAccent": "venner overalt",
+    "sub": "Porthole er en proxy, der videresender en port, du vælger, til dine Steam-venner, så de kobler sig på, som var de på dit eget LAN. Ingen port forwarding, ingen offentlig IP, ingen router-opsætning. Som Hamachi og Radmin, men bygget på Steam.",
+    "points": [
+      "Ingen port forwarding",
+      "Ingen offentlig IP",
+      "Kun de porte, du vælger"
+    ],
+    "ctaPrimary": "Føj til ønskeliste på Steam",
+    "ctaSecondary": "Se hvordan det virker",
+    "note": "Gratis. Virker bag NAT og CGNAT. Windows og Linux/SteamOS."
+  },
+  "demo": {
+    "heading": "Én delekode, og din ven er inde",
+    "body": "Opret en lobby, vælg de porte, du vil dele, og send en kode. Din ven godkender hver port, og den åbnes på deres maskine. Så enkelt er det.",
+    "caption": "Porthole hoster en spilserver, mens en ven kobler sig på over Steam."
+  },
+  "how": {
+    "heading": "Din spiltrafik, tunneleret gennem Steam",
+    "body": "Porthole lægger dig aldrig på en offentlig adresse. Den fører trafikken for netop de porte, du deler, over Steams eget netværk, direkte til de venner, du inviterer.",
+    "steps": [
+      {
+        "title": "Opret en lobby",
+        "body": "Åbn Porthole og start en lobby. Du får en kort delekode."
+      },
+      {
+        "title": "Vælg dine porte",
+        "body": "Vælg de TCP- eller UDP-porte, du vil dele, eller find dem automatisk i et spil, der kører."
+      },
+      {
+        "title": "Inviter venner",
+        "body": "Send delekoden, eller inviter direkte fra din Steam-venneliste."
+      },
+      {
+        "title": "De godkender",
+        "body": "Hver ven godkender de porte, de vil have. Intet bindes på deres maskine, før de siger ja."
+      },
+      {
+        "title": "Spil sammen",
+        "body": "Trafikken tunneleres over Steam. Hver ven kobler sig på fra sin egen maskine, som var serveren på deres eget LAN."
+      }
+    ],
+    "diagram": {
+      "hostTitle": "Dig (vært)",
+      "hostGame": "Spilserver",
+      "guestTitle": "Ven (gæst)",
+      "guestGame": "Deres spil",
+      "network": "Steams netværk",
+      "flow": "Kun de porte, du deler",
+      "caption": "Intet blotlægges for det åbne internet. Trafikken løber kun mellem dig og de venner, du inviterer."
+    }
+  },
+  "features": {
+    "heading": "Bygget til at hoste spil for alvor",
+    "items": [
+      {
+        "title": "Kun de porte, du vælger",
+        "body": "Del en enkelt TCP- eller UDP-port, ikke hele din maskine. Det er et netværksværktøj, ikke en fuld VPN."
+      },
+      {
+        "title": "Ingen port forwarding",
+        "body": "Port forwarding uden en router. Virker bag NAT og CGNAT, uden offentlig IP og uden router-opsætning."
+      },
+      {
+        "title": "Automatisk portregistrering",
+        "body": "Peg Porthole mod et spil, der kører, så finder den de porte, spillet lytter på. Du slipper for at slå dem op manuelt."
+      },
+      {
+        "title": "Kom ind med kode eller fra vennelisten",
+        "body": "Venner kommer ind med en kort delekode eller direkte fra din Steam-venneliste."
+      },
+      {
+        "title": "Godkendelse pr. port",
+        "body": "Gæster godkender hver port, før den bindes på deres maskine. Kick eller ban hvem som helst når som helst."
+      },
+      {
+        "title": "Direkte P2P eller Valves relay",
+        "body": "Steam vælger den hurtigste vej for hver forbindelse, enten en direkte peer-to-peer-forbindelse eller Valves relay."
+      },
+      {
+        "title": "TCP og UDP",
+        "body": "Virker med begge, så dedikerede servere og UDP-spil fungerer lige godt."
+      },
+      {
+        "title": "Native app og CLI",
+        "body": "En ren app i systembakken til Windows og Linux/SteamOS plus en kommandolinje, du kan skripte."
+      }
+    ]
+  },
+  "usecases": {
+    "heading": "Det bruger folk Porthole til",
+    "items": [
+      {
+        "title": "Hoste en server for venner",
+        "body": "Kør en Minecraft-verden eller en dedikeret spilserver, og luk venner ind uden at røre routeren."
+      },
+      {
+        "title": "Spille LAN-spil over nettet",
+        "body": "Tag lokal multiplayer og rene LAN-spil med til venner i den anden ende af landet via en Direct Connect til deres egen maskine."
+      },
+      {
+        "title": "Dele en hvilken som helst lokal tjeneste",
+        "body": "Giv de folk, du stoler på, og kun dem, adgang til enhver anden lokal TCP- eller UDP-tjeneste."
+      }
+    ]
+  },
+  "compare": {
+    "heading": "Porthole mod Hamachi, Radmin, ZeroTier og Tailscale",
+    "body": "Har du brugt et virtuelt LAN eller en tunnel til at spille med venner langt væk, så er det her, Porthole skiller sig ud.",
+    "columns": {
+      "porthole": "Porthole",
+      "hamachi": "Hamachi",
+      "radmin": "Radmin VPN",
+      "zerotier": "ZeroTier",
+      "tailscale": "Tailscale",
+      "playit": "playit.gg"
+    },
+    "rows": [
+      {
+        "label": "Hvad det deler",
+        "porthole": "Kun de porte, du vælger",
+        "hamachi": "Hele maskinen (virtuelt LAN)",
+        "radmin": "Hele maskinen (virtuelt LAN)",
+        "zerotier": "Hele maskinen (virtuelt LAN)",
+        "tailscale": "Hele maskinen (mesh-VPN)",
+        "playit": "En offentlig internetadresse"
+      },
+      {
+        "label": "Hvem der kan nå det",
+        "porthole": "Venner, du inviterer, pr. port",
+        "hamachi": "Alle i netværket",
+        "radmin": "Alle i netværket",
+        "zerotier": "Alle i netværket",
+        "tailscale": "Alle i netværket",
+        "playit": "Alle med adressen"
+      },
+      {
+        "label": "Offentlig IP eller åben port",
+        "porthole": "Ingen",
+        "hamachi": "Ingen",
+        "radmin": "Ingen",
+        "zerotier": "Ingen",
+        "tailscale": "Ingen",
+        "playit": "Ja"
+      },
+      {
+        "label": "Konto",
+        "porthole": "Din Steam-konto",
+        "hamachi": "LogMeIn-konto",
+        "radmin": "Radmin-konto",
+        "zerotier": "ZeroTier-konto",
+        "tailscale": "Tailscale-konto",
+        "playit": "playit-konto"
+      },
+      {
+        "label": "Gratis version",
+        "porthole": "Gratis, ingen grænse for antal deltagere",
+        "hamachi": "Op til 5 enheder",
+        "radmin": "Gratis",
+        "zerotier": "Op til 10 enheder",
+        "tailscale": "Op til 6 brugere",
+        "playit": "Gratis, betalte opgraderinger"
+      },
+      {
+        "label": "Platforme",
+        "porthole": "Windows, Linux/SteamOS",
+        "hamachi": "Windows, macOS, Linux",
+        "radmin": "Windows",
+        "zerotier": "Alle større platforme",
+        "tailscale": "Alle større platforme",
+        "playit": "Windows, macOS, Linux"
+      },
+      {
+        "label": "Open source",
+        "porthole": "Planlagt",
+        "hamachi": "Nej",
+        "radmin": "Nej",
+        "zerotier": "Ja",
+        "tailscale": "Kun klienten",
+        "playit": "Kun klienten"
+      }
+    ],
+    "footnote": "Sammenligningen bygger på hvert produkts offentlige oplysninger pr. 2026. Gratis versioner og funktioner ændrer sig, så tjek det enkelte produkt for de aktuelle detaljer. Hamachi, Radmin, ZeroTier, Tailscale og playit.gg er varemærker tilhørende deres respektive ejere og er ikke tilknyttet Porthole."
+  },
+  "faq": {
+    "heading": "Spørgsmål, besvaret",
+    "items": [
+      {
+        "q": "Er Porthole en VPN?",
+        "a": "Nej. En VPN samler hele maskiner i ét netværk. Porthole tunnelerer kun de enkelte porte, du vælger at dele, og gæsterne godkender hver port, før den bindes på deres maskine."
+      },
+      {
+        "q": "Er det et alternativ til Hamachi eller Radmin?",
+        "a": "Ja, selvom den fungerer mere som en proxy end en VPN. Den løser samme problem som Hamachi, Radmin, ZeroTier eller Tailscale, nemlig at spille med venner langt væk, som var I på et LAN, men i stedet for at lægge hele din maskine på et virtuelt netværk fungerer den som en proxy for kun de porte, du vælger, over Steams netværk."
+      },
+      {
+        "q": "Skal jeg bruge port forwarding eller en offentlig IP?",
+        "a": "Nej. Porthole giver dig port forwarding uden en router. Den virker bag NAT og CGNAT, uden offentlig IP og uden router-opsætning."
+      },
+      {
+        "q": "Kan jeg spille LAN-spil over nettet med den?",
+        "a": "Ja, til spil med en vært eller en listen-server. Din ven når den delte port på sin egen maskine, som standard på 127.0.0.1 eller en anden lokal adresse, du vælger, som regel via spillets Direct Connect. Porthole videresender de porte, du vælger; den genudsender ikke LAN-broadcasts, så brug Direct Connect frem for LAN-browseren."
+      },
+      {
+        "q": "Skal mine venner også have Porthole?",
+        "a": "Ja, og det er gratis. Det kræver kun én delekode at komme ind, og der er intet at sætte op."
+      },
+      {
+        "q": "Kan de, jeg deler med, se mit netværk eller mine filer?",
+        "a": "Nej. En gæst kan kun nå de porte, du har tilbudt, og som gæsten har accepteret, intet andet. Du kan kicke eller banne hvem som helst når som helst."
+      },
+      {
+        "q": "Hvad med latens?",
+        "a": "Porthole kører over Steams netværk, den samme infrastruktur som Valves egne multiplayer-spil bruger. Hver forbindelse går enten over en direkte peer-to-peer-forbindelse eller Valves relay, og relayet er ofte lige så hurtigt eller hurtigere, fordi det kører over Valves eget backbone."
+      },
+      {
+        "q": "Er det virkelig gratis?",
+        "a": "Ja, det er helt gratis."
+      },
+      {
+        "q": "Hvilke platforme understøttes?",
+        "a": "Windows og Linux, herunder SteamOS på Steam Deck og Steam Machine. Steam-klienten skal køre og være logget ind."
+      }
+    ]
+  },
+  "steam": {
+    "heading": "Føj Porthole til din ønskeliste",
+    "body": "Porthole udkommer på Steam som en gratis app. Føj den til din ønskeliste, så får du besked i samme øjeblik, den går live."
+  },
+  "cta": {
+    "heading": "Vælg en port, del en kode, og spil",
+    "body": "Føj Porthole til din ønskeliste på Steam for at få besked ved lanceringen. Det er helt gratis.",
+    "primary": "Føj til ønskeliste på Steam",
+    "secondary": "Følg på GitHub"
+  },
+  "security": {
+    "title": "Privatliv og sikkerhed",
+    "intro": "Porthole er et netværksværktøj, så her er præcis, hvad det rører ved. Det deler kun de porte, du vælger, det blotlægger intet for det åbne internet, og det kører på Steams eget netværk.",
+    "sections": [
+      {
+        "heading": "Hvad der løber gennem Porthole",
+        "body": "Porthole videresender de rå bytes fra de porte, du deler, og intet andet. Det læser eller gemmer ikke den trafik, og det rører aldrig dine filer, dine øvrige porte eller resten af dit netværk.",
+        "bullets": [
+          "Kun de TCP- eller UDP-porte, du deler.",
+          "Kun med de venner, du inviterer, og kun indtil du fjerner dem.",
+          "Ingen filer, ingen drev, ingen andre tjenester på din maskine."
+        ]
+      },
+      {
+        "heading": "Kun de porte, du vælger",
+        "body": "En VPN sætter hele din maskine på et fælles netværk. Porthole gør det stik modsatte: hver port tilbydes én ad gangen og bindes først på en gæsts maskine, når vedkommende har godkendt den. Du kan omdirigere den, afvise den eller kicke og banne en gæst når som helst.",
+        "bullets": []
+      },
+      {
+        "heading": "Kryptering: relay eller direkte",
+        "body": "Porthole kører på Steams netværk, kaldet Steam Datagram Relay (SDR), det samme system som Valves egne multiplayer-spil bruger. Hver forbindelse er krypteret og knyttet til en rigtig Steam-konto, og Steam sender den en af to veje:",
+        "bullets": [
+          "Over Valves relay: med Valves egne ord er al den trafik, du modtager, godkendt, krypteret og hastighedsbegrænset, og din IP-adresse afsløres aldrig. Den kører over Valves backbone, så den er ofte lige så hurtig som en direkte forbindelse, nogle gange hurtigere.",
+          "Direkte peer-to-peer: ét hop mindre, hvilket kan hjælpe på latensen, men ikke altid, og du og din ven udveksler IP-adresser for at oprette forbindelse, så jeres IP er ikke skjult for hinanden.",
+          "Steam vælger automatisk den hurtigste rute for hver forbindelse, og takket være Valves backbone er det ofte relayet. Vil du hellere altid blive på relayet og holde din IP privat, kan du gennemtvinge relay i Portholes indstillinger eller i Steams egne netværksindstillinger."
+        ]
+      },
+      {
+        "heading": "Du bevarer kontrollen",
+        "body": "Lobbyer kan beskyttes med adgangskode. Du vælger, hvem der kommer ind, og hvilke porte hver gæst får, og du kan kicke eller banne hvem som helst. Luk Porthole, og hver delt port lukker med det samme.",
+        "bullets": []
+      },
+      {
+        "heading": "Open source er på vej",
+        "body": "Porthole gøres klar til en offentlig open source-udgivelse, så alle kan læse præcis, hvordan det virker. Følg repositoriet på GitHub.",
+        "bullets": []
+      }
+    ],
+    "cta": "Følg på GitHub",
+    "backHome": "Tilbage til forsiden"
+  },
+  "footer": {
+    "tagline": "Deling af lokale porte gjort nemt.",
+    "links": {
+      "security": "Privatliv og sikkerhed",
+      "steam": "Steam-side",
+      "github": "GitHub",
+      "studio": "SeStudio"
+    },
+    "copyright": "© SeStudio",
+    "disclaimer": "Steam og Valve er varemærker tilhørende Valve Corporation. Hamachi, Radmin, ZeroTier, Tailscale og playit.gg er varemærker tilhørende deres respektive ejere og er ikke tilknyttet Porthole."
+  },
+  "misc": {
+    "changeLanguage": "Skift sprog"
+  }
+}

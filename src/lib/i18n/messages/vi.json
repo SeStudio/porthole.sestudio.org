@@ -1,0 +1,309 @@
+{
+  "nav": {
+    "how": "Cách hoạt động",
+    "compare": "So sánh",
+    "faq": "Hỏi đáp",
+    "security": "Bảo mật",
+    "wishlist": "Yêu thích",
+    "github": "GitHub"
+  },
+  "meta": {
+    "homeTitle": "Porthole - chơi game LAN và game tự host cùng bạn bè qua Steam",
+    "homeDescription": "Porthole là một proxy chuyển tiếp cổng bạn chọn tới bạn bè Steam, để họ kết nối như đang chung mạng LAN với bạn. Khỏi mở cổng, khỏi cần IP tĩnh, khỏi phải cấu hình router. Chơi game LAN và game tự host cùng bạn bè ở xa. Kiểu Hamachi và Radmin, nhưng chạy trên nền Steam.",
+    "securityTitle": "Quyền riêng tư và bảo mật - Porthole",
+    "securityDescription": "Dữ liệu nào đi qua Porthole, vì sao nó chỉ chia sẻ đúng những cổng bạn chọn, và cách Steam Datagram Relay mã hóa mọi kết nối.",
+    "ogAlt": "Porthole - chia sẻ cổng nội bộ qua Steam"
+  },
+  "hero": {
+    "badge": "Sắp có trên Steam",
+    "title": "Chơi game LAN và game tự host cùng",
+    "titleAccent": "bạn bè ở khắp nơi",
+    "sub": "Porthole là một proxy chuyển tiếp cổng bạn chọn tới bạn bè Steam, để họ kết nối như thể đang chung mạng LAN với bạn. Khỏi mở cổng, khỏi cần IP tĩnh, khỏi phải cấu hình router. Kiểu Hamachi và Radmin, nhưng chạy trên nền Steam.",
+    "points": [
+      "Khỏi mở cổng",
+      "Khỏi cần IP tĩnh",
+      "Chỉ đúng những cổng bạn chọn"
+    ],
+    "ctaPrimary": "Thêm vào yêu thích trên Steam",
+    "ctaSecondary": "Xem cách hoạt động",
+    "note": "Miễn phí. Chạy ngon sau NAT và CGNAT. Windows và Linux / SteamOS."
+  },
+  "demo": {
+    "heading": "Một mã chia sẻ là bạn bè vào được ngay",
+    "body": "Tạo một lobby, chọn cổng cần chia sẻ, rồi gửi mã. Bạn bè duyệt từng cổng và nó mở ngay trên máy họ. Toàn bộ quy trình chỉ có vậy.",
+    "caption": "Porthole đang host một server game trong khi một người bạn vào qua Steam."
+  },
+  "how": {
+    "heading": "Dữ liệu game của bạn, đi qua đường hầm Steam",
+    "body": "Porthole không bao giờ đặt bạn lên một địa chỉ công khai. Nó chuyển dữ liệu của đúng những cổng bạn chia sẻ qua chính mạng của Steam, thẳng tới những người bạn mà bạn mời.",
+    "steps": [
+      {
+        "title": "Tạo một lobby",
+        "body": "Mở Porthole và tạo một lobby. Bạn sẽ nhận được một mã chia sẻ ngắn."
+      },
+      {
+        "title": "Chọn cổng",
+        "body": "Chọn các cổng TCP hoặc UDP muốn chia sẻ, hoặc để Porthole tự dò từ game đang chạy."
+      },
+      {
+        "title": "Mời bạn bè",
+        "body": "Gửi mã chia sẻ, hoặc mời thẳng từ danh sách bạn bè Steam của bạn."
+      },
+      {
+        "title": "Họ duyệt",
+        "body": "Mỗi người bạn duyệt những cổng họ muốn. Chưa có gì mở trên máy họ cho tới khi họ đồng ý."
+      },
+      {
+        "title": "Chơi cùng nhau",
+        "body": "Dữ liệu đi qua đường hầm Steam. Mỗi người bạn kết nối ngay trên máy của mình, như thể server đang chạy trong mạng LAN của họ."
+      }
+    ],
+    "diagram": {
+      "hostTitle": "Bạn (host)",
+      "hostGame": "Server game",
+      "guestTitle": "Bạn bè (người vào)",
+      "guestGame": "Game của họ",
+      "network": "Mạng của Steam",
+      "flow": "Chỉ những cổng bạn chia sẻ",
+      "caption": "Không có gì bị phơi ra internet công cộng. Dữ liệu chỉ chạy giữa bạn và những người bạn mà bạn mời."
+    }
+  },
+  "features": {
+    "heading": "Sinh ra để host game đúng nghĩa",
+    "items": [
+      {
+        "title": "Chỉ đúng những cổng bạn chọn",
+        "body": "Chia sẻ một cổng TCP hoặc UDP, chứ không phải cả máy của bạn. Đây là tiện ích mạng, không phải VPN đầy đủ."
+      },
+      {
+        "title": "Khỏi mở cổng",
+        "body": "Mở cổng mà chẳng cần đụng vào router. Chạy ngon sau NAT và CGNAT, khỏi cần IP tĩnh và khỏi phải cấu hình router."
+      },
+      {
+        "title": "Tự dò cổng",
+        "body": "Trỏ Porthole tới một game đang chạy là nó tìm ra ngay những cổng game đang lắng nghe. Khỏi phải tra cứu thủ công."
+      },
+      {
+        "title": "Vào bằng mã hoặc danh sách bạn bè",
+        "body": "Bạn bè vào bằng một mã chia sẻ ngắn, hoặc ngay từ danh sách bạn bè Steam của bạn."
+      },
+      {
+        "title": "Duyệt từng cổng",
+        "body": "Người vào duyệt từng cổng trước khi nó mở trên máy họ. Kick hoặc ban bất cứ ai, bất cứ lúc nào."
+      },
+      {
+        "title": "P2P trực tiếp hoặc relay của Valve",
+        "body": "Steam tự chọn đường nhanh nhất cho từng kết nối, một kết nối ngang hàng trực tiếp hoặc relay của Valve."
+      },
+      {
+        "title": "TCP và UDP",
+        "body": "Chạy được cả hai, nên server riêng lẫn game UDP đều chơi ngon lành."
+      },
+      {
+        "title": "Ứng dụng gốc và CLI",
+        "body": "Một ứng dụng gọn gàng chạy từ khay hệ thống trên Windows và Linux / SteamOS, kèm giao diện dòng lệnh để viết script."
+      }
+    ]
+  },
+  "usecases": {
+    "heading": "Mọi người dùng Porthole làm gì",
+    "items": [
+      {
+        "title": "Host server cho bạn bè",
+        "body": "Chạy một thế giới Minecraft hay một server game riêng và rủ bạn bè vào mà chẳng phải đụng tới router."
+      },
+      {
+        "title": "Chơi game LAN qua internet",
+        "body": "Đưa những game chơi chung máy và game chỉ hỗ trợ LAN tới bạn bè ở tận đầu kia đất nước, qua Direct Connect thẳng vào máy của chính họ."
+      },
+      {
+        "title": "Chia sẻ bất kỳ dịch vụ nội bộ nào",
+        "body": "Mở bất kỳ dịch vụ TCP hoặc UDP nội bộ nào khác cho những người bạn tin tưởng, và chỉ họ mà thôi."
+      }
+    ]
+  },
+  "compare": {
+    "heading": "Porthole so với Hamachi, Radmin, ZeroTier và Tailscale",
+    "body": "Nếu bạn từng dùng một mạng LAN ảo hay một đường hầm để chơi với bạn bè ở xa, thì đây là chỗ Porthole khác biệt.",
+    "columns": {
+      "porthole": "Porthole",
+      "hamachi": "Hamachi",
+      "radmin": "Radmin VPN",
+      "zerotier": "ZeroTier",
+      "tailscale": "Tailscale",
+      "playit": "playit.gg"
+    },
+    "rows": [
+      {
+        "label": "Chia sẻ cái gì",
+        "porthole": "Chỉ đúng những cổng bạn chọn",
+        "hamachi": "Cả máy (mạng LAN ảo)",
+        "radmin": "Cả máy (mạng LAN ảo)",
+        "zerotier": "Cả máy (mạng LAN ảo)",
+        "tailscale": "Cả máy (VPN dạng lưới)",
+        "playit": "Một địa chỉ công khai trên internet"
+      },
+      {
+        "label": "Ai chạm tới được",
+        "porthole": "Bạn bè bạn mời, theo từng cổng",
+        "hamachi": "Bất kỳ ai trong mạng",
+        "radmin": "Bất kỳ ai trong mạng",
+        "zerotier": "Bất kỳ ai trong mạng",
+        "tailscale": "Bất kỳ ai trong mạng",
+        "playit": "Bất kỳ ai có địa chỉ"
+      },
+      {
+        "label": "IP tĩnh hay cổng mở",
+        "porthole": "Không cần",
+        "hamachi": "Không cần",
+        "radmin": "Không cần",
+        "zerotier": "Không cần",
+        "tailscale": "Không cần",
+        "playit": "Có"
+      },
+      {
+        "label": "Tài khoản",
+        "porthole": "Tài khoản Steam của bạn",
+        "hamachi": "Tài khoản LogMeIn",
+        "radmin": "Tài khoản Radmin",
+        "zerotier": "Tài khoản ZeroTier",
+        "tailscale": "Tài khoản Tailscale",
+        "playit": "Tài khoản playit"
+      },
+      {
+        "label": "Gói miễn phí",
+        "porthole": "Miễn phí, không giới hạn số người",
+        "hamachi": "Tối đa 5 thiết bị",
+        "radmin": "Miễn phí",
+        "zerotier": "Tối đa 10 thiết bị",
+        "tailscale": "Tối đa 6 người dùng",
+        "playit": "Miễn phí, có gói nâng cấp trả phí"
+      },
+      {
+        "label": "Nền tảng",
+        "porthole": "Windows, Linux / SteamOS",
+        "hamachi": "Windows, macOS, Linux",
+        "radmin": "Windows",
+        "zerotier": "Mọi nền tảng phổ biến",
+        "tailscale": "Mọi nền tảng phổ biến",
+        "playit": "Windows, macOS, Linux"
+      },
+      {
+        "label": "Mã nguồn mở",
+        "porthole": "Đang lên kế hoạch",
+        "hamachi": "Không",
+        "radmin": "Không",
+        "zerotier": "Có",
+        "tailscale": "Chỉ phần client",
+        "playit": "Chỉ phần client"
+      }
+    ],
+    "footnote": "Bảng so sánh dựa trên thông tin công khai của từng sản phẩm tính đến năm 2026. Gói miễn phí và tính năng có thể thay đổi, nên hãy kiểm tra lại từng sản phẩm để có thông tin mới nhất. Hamachi, Radmin, ZeroTier, Tailscale và playit.gg là thương hiệu của các chủ sở hữu tương ứng và không liên kết với Porthole."
+  },
+  "faq": {
+    "heading": "Giải đáp thắc mắc",
+    "items": [
+      {
+        "q": "Porthole có phải VPN không?",
+        "a": "Không. VPN gộp cả máy vào chung một mạng. Còn Porthole chỉ tạo đường hầm cho từng cổng riêng lẻ mà bạn chọn chia sẻ, và người vào phải duyệt từng cổng trước khi nó mở trên máy họ."
+      },
+      {
+        "q": "Đây có phải giải pháp thay thế Hamachi hay Radmin không?",
+        "a": "Đúng vậy, dù nó hoạt động giống một proxy hơn là VPN. Nó giải quyết cùng một vấn đề như Hamachi, Radmin, ZeroTier hay Tailscale, là chơi với bạn bè ở xa như đang chung mạng LAN, nhưng thay vì đặt cả máy bạn lên một mạng ảo, nó chỉ proxy đúng những cổng bạn chọn, ngay trên mạng của Steam."
+      },
+      {
+        "q": "Tôi có cần mở cổng hay có IP tĩnh không?",
+        "a": "Không. Porthole giúp bạn mở cổng mà chẳng cần đụng vào router. Nó chạy ngon sau NAT và CGNAT, khỏi cần IP tĩnh và khỏi phải cấu hình router."
+      },
+      {
+        "q": "Tôi có chơi được game LAN qua internet với nó không?",
+        "a": "Có, với những game có host hoặc listen server. Bạn của bạn chạm tới cổng được chia sẻ ngay trên máy của chính họ, tại 127.0.0.1 theo mặc định hoặc một địa chỉ nội bộ khác bạn đặt, thường là qua Direct Connect của game. Porthole chuyển tiếp những cổng bạn chọn, chứ không phát lại tín hiệu dò tìm LAN, nên hãy dùng Direct Connect thay vì trình duyệt LAN."
+      },
+      {
+        "q": "Bạn bè tôi có cần cài Porthole không?",
+        "a": "Có, và nó miễn phí. Chỉ cần một mã chia sẻ là vào được, chẳng phải thiết lập gì."
+      },
+      {
+        "q": "Người tôi chia sẻ có thấy được mạng hay tệp của tôi không?",
+        "a": "Không. Người vào chỉ chạm được tới những cổng bạn đã mời và họ đã đồng ý, ngoài ra không gì khác. Bạn có thể kick hoặc ban bất cứ ai, bất cứ lúc nào."
+      },
+      {
+        "q": "Còn độ trễ thì sao?",
+        "a": "Porthole chạy trên hạ tầng mạng của Steam, chính là hạ tầng mà các game nhiều người chơi của Valve đang dùng. Nó định tuyến từng kết nối qua một kết nối ngang hàng trực tiếp hoặc qua relay của Valve, và relay thường nhanh ngang hoặc còn nhanh hơn vì nó đi qua đường trục của Valve."
+      },
+      {
+        "q": "Có thật sự miễn phí không?",
+        "a": "Đúng vậy, hoàn toàn miễn phí."
+      },
+      {
+        "q": "Hỗ trợ những nền tảng nào?",
+        "a": "Windows và Linux, kể cả SteamOS trên Steam Deck và Steam Machine. Client Steam cần đang chạy và đã đăng nhập."
+      }
+    ]
+  },
+  "steam": {
+    "heading": "Thêm Porthole vào yêu thích",
+    "body": "Porthole ra mắt trên Steam dưới dạng ứng dụng miễn phí. Thêm nó vào danh sách yêu thích để biết ngay khoảnh khắc nó lên kệ."
+  },
+  "cta": {
+    "heading": "Chọn cổng, chia sẻ mã, rồi chơi thôi",
+    "body": "Thêm Porthole vào yêu thích trên Steam để được báo ngay khi ra mắt. Hoàn toàn miễn phí.",
+    "primary": "Thêm vào yêu thích trên Steam",
+    "secondary": "Theo dõi trên GitHub"
+  },
+  "security": {
+    "title": "Quyền riêng tư và bảo mật",
+    "intro": "Porthole là một tiện ích mạng, nên đây là chính xác những gì nó đụng tới. Nó chỉ chia sẻ đúng những cổng bạn chọn, không phơi ra internet công cộng thứ gì, và chạy ngay trên chính mạng của Steam.",
+    "sections": [
+      {
+        "heading": "Dữ liệu nào đi qua Porthole",
+        "body": "Porthole chỉ chuyển tiếp những byte thô của đúng các cổng bạn chia sẻ, ngoài ra không gì khác. Nó không đọc hay lưu dữ liệu đó, và không bao giờ chạm tới tệp của bạn, các cổng khác của bạn, hay phần còn lại của mạng nhà bạn.",
+        "bullets": [
+          "Chỉ những cổng TCP hoặc UDP mà bạn chia sẻ.",
+          "Chỉ với những người bạn mời, và chỉ cho tới khi bạn gỡ họ ra.",
+          "Không tệp, không ổ đĩa, không dịch vụ nào khác trên máy bạn."
+        ]
+      },
+      {
+        "heading": "Chỉ đúng những cổng bạn chọn",
+        "body": "VPN đặt cả máy bạn lên một mạng dùng chung. Porthole làm điều ngược lại: mỗi cổng được mời từng cái một, và chỉ mở trên máy người vào sau khi họ duyệt. Bạn có thể đổi cổng, từ chối một cổng, hoặc kick và ban một người vào bất cứ lúc nào.",
+        "bullets": []
+      },
+      {
+        "heading": "Mã hóa: relay hay trực tiếp",
+        "body": "Porthole chạy trên hạ tầng mạng của Steam, gọi là Steam Datagram Relay (SDR), chính là hệ thống mà các game nhiều người chơi của Valve đang dùng. Mọi kết nối đều được mã hóa và gắn với một tài khoản Steam thật, rồi Steam định tuyến theo một trong hai cách:",
+        "bullets": [
+          "Qua relay của Valve: theo chính lời Valve, mọi dữ liệu bạn nhận đều được xác thực, mã hóa và giới hạn tốc độ, còn địa chỉ IP của bạn thì không bao giờ bị lộ. Nó đi trên đường trục của Valve, nên thường nhanh ngang một kết nối trực tiếp, đôi khi còn nhanh hơn.",
+          "Ngang hàng trực tiếp: bớt được một chặng, có thể giúp giảm độ trễ nhưng không phải lúc nào cũng vậy, và bạn với bạn của mình phải trao đổi địa chỉ IP để kết nối, nên IP của bạn không được giấu khỏi họ.",
+          "Steam tự chọn đường nhanh hơn cho từng kết nối, và nhờ đường trục của Valve nên đó thường là relay. Nếu bạn muốn luôn đi qua relay để giữ kín IP, bạn có thể ép dùng relay trong cài đặt của Porthole hoặc trong cài đặt mạng của chính Steam."
+        ]
+      },
+      {
+        "heading": "Bạn luôn nắm quyền kiểm soát",
+        "body": "Lobby có thể đặt mật khẩu bảo vệ. Bạn chọn ai được vào và mỗi người vào nhận được những cổng nào, và bạn có thể kick hoặc ban bất cứ ai. Đóng Porthole là mọi cổng đã chia sẻ đóng theo.",
+        "bullets": []
+      },
+      {
+        "heading": "Mã nguồn mở sắp tới",
+        "body": "Porthole đang được chuẩn bị để phát hành công khai dưới dạng mã nguồn mở, để ai cũng đọc được chính xác cách nó hoạt động. Hãy theo dõi kho mã trên GitHub.",
+        "bullets": []
+      }
+    ],
+    "cta": "Theo dõi trên GitHub",
+    "backHome": "Về trang chủ"
+  },
+  "footer": {
+    "tagline": "Chia sẻ cổng nội bộ dễ như trở bàn tay.",
+    "links": {
+      "security": "Quyền riêng tư và bảo mật",
+      "steam": "Trang Steam",
+      "github": "GitHub",
+      "studio": "SeStudio"
+    },
+    "copyright": "© SeStudio",
+    "disclaimer": "Steam và Valve là thương hiệu của Valve Corporation. Hamachi, Radmin, ZeroTier, Tailscale và playit.gg là thương hiệu của các chủ sở hữu tương ứng và không liên kết với Porthole."
+  },
+  "misc": {
+    "changeLanguage": "Đổi ngôn ngữ"
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "nav": {
+    "how": "작동 방식",
+    "compare": "비교",
+    "faq": "자주 묻는 질문",
+    "security": "보안",
+    "wishlist": "위시리스트",
+    "github": "GitHub"
+  },
+  "meta": {
+    "homeTitle": "Porthole - Steam으로 친구와 함께 LAN 게임과 자체 호스팅 게임 즐기기",
+    "homeDescription": "Porthole은 여러분이 고른 포트를 Steam 친구에게 전달하는 프록시로, 친구는 같은 LAN에 있는 것처럼 접속합니다. 포트 포워딩도, 공인 IP도, 공유기 설정도 필요 없습니다. 멀리 있는 친구와 함께 LAN 게임과 자체 호스팅 게임을 즐기세요. Steam을 기반으로 한 Hamachi와 Radmin 대안입니다.",
+    "securityTitle": "개인정보 및 보안 - Porthole",
+    "securityDescription": "Porthole을 거치는 데이터, 선택한 포트만 공유하는 이유, 그리고 Steam Datagram Relay가 모든 연결을 암호화하는 방식을 알아보세요.",
+    "ogAlt": "Porthole - Steam으로 로컬 포트 공유"
+  },
+  "hero": {
+    "badge": "Steam에 곧 출시",
+    "title": "LAN 게임도 자체 호스팅 게임도",
+    "titleAccent": "어디서든 친구와 함께",
+    "sub": "Porthole은 여러분이 고른 포트를 Steam 친구에게 전달하는 프록시로, 친구는 마치 같은 LAN에 있는 것처럼 접속합니다. 포트 포워딩도, 공인 IP도, 공유기 설정도 필요 없습니다. Steam을 기반으로 한 Hamachi와 Radmin 대안입니다.",
+    "points": [
+      "포트 포워딩 불필요",
+      "공인 IP 불필요",
+      "선택한 포트만 공유"
+    ],
+    "ctaPrimary": "Steam에서 위시리스트 담기",
+    "ctaSecondary": "작동 방식 보기",
+    "note": "무료. NAT와 CGNAT 환경에서도 동작. Windows와 Linux / SteamOS 지원."
+  },
+  "demo": {
+    "heading": "공유 코드 하나면 친구가 바로 참가",
+    "body": "로비를 만들고, 공유할 포트를 고른 뒤, 코드를 보내세요. 친구가 각 포트를 승인하면 자기 컴퓨터에서 포트가 열립니다. 이게 전부입니다.",
+    "caption": "Porthole이 게임 서버를 호스팅하고, 친구가 Steam으로 참가하는 모습."
+  },
+  "how": {
+    "heading": "게임 트래픽을 Steam으로 터널링",
+    "body": "Porthole은 여러분을 공개 주소에 노출하지 않습니다. 공유한 바로 그 포트의 데이터만 Steam 자체 네트워크를 통해, 초대한 친구에게 곧장 전달합니다.",
+    "steps": [
+      {
+        "title": "로비 만들기",
+        "body": "Porthole을 열어 로비를 시작하세요. 짧은 공유 코드가 생성됩니다."
+      },
+      {
+        "title": "포트 고르기",
+        "body": "공유할 TCP 또는 UDP 포트를 고르거나, 실행 중인 게임에서 자동으로 찾으세요."
+      },
+      {
+        "title": "친구 초대하기",
+        "body": "공유 코드를 보내거나 Steam 친구 목록에서 바로 초대하세요."
+      },
+      {
+        "title": "친구가 승인",
+        "body": "친구는 원하는 포트를 각각 승인합니다. 승인하기 전에는 친구 컴퓨터에서 아무것도 열리지 않습니다."
+      },
+      {
+        "title": "함께 플레이",
+        "body": "트래픽은 Steam을 통해 전달됩니다. 친구는 각자 자기 컴퓨터에서, 마치 서버가 같은 LAN에 있는 것처럼 접속합니다."
+      }
+    ],
+    "diagram": {
+      "hostTitle": "나 (호스트)",
+      "hostGame": "게임 서버",
+      "guestTitle": "친구 (게스트)",
+      "guestGame": "친구의 게임",
+      "network": "Steam 네트워크",
+      "flow": "공유한 포트만",
+      "caption": "공개 인터넷에는 아무것도 노출되지 않습니다. 트래픽은 나와 초대한 친구 사이에서만 오갑니다."
+    }
+  },
+  "features": {
+    "heading": "제대로 된 게임 호스팅을 위해 만들었습니다",
+    "items": [
+      {
+        "title": "선택한 포트만 공유",
+        "body": "컴퓨터 전체가 아니라 TCP 또는 UDP 포트 하나만 공유합니다. 완전한 VPN이 아니라 네트워크 도구입니다."
+      },
+      {
+        "title": "포트 포워딩 불필요",
+        "body": "공유기 없이 포트 포워딩 효과를 누리세요. NAT와 CGNAT 환경에서도 동작하며, 공인 IP도 공유기 설정도 필요 없습니다."
+      },
+      {
+        "title": "포트 자동 탐지",
+        "body": "실행 중인 게임을 Porthole에 연결하면 열려 있는 포트를 알아서 찾아냅니다. 직접 확인할 필요가 없습니다."
+      },
+      {
+        "title": "코드 또는 친구 목록으로 참가",
+        "body": "친구는 짧은 공유 코드나 Steam 친구 목록에서 바로 참가합니다."
+      },
+      {
+        "title": "포트별 승인",
+        "body": "게스트는 각 포트가 자기 컴퓨터에서 열리기 전에 하나씩 승인합니다. 언제든 누구든 강퇴하거나 차단할 수 있습니다."
+      },
+      {
+        "title": "직접 P2P 또는 Valve 릴레이",
+        "body": "Steam이 각 연결마다 가장 빠른 경로를 골라, 직접 P2P 연결이나 Valve 릴레이로 이어 줍니다."
+      },
+      {
+        "title": "TCP와 UDP 지원",
+        "body": "둘 다 지원하므로 전용 서버든 UDP 게임이든 문제없이 돌아갑니다."
+      },
+      {
+        "title": "네이티브 앱과 CLI",
+        "body": "Windows와 Linux / SteamOS용 깔끔한 트레이 앱에, 스크립트로 다룰 수 있는 명령줄까지 제공합니다."
+      }
+    ]
+  },
+  "usecases": {
+    "heading": "사람들은 Porthole을 이렇게 씁니다",
+    "items": [
+      {
+        "title": "친구를 위한 서버 호스팅",
+        "body": "Minecraft 월드나 전용 게임 서버를 돌리고, 공유기를 건드리지 않고 친구를 초대하세요."
+      },
+      {
+        "title": "LAN 게임을 인터넷 너머에서",
+        "body": "로컬 멀티플레이나 LAN 전용 게임을, 멀리 사는 친구가 자기 컴퓨터에서 Direct Connect로 접속해 함께 즐기게 하세요."
+      },
+      {
+        "title": "모든 로컬 서비스 공유",
+        "body": "그 밖의 어떤 로컬 TCP 또는 UDP 서비스든, 믿을 수 있는 사람에게만 열어 줄 수 있습니다."
+      }
+    ]
+  },
+  "compare": {
+    "heading": "Porthole vs Hamachi, Radmin, ZeroTier, Tailscale",
+    "body": "멀리 있는 친구와 게임하려고 가상 LAN이나 터널을 써 봤다면, Porthole이 어떻게 다른지 확인해 보세요.",
+    "columns": {
+      "porthole": "Porthole",
+      "hamachi": "Hamachi",
+      "radmin": "Radmin VPN",
+      "zerotier": "ZeroTier",
+      "tailscale": "Tailscale",
+      "playit": "playit.gg"
+    },
+    "rows": [
+      {
+        "label": "공유하는 대상",
+        "porthole": "선택한 포트만",
+        "hamachi": "컴퓨터 전체 (가상 LAN)",
+        "radmin": "컴퓨터 전체 (가상 LAN)",
+        "zerotier": "컴퓨터 전체 (가상 LAN)",
+        "tailscale": "컴퓨터 전체 (메시 VPN)",
+        "playit": "공개 인터넷 주소"
+      },
+      {
+        "label": "접근할 수 있는 사람",
+        "porthole": "초대한 친구, 포트별로",
+        "hamachi": "네트워크에 있는 누구나",
+        "radmin": "네트워크에 있는 누구나",
+        "zerotier": "네트워크에 있는 누구나",
+        "tailscale": "네트워크에 있는 누구나",
+        "playit": "주소를 아는 누구나"
+      },
+      {
+        "label": "공인 IP 또는 개방 포트",
+        "porthole": "불필요",
+        "hamachi": "불필요",
+        "radmin": "불필요",
+        "zerotier": "불필요",
+        "tailscale": "불필요",
+        "playit": "필요"
+      },
+      {
+        "label": "계정",
+        "porthole": "Steam 계정",
+        "hamachi": "LogMeIn 계정",
+        "radmin": "Radmin 계정",
+        "zerotier": "ZeroTier 계정",
+        "tailscale": "Tailscale 계정",
+        "playit": "playit 계정"
+      },
+      {
+        "label": "무료 플랜",
+        "porthole": "무료, 인원 제한 없음",
+        "hamachi": "최대 5대",
+        "radmin": "무료",
+        "zerotier": "최대 10대",
+        "tailscale": "최대 6명",
+        "playit": "무료, 유료 업그레이드"
+      },
+      {
+        "label": "지원 플랫폼",
+        "porthole": "Windows, Linux / SteamOS",
+        "hamachi": "Windows, macOS, Linux",
+        "radmin": "Windows",
+        "zerotier": "주요 플랫폼 전부",
+        "tailscale": "주요 플랫폼 전부",
+        "playit": "Windows, macOS, Linux"
+      },
+      {
+        "label": "오픈 소스",
+        "porthole": "예정",
+        "hamachi": "아니요",
+        "radmin": "아니요",
+        "zerotier": "예",
+        "tailscale": "클라이언트만",
+        "playit": "클라이언트만"
+      }
+    ],
+    "footnote": "이 비교는 2026년 기준 각 제품의 공개 정보를 바탕으로 합니다. 무료 플랜과 기능은 바뀔 수 있으니 최신 내용은 각 제품에서 확인하세요. Hamachi, Radmin, ZeroTier, Tailscale, playit.gg는 각 소유자의 상표이며 Porthole과는 무관합니다."
+  },
+  "faq": {
+    "heading": "궁금한 점을 정리했습니다",
+    "items": [
+      {
+        "q": "Porthole은 VPN인가요?",
+        "a": "아닙니다. VPN은 컴퓨터 전체를 하나의 네트워크로 묶습니다. Porthole은 공유하기로 고른 개별 포트만 터널링하며, 각 포트는 게스트 컴퓨터에서 열리기 전에 게스트가 승인합니다."
+      },
+      {
+        "q": "Hamachi나 Radmin의 대안인가요?",
+        "a": "네, 다만 VPN보다는 프록시에 가깝게 동작합니다. Hamachi, Radmin, ZeroTier, Tailscale과 똑같은 문제, 즉 멀리 있는 친구와 같은 LAN에 있는 것처럼 게임하는 문제를 해결하지만, 컴퓨터 전체를 가상 네트워크에 올리는 대신 선택한 포트만 Steam 네트워크로 프록시합니다."
+      },
+      {
+        "q": "포트 포워딩이나 공인 IP가 필요한가요?",
+        "a": "아니요. Porthole은 공유기 없이 포트 포워딩 효과를 냅니다. NAT와 CGNAT 환경에서도 동작하며, 공인 IP도 공유기 설정도 필요 없습니다."
+      },
+      {
+        "q": "이걸로 LAN 게임을 인터넷 너머에서 즐길 수 있나요?",
+        "a": "네, 호스트나 리슨 서버가 있는 게임이라면 가능합니다. 친구는 공유된 포트에 자기 컴퓨터에서 접속하는데, 기본값은 127.0.0.1이고 직접 지정한 다른 로컬 주소일 수도 있으며, 보통 게임의 Direct Connect로 연결합니다. Porthole은 선택한 포트를 전달할 뿐 LAN 검색 신호를 다시 뿌리지는 않으므로, LAN 목록 대신 Direct Connect를 사용하세요."
+      },
+      {
+        "q": "친구도 Porthole이 필요한가요?",
+        "a": "네, 그리고 무료입니다. 공유 코드 하나면 참가할 수 있고, 따로 설정할 것도 없습니다."
+      },
+      {
+        "q": "내가 공유한 상대가 내 네트워크나 파일을 볼 수 있나요?",
+        "a": "아니요. 게스트는 내가 열어 주고 상대가 수락한 포트에만 접근할 수 있고, 그 외에는 아무것도 볼 수 없습니다. 언제든 누구든 강퇴하거나 차단할 수 있습니다."
+      },
+      {
+        "q": "지연 시간은 어떤가요?",
+        "a": "Porthole은 Valve 자사 멀티플레이 게임이 쓰는 것과 같은 인프라인 Steam 네트워크 위에서 동작합니다. 각 연결을 직접 P2P 링크나 Valve 릴레이로 이어 주는데, 릴레이는 Valve 백본을 지나기 때문에 같거나 더 빠른 경우가 많습니다."
+      },
+      {
+        "q": "정말 무료인가요?",
+        "a": "네, 완전히 무료입니다."
+      },
+      {
+        "q": "어떤 플랫폼을 지원하나요?",
+        "a": "Windows와 Linux를 지원하며, Steam Deck과 Steam Machine의 SteamOS도 포함됩니다. Steam 클라이언트가 실행 중이고 로그인되어 있어야 합니다."
+      }
+    ]
+  },
+  "steam": {
+    "heading": "Porthole 위시리스트에 담기",
+    "body": "Porthole은 무료 앱으로 Steam에 출시됩니다. 위시리스트에 담아 두면 출시되는 순간 알림을 받을 수 있습니다."
+  },
+  "cta": {
+    "heading": "포트를 고르고, 코드를 공유하고, 함께 플레이하세요",
+    "body": "Steam에서 Porthole을 위시리스트에 담고 출시 알림을 받으세요. 완전히 무료입니다.",
+    "primary": "Steam에서 위시리스트 담기",
+    "secondary": "GitHub에서 팔로우"
+  },
+  "security": {
+    "title": "개인정보 및 보안",
+    "intro": "Porthole은 네트워크 도구이므로, 정확히 무엇에 관여하는지 짚어 드립니다. 선택한 포트만 공유하고, 공개 인터넷에는 아무것도 올리지 않으며, Steam 자체 네트워크 위에서 동작합니다.",
+    "sections": [
+      {
+        "heading": "Porthole을 거치는 것",
+        "body": "Porthole은 공유한 포트의 원본 데이터만 전달하고, 그 외에는 아무것도 다루지 않습니다. 그 트래픽을 읽거나 저장하지 않으며, 여러분의 파일이나 다른 포트, 나머지 네트워크에는 전혀 손대지 않습니다.",
+        "bullets": [
+          "공유한 TCP 또는 UDP 포트만.",
+          "초대한 친구에게만, 그리고 내보내기 전까지만.",
+          "파일도, 드라이브도, 컴퓨터의 다른 서비스도 건드리지 않습니다."
+        ]
+      },
+      {
+        "heading": "선택한 포트만",
+        "body": "VPN은 컴퓨터 전체를 공유 네트워크에 올립니다. Porthole은 그 반대입니다. 각 포트는 하나씩 제안되며, 게스트가 승인해야만 그 컴퓨터에서 열립니다. 포트를 다시 지정하거나 거부할 수 있고, 언제든 게스트를 강퇴하거나 차단할 수 있습니다.",
+        "bullets": []
+      },
+      {
+        "heading": "암호화: 릴레이 또는 직접 연결",
+        "body": "Porthole은 Steam Datagram Relay(SDR)라고 불리는 Steam 네트워크 위에서 동작하며, 이는 Valve 자사 멀티플레이 게임이 쓰는 것과 같은 시스템입니다. 모든 연결은 암호화되어 실제 Steam 계정에 묶이며, Steam은 두 가지 방식 중 하나로 트래픽을 전달합니다:",
+        "bullets": [
+          "Valve 릴레이 경유: Valve의 설명에 따르면, 수신하는 모든 트래픽은 인증되고 암호화되며 전송량이 제한되고, IP 주소는 절대 노출되지 않습니다. Valve 백본을 지나기 때문에 직접 연결만큼 빠른 경우가 많고, 때로는 더 빠릅니다.",
+          "직접 P2P: 경유 지점이 하나 줄어 지연 시간에 도움이 될 수 있지만 항상 그렇지는 않으며, 연결을 위해 나와 친구가 서로 IP 주소를 주고받으므로 서로에게는 IP가 숨겨지지 않습니다.",
+          "Steam은 각 연결마다 더 빠른 경로를 자동으로 고르며, Valve 백본 덕분에 그 경로가 릴레이인 경우가 많습니다. 항상 릴레이만 쓰면서 IP를 비공개로 유지하고 싶다면, Porthole 설정이나 Steam 네트워크 설정에서 릴레이를 강제할 수 있습니다."
+        ]
+      },
+      {
+        "heading": "주도권은 언제나 나에게",
+        "body": "로비는 비밀번호로 보호할 수 있습니다. 누가 참가할지, 각 게스트에게 어떤 포트를 줄지 직접 정하고, 누구든 강퇴하거나 차단할 수 있습니다. Porthole을 닫으면 공유된 포트도 모두 함께 닫힙니다.",
+        "bullets": []
+      },
+      {
+        "heading": "오픈 소스가 준비 중입니다",
+        "body": "Porthole은 오픈 소스로 공개 출시를 준비하고 있어, 누구나 그 작동 방식을 그대로 들여다볼 수 있게 됩니다. GitHub에서 저장소를 팔로우하세요.",
+        "bullets": []
+      }
+    ],
+    "cta": "GitHub에서 팔로우",
+    "backHome": "홈으로 돌아가기"
+  },
+  "footer": {
+    "tagline": "로컬 포트 공유를 간편하게.",
+    "links": {
+      "security": "개인정보 및 보안",
+      "steam": "Steam 페이지",
+      "github": "GitHub",
+      "studio": "SeStudio"
+    },
+    "copyright": "© SeStudio",
+    "disclaimer": "Steam과 Valve는 Valve Corporation의 상표입니다. Hamachi, Radmin, ZeroTier, Tailscale, playit.gg는 각 소유자의 상표이며 Porthole과는 무관합니다."
+  },
+  "misc": {
+    "changeLanguage": "언어 변경"
+  }
+}

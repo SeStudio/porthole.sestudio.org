@@ -1,0 +1,309 @@
+{
+  "nav": {
+    "how": "Fonctionnement",
+    "compare": "Comparatif",
+    "faq": "FAQ",
+    "security": "Sécurité",
+    "wishlist": "Liste de souhaits",
+    "github": "GitHub"
+  },
+  "meta": {
+    "homeTitle": "Porthole - jouez à vos jeux en réseau local et auto-hébergés avec vos amis via Steam",
+    "homeDescription": "Porthole est un proxy qui transfère un port de votre choix à vos amis Steam, pour qu'ils se connectent comme s'ils étaient sur votre réseau local. Sans redirection de ports, sans IP publique, sans configurer le routeur. Jouez à vos jeux en réseau local ou auto-hébergés avec des amis à distance. Une alternative à Hamachi et Radmin, propulsée par Steam.",
+    "securityTitle": "Confidentialité et sécurité - Porthole",
+    "securityDescription": "Quelles données transitent par Porthole, pourquoi il ne partage que les ports que vous choisissez et comment Steam Datagram Relay chiffre chaque connexion.",
+    "ogAlt": "Porthole - partage de ports locaux via Steam"
+  },
+  "hero": {
+    "badge": "Bientôt sur Steam",
+    "title": "Jouez à vos jeux en réseau local et auto-hébergés avec",
+    "titleAccent": "des amis, où qu'ils soient",
+    "sub": "Porthole est un proxy qui transfère un port de votre choix à vos amis Steam, pour qu'ils se connectent comme s'ils étaient sur votre réseau local. Sans redirection de ports, sans IP publique, sans configurer le routeur. Une alternative à Hamachi et Radmin, propulsée par Steam.",
+    "points": [
+      "Sans redirection de ports",
+      "Sans IP publique",
+      "Uniquement les ports que vous choisissez"
+    ],
+    "ctaPrimary": "Ajouter à la liste de souhaits Steam",
+    "ctaSecondary": "Voir le fonctionnement",
+    "note": "Gratuit. Fonctionne derrière un NAT et un CGNAT. Windows et Linux / SteamOS."
+  },
+  "demo": {
+    "heading": "Un code de partage, et votre ami est de la partie",
+    "body": "Créez un salon, choisissez les ports à partager et envoyez un code. Votre ami approuve chaque port et il s'ouvre sur sa machine. C'est aussi simple que ça.",
+    "caption": "Porthole héberge un serveur de jeu pendant qu'un ami le rejoint via Steam."
+  },
+  "how": {
+    "heading": "Le trafic de votre jeu, acheminé via Steam",
+    "body": "Porthole ne vous place jamais sur une adresse publique. Il transporte le trafic des ports précis que vous partagez sur le réseau de Steam, directement vers les amis que vous invitez.",
+    "steps": [
+      {
+        "title": "Créez un salon",
+        "body": "Ouvrez Porthole et lancez un salon. Vous obtenez un court code de partage."
+      },
+      {
+        "title": "Choisissez vos ports",
+        "body": "Sélectionnez les ports TCP ou UDP à partager, ou laissez Porthole les détecter depuis un jeu en cours."
+      },
+      {
+        "title": "Invitez vos amis",
+        "body": "Envoyez le code de partage ou invitez directement depuis votre liste d'amis Steam."
+      },
+      {
+        "title": "Ils approuvent",
+        "body": "Chaque ami approuve les ports qu'il veut. Rien ne s'ouvre sur sa machine tant qu'il n'a pas dit oui."
+      },
+      {
+        "title": "Jouez ensemble",
+        "body": "Le trafic passe par Steam. Chaque ami se connecte sur sa propre machine, comme si le serveur était sur son réseau local."
+      }
+    ],
+    "diagram": {
+      "hostTitle": "Vous (hôte)",
+      "hostGame": "Serveur de jeu",
+      "guestTitle": "Ami (invité)",
+      "guestGame": "Son jeu",
+      "network": "Réseau de Steam",
+      "flow": "Uniquement les ports que vous partagez",
+      "caption": "Rien n'est exposé sur l'internet public. Le trafic circule uniquement entre vous et les amis que vous invitez."
+    }
+  },
+  "features": {
+    "heading": "Conçu pour héberger de vrais serveurs de jeu",
+    "items": [
+      {
+        "title": "Uniquement les ports que vous choisissez",
+        "body": "Partagez un seul port TCP ou UDP, pas toute votre machine. C'est un utilitaire réseau, pas un vrai VPN."
+      },
+      {
+        "title": "Sans redirection de ports",
+        "body": "La redirection de ports, sans routeur. Fonctionne derrière un NAT et un CGNAT, sans IP publique ni configuration du routeur."
+      },
+      {
+        "title": "Détection automatique des ports",
+        "body": "Pointez Porthole vers un jeu en cours et il repère les ports sur lesquels il écoute. Aucune recherche manuelle."
+      },
+      {
+        "title": "Rejoindre par code ou liste d'amis",
+        "body": "Vos amis vous rejoignent avec un court code de partage ou directement depuis votre liste d'amis Steam."
+      },
+      {
+        "title": "Approbation port par port",
+        "body": "Les invités approuvent chaque port avant qu'il ne s'ouvre sur leur machine. Expulsez ou bannissez qui vous voulez, à tout moment."
+      },
+      {
+        "title": "P2P direct ou relais de Valve",
+        "body": "Steam choisit le chemin le plus rapide pour chaque connexion, une liaison directe en pair à pair ou le relais de Valve."
+      },
+      {
+        "title": "TCP et UDP",
+        "body": "Compatible avec les deux, aussi bien pour les serveurs dédiés que pour les jeux en UDP."
+      },
+      {
+        "title": "Application native et CLI",
+        "body": "Une application soignée logée dans la zone de notification pour Windows et Linux / SteamOS, plus une ligne de commande scriptable."
+      }
+    ]
+  },
+  "usecases": {
+    "heading": "Ce que les gens font avec Porthole",
+    "items": [
+      {
+        "title": "Héberger un serveur pour vos amis",
+        "body": "Lancez un monde Minecraft ou un serveur de jeu dédié et laissez entrer vos amis sans toucher au routeur."
+      },
+      {
+        "title": "Jouer en réseau local par internet",
+        "body": "Faites profiter vos amis à l'autre bout du pays de vos jeux en multijoueur local ou réservés au réseau local, grâce à un Direct Connect vers leur propre machine."
+      },
+      {
+        "title": "Partager n'importe quel service local",
+        "body": "Exposez n'importe quel autre service TCP ou UDP local aux personnes de confiance, et à elles seules."
+      }
+    ]
+  },
+  "compare": {
+    "heading": "Porthole face à Hamachi, Radmin, ZeroTier et Tailscale",
+    "body": "Si vous avez déjà utilisé un réseau local virtuel ou un tunnel pour jouer avec des amis à distance, voici en quoi Porthole se démarque.",
+    "columns": {
+      "porthole": "Porthole",
+      "hamachi": "Hamachi",
+      "radmin": "Radmin VPN",
+      "zerotier": "ZeroTier",
+      "tailscale": "Tailscale",
+      "playit": "playit.gg"
+    },
+    "rows": [
+      {
+        "label": "Ce qu'il partage",
+        "porthole": "Uniquement les ports que vous choisissez",
+        "hamachi": "Toute la machine (réseau local virtuel)",
+        "radmin": "Toute la machine (réseau local virtuel)",
+        "zerotier": "Toute la machine (réseau local virtuel)",
+        "tailscale": "Toute la machine (VPN maillé)",
+        "playit": "Une adresse publique sur internet"
+      },
+      {
+        "label": "Qui peut y accéder",
+        "porthole": "Les amis que vous invitez, port par port",
+        "hamachi": "Tout le monde sur le réseau",
+        "radmin": "Tout le monde sur le réseau",
+        "zerotier": "Tout le monde sur le réseau",
+        "tailscale": "Tout le monde sur le réseau",
+        "playit": "Quiconque a l'adresse"
+      },
+      {
+        "label": "IP publique ou port ouvert",
+        "porthole": "Aucun",
+        "hamachi": "Aucun",
+        "radmin": "Aucun",
+        "zerotier": "Aucun",
+        "tailscale": "Aucun",
+        "playit": "Oui"
+      },
+      {
+        "label": "Compte",
+        "porthole": "Votre compte Steam",
+        "hamachi": "Compte LogMeIn",
+        "radmin": "Compte Radmin",
+        "zerotier": "Compte ZeroTier",
+        "tailscale": "Compte Tailscale",
+        "playit": "Compte playit"
+      },
+      {
+        "label": "Offre gratuite",
+        "porthole": "Gratuit, sans limite de pairs",
+        "hamachi": "Jusqu'à 5 appareils",
+        "radmin": "Gratuit",
+        "zerotier": "Jusqu'à 10 appareils",
+        "tailscale": "Jusqu'à 6 utilisateurs",
+        "playit": "Gratuit, options payantes"
+      },
+      {
+        "label": "Plateformes",
+        "porthole": "Windows, Linux / SteamOS",
+        "hamachi": "Windows, macOS, Linux",
+        "radmin": "Windows",
+        "zerotier": "Toutes les grandes plateformes",
+        "tailscale": "Toutes les grandes plateformes",
+        "playit": "Windows, macOS, Linux"
+      },
+      {
+        "label": "Open source",
+        "porthole": "Prévu",
+        "hamachi": "Non",
+        "radmin": "Non",
+        "zerotier": "Oui",
+        "tailscale": "Client uniquement",
+        "playit": "Client uniquement"
+      }
+    ],
+    "footnote": "Comparatif fondé sur les informations publiques de chaque produit en 2026. Les offres gratuites et les fonctionnalités évoluent, alors vérifiez les détails à jour auprès de chaque produit. Hamachi, Radmin, ZeroTier, Tailscale et playit.gg sont des marques de leurs propriétaires respectifs et ne sont pas affiliés à Porthole."
+  },
+  "faq": {
+    "heading": "Vos questions, nos réponses",
+    "items": [
+      {
+        "q": "Porthole est-il un VPN ?",
+        "a": "Non. Un VPN réunit des machines entières au sein d'un même réseau. Porthole ne fait transiter que les ports que vous choisissez de partager, et chaque invité approuve chaque port avant qu'il ne s'ouvre sur sa machine."
+      },
+      {
+        "q": "Est-ce une alternative à Hamachi ou Radmin ?",
+        "a": "Oui, même s'il fonctionne davantage comme un proxy que comme un VPN. Il résout le même problème que Hamachi, Radmin, ZeroTier ou Tailscale, jouer avec des amis à distance comme si vous étiez sur un réseau local, mais au lieu de placer toute votre machine sur un réseau virtuel, il ne relaie que les ports que vous choisissez, via le réseau de Steam."
+      },
+      {
+        "q": "Ai-je besoin d'une redirection de ports ou d'une IP publique ?",
+        "a": "Non. Porthole vous offre la redirection de ports sans routeur. Il fonctionne derrière un NAT et un CGNAT, sans IP publique ni configuration du routeur."
+      },
+      {
+        "q": "Puis-je m'en servir pour jouer à des jeux en réseau local par internet ?",
+        "a": "Oui, pour les jeux dotés d'un serveur hôte ou d'écoute. Votre ami atteint le port partagé sur sa propre machine, sur 127.0.0.1 par défaut ou une autre adresse locale que vous définissez, en général via le Direct Connect du jeu. Porthole transfère les ports que vous choisissez, il ne rediffuse pas la découverte réseau local, alors passez par le Direct Connect plutôt que par la liste des parties en réseau local."
+      },
+      {
+        "q": "Mes amis ont-ils aussi besoin de Porthole ?",
+        "a": "Oui, et c'est gratuit. Pour rejoindre, un code de partage suffit, rien d'autre à configurer."
+      },
+      {
+        "q": "Les personnes avec qui je partage peuvent-elles voir mon réseau ou mes fichiers ?",
+        "a": "Non. Un invité n'atteint que les ports que vous avez proposés et qu'il a acceptés, rien de plus. Vous pouvez expulser ou bannir qui vous voulez, à tout moment."
+      },
+      {
+        "q": "Et la latence ?",
+        "a": "Porthole s'appuie sur le réseau de Steam, la même infrastructure que celle des jeux multijoueurs de Valve. Il achemine chaque connexion via une liaison directe en pair à pair ou le relais de Valve, et le relais est souvent aussi rapide, voire plus, car il passe par la dorsale de Valve."
+      },
+      {
+        "q": "Est-ce vraiment gratuit ?",
+        "a": "Oui, c'est entièrement gratuit."
+      },
+      {
+        "q": "Quelles plateformes sont prises en charge ?",
+        "a": "Windows et Linux, dont SteamOS sur le Steam Deck et la Steam Machine. Le client Steam doit être lancé et connecté."
+      }
+    ]
+  },
+  "steam": {
+    "heading": "Ajoutez Porthole à votre liste de souhaits",
+    "body": "Porthole sort sur Steam en tant qu'application gratuite. Ajoutez-le à votre liste de souhaits pour être prévenu dès sa sortie."
+  },
+  "cta": {
+    "heading": "Choisissez un port, partagez un code et jouez",
+    "body": "Ajoutez Porthole à votre liste de souhaits Steam pour être averti au lancement. C'est entièrement gratuit.",
+    "primary": "Ajouter à la liste de souhaits Steam",
+    "secondary": "Suivre sur GitHub"
+  },
+  "security": {
+    "title": "Confidentialité et sécurité",
+    "intro": "Porthole est un utilitaire réseau, alors voici exactement ce à quoi il touche. Il ne partage que les ports que vous choisissez, il n'expose rien sur l'internet public, et il s'appuie sur le réseau de Steam.",
+    "sections": [
+      {
+        "heading": "Quelles données transitent par Porthole",
+        "body": "Porthole transfère les octets bruts des ports que vous partagez, et rien d'autre. Il ne lit ni ne stocke ce trafic, et il ne touche jamais à vos fichiers, à vos autres ports ou au reste de votre réseau.",
+        "bullets": [
+          "Uniquement les ports TCP ou UDP que vous partagez.",
+          "Uniquement avec les amis que vous invitez, et seulement jusqu'à ce que vous les retiriez.",
+          "Aucun fichier, aucun disque, aucun autre service de votre machine."
+        ]
+      },
+      {
+        "heading": "Uniquement les ports que vous choisissez",
+        "body": "Un VPN place toute votre machine sur un réseau partagé. Porthole fait l'inverse : chaque port est proposé un à un et ne s'ouvre sur la machine d'un invité qu'après son approbation. Vous pouvez le réattribuer, le refuser, ou expulser et bannir un invité à tout moment.",
+        "bullets": []
+      },
+      {
+        "heading": "Chiffrement : relais ou direct",
+        "body": "Porthole s'appuie sur le réseau de Steam, appelé Steam Datagram Relay (SDR), le même système que celui des jeux multijoueurs de Valve. Chaque connexion est chiffrée et rattachée à un compte Steam réel, et Steam l'achemine de deux façons possibles :",
+        "bullets": [
+          "Via le relais de Valve : selon les propres termes de Valve, tout le trafic que vous recevez est authentifié, chiffré et limité en débit, et votre adresse IP n'est jamais révélée. Il emprunte la dorsale de Valve, il est donc souvent aussi rapide qu'une liaison directe, parfois plus.",
+          "Pair à pair direct : un saut de moins, ce qui peut aider la latence mais pas toujours, et vous et votre ami échangez vos adresses IP pour vous connecter, votre IP ne lui est donc pas cachée.",
+          "Steam choisit automatiquement la route la plus rapide pour chaque connexion, et grâce à la dorsale de Valve, c'est souvent le relais. Si vous préférez rester en permanence sur le relais et garder votre IP privée, vous pouvez forcer le relais dans les paramètres de Porthole ou dans les paramètres réseau de Steam."
+        ]
+      },
+      {
+        "heading": "Vous gardez le contrôle",
+        "body": "Les salons peuvent être protégés par mot de passe. Vous choisissez qui rejoint et quels ports reçoit chaque invité, et vous pouvez expulser ou bannir qui vous voulez. Fermez Porthole et tous les ports partagés se ferment avec lui.",
+        "bullets": []
+      },
+      {
+        "heading": "L'open source arrive",
+        "body": "Porthole est en préparation pour une sortie publique et open source, afin que chacun puisse voir exactement comment il fonctionne. Suivez le dépôt sur GitHub.",
+        "bullets": []
+      }
+    ],
+    "cta": "Suivre sur GitHub",
+    "backHome": "Retour à l'accueil"
+  },
+  "footer": {
+    "tagline": "Le partage de ports locaux en toute simplicité.",
+    "links": {
+      "security": "Confidentialité et sécurité",
+      "steam": "Page Steam",
+      "github": "GitHub",
+      "studio": "SeStudio"
+    },
+    "copyright": "© SeStudio",
+    "disclaimer": "Steam et Valve sont des marques de Valve Corporation. Hamachi, Radmin, ZeroTier, Tailscale et playit.gg sont des marques de leurs propriétaires respectifs et ne sont pas affiliés à Porthole."
+  },
+  "misc": {
+    "changeLanguage": "Changer de langue"
+  }
+}
