@@ -4,7 +4,7 @@
     "compare": "Perbandingan",
     "faq": "FAQ",
     "security": "Keamanan",
-    "wishlist": "Wishlist",
+    "wishlist": "Dapatkan di Steam",
     "github": "GitHub"
   },
   "meta": {
@@ -15,7 +15,7 @@
     "ogAlt": "Porthole - berbagi port lokal lewat Steam"
   },
   "hero": {
-    "badge": "Segera hadir di Steam",
+    "badge": "Tersedia di Steam",
     "title": "Main game LAN dan yang kamu host sendiri bareng",
     "titleAccent": "teman di mana saja",
     "sub": "Porthole adalah proxy yang meneruskan port yang kamu pilih ke teman Steam-mu, jadi mereka terhubung seakan satu LAN denganmu. Tanpa port forwarding, tanpa IP publik, tanpa setel router. Versi Hamachi dan Radmin yang berbasis Steam.",
@@ -24,7 +24,7 @@
       "Tanpa IP publik",
       "Cuma port yang kamu pilih"
     ],
-    "ctaPrimary": "Wishlist di Steam",
+    "ctaPrimary": "Dapatkan di Steam",
     "ctaSecondary": "Lihat cara kerjanya",
     "note": "Gratis. Jalan di balik NAT dan CGNAT. Windows dan Linux / SteamOS."
   },
@@ -242,13 +242,13 @@
     ]
   },
   "steam": {
-    "heading": "Wishlist Porthole",
-    "body": "Porthole rilis di Steam sebagai aplikasi gratis. Tambahkan ke wishlist-mu supaya tahu begitu ia tayang."
+    "heading": "Dapatkan Porthole di Steam",
+    "body": "Porthole sudah tayang di Steam, dan sepenuhnya gratis. Dapatkan sekarang dan mulai main bareng teman hari ini juga."
   },
   "cta": {
     "heading": "Pilih port, bagikan kode, lalu main",
-    "body": "Wishlist Porthole di Steam supaya dapat notifikasi saat rilis. Sepenuhnya gratis.",
-    "primary": "Wishlist di Steam",
+    "body": "Dapatkan Porthole di Steam dan mulai main hari ini juga. Sepenuhnya gratis.",
+    "primary": "Dapatkan di Steam",
     "secondary": "Ikuti di GitHub"
   },
   "security": {
@@ -297,7 +297,9 @@
     "links": {
       "security": "Privasi dan keamanan",
       "steam": "Halaman Steam",
+      "support": "Dukung kami",
       "github": "GitHub",
+      "discord": "Discord",
       "studio": "SeStudio"
     },
     "copyright": "© SeStudio",

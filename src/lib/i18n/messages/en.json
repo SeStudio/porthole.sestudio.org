@@ -4,7 +4,7 @@
     "compare": "Compare",
     "faq": "FAQ",
     "security": "Security",
-    "wishlist": "Wishlist",
+    "wishlist": "Get it on Steam",
     "github": "GitHub"
   },
   "meta": {
@@ -15,7 +15,7 @@
     "ogAlt": "Porthole - local port sharing over Steam"
   },
   "hero": {
-    "badge": "Coming soon on Steam",
+    "badge": "Available on Steam",
     "title": "Play LAN and self-hosted games with",
     "titleAccent": "friends anywhere",
     "sub": "Porthole is a proxy that forwards a port you choose to your Steam friends, so they connect as if they were on your LAN. No port forwarding, no public IP, no router setup. A Steam-based take on Hamachi and Radmin.",
@@ -24,7 +24,7 @@
       "No public IP",
       "Only the ports you choose"
     ],
-    "ctaPrimary": "Wishlist on Steam",
+    "ctaPrimary": "Get it on Steam",
     "ctaSecondary": "See how it works",
     "note": "Free. Works behind NAT and CGNAT. Windows and Linux / SteamOS."
   },
@@ -242,13 +242,13 @@
     ]
   },
   "steam": {
-    "heading": "Wishlist Porthole",
-    "body": "Porthole launches on Steam as a free app. Add it to your wishlist to hear the moment it goes live."
+    "heading": "Get Porthole on Steam",
+    "body": "Porthole is live on Steam, and it is completely free. Get it and start playing with friends today."
   },
   "cta": {
     "heading": "Pick a port, share a code, and play",
-    "body": "Wishlist Porthole on Steam to get notified at launch. It is completely free.",
-    "primary": "Wishlist on Steam",
+    "body": "Get Porthole on Steam and start playing today. It is completely free.",
+    "primary": "Get it on Steam",
     "secondary": "Follow on GitHub"
   },
   "security": {
@@ -297,7 +297,9 @@
     "links": {
       "security": "Privacy and security",
       "steam": "Steam page",
+      "support": "Support us",
       "github": "GitHub",
+      "discord": "Discord",
       "studio": "SeStudio"
     },
     "copyright": "© SeStudio",

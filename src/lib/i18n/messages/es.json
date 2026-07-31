@@ -4,7 +4,7 @@
     "compare": "Comparativa",
     "faq": "Preguntas frecuentes",
     "security": "Seguridad",
-    "wishlist": "Lista de deseados",
+    "wishlist": "Consíguelo en Steam",
     "github": "GitHub"
   },
   "meta": {
@@ -15,7 +15,7 @@
     "ogAlt": "Porthole - comparte puertos locales por Steam"
   },
   "hero": {
-    "badge": "Próximamente en Steam",
+    "badge": "Ya disponible en Steam",
     "title": "Juega a juegos LAN y de servidor propio con",
     "titleAccent": "amigos estén donde estén",
     "sub": "Porthole es un proxy que reenvía a tus amigos de Steam un puerto que tú eliges, para que se conecten como si estuvieran en tu LAN. Sin abrir puertos, sin IP pública y sin configurar el router. Una versión de Hamachi y Radmin basada en Steam.",
@@ -24,7 +24,7 @@
       "Sin IP pública",
       "Solo los puertos que tú elijas"
     ],
-    "ctaPrimary": "Añadir a deseados en Steam",
+    "ctaPrimary": "Consíguelo en Steam",
     "ctaSecondary": "Ver cómo funciona",
     "note": "Gratis. Funciona detrás de NAT y CGNAT. Windows y Linux / SteamOS."
   },
@@ -242,13 +242,13 @@
     ]
   },
   "steam": {
-    "heading": "Añade Porthole a tus deseados",
-    "body": "Porthole llega a Steam como una app gratuita. Añádelo a tu lista de deseados para enterarte en cuanto esté disponible."
+    "heading": "Consigue Porthole en Steam",
+    "body": "Porthole ya está disponible en Steam y es completamente gratis. Consíguelo y empieza a jugar con tus amigos hoy mismo."
   },
   "cta": {
     "heading": "Elige un puerto, comparte un código y a jugar",
-    "body": "Añade Porthole a tus deseados en Steam para recibir un aviso en el lanzamiento. Es completamente gratis.",
-    "primary": "Añadir a deseados en Steam",
+    "body": "Consigue Porthole en Steam y empieza a jugar hoy mismo. Es completamente gratis.",
+    "primary": "Consíguelo en Steam",
     "secondary": "Síguelo en GitHub"
   },
   "security": {
@@ -297,7 +297,9 @@
     "links": {
       "security": "Privacidad y seguridad",
       "steam": "Página de Steam",
+      "support": "Apóyanos",
       "github": "GitHub",
+      "discord": "Discord",
       "studio": "SeStudio"
     },
     "copyright": "© SeStudio",

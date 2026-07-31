@@ -4,7 +4,7 @@
     "compare": "Comparație",
     "faq": "Întrebări frecvente",
     "security": "Securitate",
-    "wishlist": "Wishlist",
+    "wishlist": "Ia-l de pe Steam",
     "github": "GitHub"
   },
   "meta": {
@@ -15,7 +15,7 @@
     "ogAlt": "Porthole - partajare de porturi locale prin Steam"
   },
   "hero": {
-    "badge": "În curând pe Steam",
+    "badge": "Disponibil pe Steam",
     "title": "Joacă jocuri de LAN și găzduite local cu",
     "titleAccent": "prietenii de oriunde",
     "sub": "Porthole este un proxy care redirecționează un port ales de tine către prietenii tăi de pe Steam, ca ei să se conecteze de parcă ar fi în LAN-ul tău. Fără redirecționarea porturilor, fără IP public, fără setări de router. Hamachi și Radmin, reinventate pe Steam.",
@@ -24,7 +24,7 @@
       "Fără IP public",
       "Doar porturile pe care le alegi"
     ],
-    "ctaPrimary": "Adaugă în wishlist pe Steam",
+    "ctaPrimary": "Ia-l de pe Steam",
     "ctaSecondary": "Vezi cum funcționează",
     "note": "Gratuit. Merge în spatele NAT și CGNAT. Windows și Linux / SteamOS."
   },
@@ -242,13 +242,13 @@
     ]
   },
   "steam": {
-    "heading": "Adaugă Porthole în wishlist",
-    "body": "Porthole se lansează pe Steam ca aplicație gratuită. Adaugă-l în wishlist ca să afli imediat ce devine disponibil."
+    "heading": "Ia Porthole de pe Steam",
+    "body": "Porthole este disponibil pe Steam și e complet gratuit. Ia-l și începe să joci cu prietenii chiar azi."
   },
   "cta": {
     "heading": "Alegi un port, dai un cod și jucați",
-    "body": "Adaugă Porthole în wishlist pe Steam ca să primești notificare la lansare. Este complet gratuit.",
-    "primary": "Adaugă în wishlist pe Steam",
+    "body": "Ia Porthole de pe Steam și începe să joci chiar azi. Este complet gratuit.",
+    "primary": "Ia-l de pe Steam",
     "secondary": "Urmărește pe GitHub"
   },
   "security": {
@@ -297,7 +297,9 @@
     "links": {
       "security": "Confidențialitate și securitate",
       "steam": "Pagina de Steam",
+      "support": "Susține-ne",
       "github": "GitHub",
+      "discord": "Discord",
       "studio": "SeStudio"
     },
     "copyright": "© SeStudio",

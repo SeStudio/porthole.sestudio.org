@@ -4,7 +4,7 @@
     "compare": "Vergleich",
     "faq": "FAQ",
     "security": "Sicherheit",
-    "wishlist": "Wunschliste",
+    "wishlist": "Auf Steam holen",
     "github": "GitHub"
   },
   "meta": {
@@ -15,7 +15,7 @@
     "ogAlt": "Porthole - lokale Ports über Steam teilen"
   },
   "hero": {
-    "badge": "Bald auf Steam",
+    "badge": "Jetzt auf Steam",
     "title": "Zock LAN- und selbstgehostete Games mit",
     "titleAccent": "Freunden überall",
     "sub": "Porthole ist ein Proxy, der einen Port deiner Wahl an deine Steam-Freunde weiterleitet, sodass sie sich verbinden, als wären sie in deinem LAN. Ohne Portfreigabe, ohne öffentliche IP, ohne Router-Konfiguration. Eine Steam-basierte Variante von Hamachi und Radmin.",
@@ -24,7 +24,7 @@
       "Ohne öffentliche IP",
       "Nur die Ports, die du auswählst"
     ],
-    "ctaPrimary": "Auf die Wunschliste",
+    "ctaPrimary": "Auf Steam holen",
     "ctaSecondary": "So funktioniert's",
     "note": "Kostenlos. Läuft hinter NAT und CGNAT. Windows und Linux / SteamOS."
   },
@@ -242,13 +242,13 @@
     ]
   },
   "steam": {
-    "heading": "Porthole auf die Wunschliste",
-    "body": "Porthole erscheint auf Steam als kostenlose App. Setz es auf deine Wunschliste und erfahre sofort, wenn es live geht."
+    "heading": "Porthole auf Steam holen",
+    "body": "Porthole ist jetzt live auf Steam und komplett kostenlos. Hol es dir und spiel noch heute mit deinen Freunden."
   },
   "cta": {
     "heading": "Port wählen, Code teilen, losspielen",
-    "body": "Setz Porthole auf Steam auf deine Wunschliste und lass dich zum Launch benachrichtigen. Es ist komplett kostenlos.",
-    "primary": "Auf die Wunschliste",
+    "body": "Hol dir Porthole auf Steam und leg noch heute los. Es ist komplett kostenlos.",
+    "primary": "Auf Steam holen",
     "secondary": "Auf GitHub folgen"
   },
   "security": {
@@ -297,7 +297,9 @@
     "links": {
       "security": "Datenschutz und Sicherheit",
       "steam": "Steam-Seite",
+      "support": "Unterstütz uns",
       "github": "GitHub",
+      "discord": "Discord",
       "studio": "SeStudio"
     },
     "copyright": "© SeStudio",

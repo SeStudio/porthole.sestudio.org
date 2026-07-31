@@ -4,7 +4,7 @@
     "compare": "Perbandingan",
     "faq": "Soalan Lazim",
     "security": "Keselamatan",
-    "wishlist": "Senarai Hajat",
+    "wishlist": "Dapatkan di Steam",
     "github": "GitHub"
   },
   "meta": {
@@ -15,7 +15,7 @@
     "ogAlt": "Porthole - perkongsian port setempat menerusi Steam"
   },
   "hero": {
-    "badge": "Bakal tiba di Steam",
+    "badge": "Tersedia di Steam",
     "title": "Main game LAN dan game hos sendiri bersama",
     "titleAccent": "kawan di mana-mana",
     "sub": "Porthole ialah proxy yang memajukan port yang anda pilih kepada kawan Steam anda, jadi mereka menyambung macam mereka berada dalam LAN anda. Tanpa port forwarding, tanpa IP awam, tanpa utak-atik router. Macam Hamachi dan Radmin, tapi berasaskan Steam.",
@@ -24,7 +24,7 @@
       "Tanpa IP awam",
       "Hanya port yang anda pilih"
     ],
-    "ctaPrimary": "Tambah ke Senarai Hajat Steam",
+    "ctaPrimary": "Dapatkan di Steam",
     "ctaSecondary": "Lihat cara ia berfungsi",
     "note": "Percuma. Berfungsi di sebalik NAT dan CGNAT. Windows dan Linux / SteamOS."
   },
@@ -242,13 +242,13 @@
     ]
   },
   "steam": {
-    "heading": "Tambah Porthole ke Senarai Hajat",
-    "body": "Porthole dilancarkan di Steam sebagai aplikasi percuma. Tambahkannya ke senarai hajat anda untuk tahu saat ia mula tersedia."
+    "heading": "Dapatkan Porthole di Steam",
+    "body": "Porthole kini tersedia di Steam, dan ia percuma sepenuhnya. Dapatkannya dan mula main bersama kawan hari ini."
   },
   "cta": {
     "heading": "Pilih port, kongsi kod, dan main",
-    "body": "Tambah Porthole ke Senarai Hajat Steam untuk dimaklumkan ketika pelancaran. Ia percuma sepenuhnya.",
-    "primary": "Tambah ke Senarai Hajat Steam",
+    "body": "Dapatkan Porthole di Steam dan mula main hari ini. Ia percuma sepenuhnya.",
+    "primary": "Dapatkan di Steam",
     "secondary": "Ikuti di GitHub"
   },
   "security": {
@@ -297,7 +297,9 @@
     "links": {
       "security": "Privasi dan keselamatan",
       "steam": "Halaman Steam",
+      "support": "Sokong kami",
       "github": "GitHub",
+      "discord": "Discord",
       "studio": "SeStudio"
     },
     "copyright": "© SeStudio",

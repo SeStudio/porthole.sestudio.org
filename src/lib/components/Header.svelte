@@ -1,6 +1,6 @@
 <script>
   import { localizedPath } from '$lib/i18n/index.js';
-  import { STEAM_APP_URL, GITHUB_URL } from '$lib/data/site.js';
+  import { STEAM_APP_URL, GITHUB_URL, DISCORD_URL, SUPPORTER_URL } from '$lib/data/site.js';
   import Logo from './Logo.svelte';
   import Icon from './Icon.svelte';
   import LangSwitcher from './LangSwitcher.svelte';
@@ -24,11 +24,31 @@
     </nav>
 
     <div class="actions">
+      <a class="ghost-link" href={DISCORD_URL} target="_blank" rel="noopener" aria-label="Discord">
+        <Icon name="discord" size={20} />
+      </a>
       <a class="ghost-link" href={GITHUB_URL} target="_blank" rel="noopener" aria-label={t.nav.github}>
         <Icon name="github" size={20} />
       </a>
       <LangSwitcher {lang} {page} {t} />
-      <a class="btn btn-primary wishlist" href={STEAM_APP_URL} target="_blank" rel="noopener">
+      <a
+        class="btn btn-support support"
+        href={SUPPORTER_URL}
+        target="_blank"
+        rel="noopener"
+        aria-label={t.footer.links.support}
+        title={t.footer.links.support}
+      >
+        <Icon name="heart" size={16} />
+        <span>{t.footer.links.support}</span>
+      </a>
+      <a
+        class="btn btn-primary wishlist"
+        href={STEAM_APP_URL}
+        target="_blank"
+        rel="noopener"
+        aria-label={t.nav.wishlist}
+      >
         <Icon name="steam" size={18} />
         <span>{t.nav.wishlist}</span>
       </a>
@@ -44,6 +64,10 @@
     background: rgba(15, 18, 23, 0.72);
     backdrop-filter: saturate(140%) blur(12px);
     border-bottom: 1px solid var(--line);
+  }
+  /* The action row is busier than the page, so give the header a little more room. */
+  .site-header .container {
+    max-width: var(--maxw-header);
   }
   .bar {
     display: flex;
@@ -77,6 +101,7 @@
     align-items: center;
     gap: 10px;
     margin-left: 8px;
+    min-width: 0;
   }
   .ghost-link {
     display: inline-flex;
@@ -84,6 +109,7 @@
     justify-content: center;
     width: 38px;
     height: 38px;
+    flex: none;
     border-radius: var(--radius-sm);
     color: var(--muted);
     background: rgba(255, 255, 255, 0.06);
@@ -92,16 +118,35 @@
     color: var(--text);
     background: rgba(255, 255, 255, 0.11);
   }
+  .support {
+    flex: none;
+    padding: 0.55rem 0.9rem;
+    font-size: 0.94rem;
+  }
   .wishlist {
     padding: 0.55rem 0.95rem;
     font-size: 0.94rem;
   }
-  @media (max-width: 960px) {
+  /* The nav is wide in some languages (e.g. Russian); collapse it before the
+     action row runs out of room. */
+  @media (max-width: 1080px) {
     .nav {
       display: none;
     }
     .actions {
       margin-left: auto;
+    }
+  }
+  /* In the crowded mid-widths, keep the Support button as just its heart so the
+     primary CTA never gets clipped; the full label returns on wider screens. */
+  @media (max-width: 1260px) {
+    .support span {
+      display: none;
+    }
+    .support {
+      width: 38px;
+      height: 38px;
+      padding: 0;
     }
   }
   @media (max-width: 460px) {

@@ -4,7 +4,7 @@
     "compare": "Karşılaştır",
     "faq": "SSS",
     "security": "Güvenlik",
-    "wishlist": "İstek listesi",
+    "wishlist": "Steam'de edin",
     "github": "GitHub"
   },
   "meta": {
@@ -15,7 +15,7 @@
     "ogAlt": "Porthole - Steam üzerinden yerel port paylaşımı"
   },
   "hero": {
-    "badge": "Yakında Steam'de",
+    "badge": "Steam'de yayında",
     "title": "LAN ve kendi barındırdığın oyunları",
     "titleAccent": "her yerdeki arkadaşlarınla oyna",
     "sub": "Porthole, seçtiğin bir portu Steam arkadaşlarına yönlendiren bir proxy'dir; onlar da sanki senin LAN'ındaymış gibi bağlanır. Port yönlendirme yok, genel IP yok, modem ayarı yok. Hamachi ve Radmin'in Steam tabanlı bir yorumu.",
@@ -24,7 +24,7 @@
       "Genel IP yok",
       "Yalnızca senin seçtiğin portlar"
     ],
-    "ctaPrimary": "Steam'de istek listene ekle",
+    "ctaPrimary": "Steam'de edin",
     "ctaSecondary": "Nasıl çalıştığını gör",
     "note": "Ücretsiz. NAT ve CGNAT arkasında çalışır. Windows ve Linux / SteamOS."
   },
@@ -242,13 +242,13 @@
     ]
   },
   "steam": {
-    "heading": "Porthole'u istek listene ekle",
-    "body": "Porthole, Steam'de ücretsiz bir uygulama olarak çıkıyor. İstek listene ekle, yayına girdiği anı ilk sen duy."
+    "heading": "Porthole'u Steam'de edin",
+    "body": "Porthole artık Steam'de yayında ve tamamen ücretsiz. Hemen edin ve arkadaşlarınla oynamaya bugün başla."
   },
   "cta": {
     "heading": "Bir port seç, bir kod paylaş ve oyna",
-    "body": "Çıkışta haberdar olmak için Porthole'u Steam'de istek listene ekle. Tamamen ücretsiz.",
-    "primary": "Steam'de istek listene ekle",
+    "body": "Porthole'u Steam'de edin ve bugün oynamaya başla. Tamamen ücretsiz.",
+    "primary": "Steam'de edin",
     "secondary": "GitHub'da takip et"
   },
   "security": {
@@ -297,7 +297,9 @@
     "links": {
       "security": "Gizlilik ve güvenlik",
       "steam": "Steam sayfası",
+      "support": "Bize destek ol",
       "github": "GitHub",
+      "discord": "Discord",
       "studio": "SeStudio"
     },
     "copyright": "© SeStudio",

@@ -42,8 +42,6 @@
     max-width: 646px;
     margin: var(--space-4) 0;
     border-radius: var(--radius);
-    overflow: hidden;
-    border: 1px solid var(--line);
     /* Branded fallback shown until (or if) the Steam widget iframe renders. */
     background: linear-gradient(180deg, rgba(15, 18, 23, 0.55), rgba(15, 18, 23, 0.85)),
       url('/media/porthole-store-header.png') center / cover no-repeat, var(--panel);

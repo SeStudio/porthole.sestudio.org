@@ -4,7 +4,7 @@
     "compare": "比較",
     "faq": "常見問題",
     "security": "安全性",
-    "wishlist": "願望清單",
+    "wishlist": "在 Steam 取得",
     "github": "GitHub"
   },
   "meta": {
@@ -15,7 +15,7 @@
     "ogAlt": "Porthole - 透過 Steam 分享本機連接埠"
   },
   "hero": {
-    "badge": "即將於 Steam 上架",
+    "badge": "現已在 Steam 上架",
     "title": "和世界各地的朋友一起玩",
     "titleAccent": "區網與自架遊戲",
     "sub": "Porthole 是一款代理程式，把你選定的連接埠轉發給你的 Steam 好友，讓他們連進來就像跟你在同一個區網裡。免開連接埠、不用公網 IP、也不必設定路由器。它是建構在 Steam 上的 Hamachi、Radmin 新選擇。",
@@ -24,7 +24,7 @@
       "不用公網 IP",
       "只分享你選的連接埠"
     ],
-    "ctaPrimary": "加入 Steam 願望清單",
+    "ctaPrimary": "在 Steam 取得",
     "ctaSecondary": "看看運作方式",
     "note": "免費。在 NAT 與 CGNAT 後方也能用。支援 Windows 與 Linux / SteamOS。"
   },
@@ -242,13 +242,13 @@
     ]
   },
   "steam": {
-    "heading": "把 Porthole 加入願望清單",
-    "body": "Porthole 將以免費應用程式在 Steam 上架。把它加入願望清單，上架的第一時間就會收到通知。"
+    "heading": "在 Steam 取得 Porthole",
+    "body": "Porthole 現已在 Steam 上架，而且完全免費。立即取得，今天就和朋友一起開玩。"
   },
   "cta": {
     "heading": "選個連接埠、送出一組分享碼，開玩吧",
-    "body": "在 Steam 上把 Porthole 加入願望清單，上架時就會收到通知。它完全免費。",
-    "primary": "加入 Steam 願望清單",
+    "body": "在 Steam 取得 Porthole，今天就開玩。它完全免費。",
+    "primary": "在 Steam 取得",
     "secondary": "在 GitHub 上追蹤"
   },
   "security": {
@@ -297,7 +297,9 @@
     "links": {
       "security": "隱私與安全性",
       "steam": "Steam 頁面",
+      "support": "支持我們",
       "github": "GitHub",
+      "discord": "Discord",
       "studio": "SeStudio"
     },
     "copyright": "© SeStudio",

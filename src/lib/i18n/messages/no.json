@@ -4,7 +4,7 @@
     "compare": "Sammenlign",
     "faq": "FAQ",
     "security": "Sikkerhet",
-    "wishlist": "Ønskeliste",
+    "wishlist": "Hent på Steam",
     "github": "GitHub"
   },
   "meta": {
@@ -15,7 +15,7 @@
     "ogAlt": "Porthole - deling av lokale porter over Steam"
   },
   "hero": {
-    "badge": "Kommer snart på Steam",
+    "badge": "Tilgjengelig på Steam",
     "title": "Spill LAN-spill og egne servere med",
     "titleAccent": "venner hvor som helst",
     "sub": "Porthole er en proxy som videresender en port du velger til Steam-vennene dine, så de kobler til som om de satt på ditt eget LAN. Ingen portåpning, ingen offentlig IP, ingen ruteroppsett. En Steam-basert vri på Hamachi og Radmin.",
@@ -24,7 +24,7 @@
       "Ingen offentlig IP",
       "Bare portene du velger"
     ],
-    "ctaPrimary": "Legg til på ønskelisten på Steam",
+    "ctaPrimary": "Hent på Steam",
     "ctaSecondary": "Se hvordan det fungerer",
     "note": "Gratis. Fungerer bak NAT og CGNAT. Windows og Linux / SteamOS."
   },
@@ -242,13 +242,13 @@
     ]
   },
   "steam": {
-    "heading": "Legg Porthole til på ønskelisten",
-    "body": "Porthole lanseres på Steam som en gratis app. Legg det til på ønskelisten din, så får du beskjed i det øyeblikket det slippes."
+    "heading": "Hent Porthole på Steam",
+    "body": "Porthole er ute på Steam, og det er helt gratis. Hent det og begynn å spille med venner allerede i dag."
   },
   "cta": {
     "heading": "Velg en port, del en kode, og spill",
-    "body": "Legg Porthole til på ønskelisten på Steam for å få beskjed ved lansering. Det er helt gratis.",
-    "primary": "Legg til på ønskelisten på Steam",
+    "body": "Hent Porthole på Steam og begynn å spille allerede i dag. Det er helt gratis.",
+    "primary": "Hent på Steam",
     "secondary": "Følg på GitHub"
   },
   "security": {
@@ -297,7 +297,9 @@
     "links": {
       "security": "Personvern og sikkerhet",
       "steam": "Steam-side",
+      "support": "Støtt oss",
       "github": "GitHub",
+      "discord": "Discord",
       "studio": "SeStudio"
     },
     "copyright": "© SeStudio",

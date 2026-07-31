@@ -4,7 +4,7 @@
     "compare": "비교",
     "faq": "자주 묻는 질문",
     "security": "보안",
-    "wishlist": "위시리스트",
+    "wishlist": "Steam에서 받기",
     "github": "GitHub"
   },
   "meta": {
@@ -15,7 +15,7 @@
     "ogAlt": "Porthole - Steam으로 로컬 포트 공유"
   },
   "hero": {
-    "badge": "Steam에 곧 출시",
+    "badge": "Steam에서 이용 가능",
     "title": "LAN 게임도 자체 호스팅 게임도",
     "titleAccent": "어디서든 친구와 함께",
     "sub": "Porthole은 여러분이 고른 포트를 Steam 친구에게 전달하는 프록시로, 친구는 마치 같은 LAN에 있는 것처럼 접속합니다. 포트 포워딩도, 공인 IP도, 공유기 설정도 필요 없습니다. Steam을 기반으로 한 Hamachi와 Radmin 대안입니다.",
@@ -24,7 +24,7 @@
       "공인 IP 불필요",
       "선택한 포트만 공유"
     ],
-    "ctaPrimary": "Steam에서 위시리스트 담기",
+    "ctaPrimary": "Steam에서 받기",
     "ctaSecondary": "작동 방식 보기",
     "note": "무료. NAT와 CGNAT 환경에서도 동작. Windows와 Linux / SteamOS 지원."
   },
@@ -242,13 +242,13 @@
     ]
   },
   "steam": {
-    "heading": "Porthole 위시리스트에 담기",
-    "body": "Porthole은 무료 앱으로 Steam에 출시됩니다. 위시리스트에 담아 두면 출시되는 순간 알림을 받을 수 있습니다."
+    "heading": "Steam에서 Porthole 받기",
+    "body": "Porthole이 이제 Steam에 출시되었고, 완전히 무료입니다. 지금 받아 친구와 함께 플레이를 시작하세요."
   },
   "cta": {
     "heading": "포트를 고르고, 코드를 공유하고, 함께 플레이하세요",
-    "body": "Steam에서 Porthole을 위시리스트에 담고 출시 알림을 받으세요. 완전히 무료입니다.",
-    "primary": "Steam에서 위시리스트 담기",
+    "body": "Steam에서 Porthole을 받고 지금 바로 플레이를 시작하세요. 완전히 무료입니다.",
+    "primary": "Steam에서 받기",
     "secondary": "GitHub에서 팔로우"
   },
   "security": {
@@ -297,7 +297,9 @@
     "links": {
       "security": "개인정보 및 보안",
       "steam": "Steam 페이지",
+      "support": "후원하기",
       "github": "GitHub",
+      "discord": "Discord",
       "studio": "SeStudio"
     },
     "copyright": "© SeStudio",
