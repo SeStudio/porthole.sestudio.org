@@ -11,7 +11,7 @@ export const SUPPORTER_URL = `https://store.steampowered.com/app/${SUPPORTER_APP
 export const GITHUB_URL = 'https://github.com/SeStudio/porthole';
 
 // Community.
-export const DISCORD_URL = 'https://discord.gg/TmaqNZf5A';
+export const DISCORD_URL = 'https://discord.gg/vTN6r5RBwH';
 
 export const STUDIO_URL = 'https://sestudio.org/';
 export const STEAM_PUBLISHER_URL = 'https://store.steampowered.com/publisher/sestudio';
