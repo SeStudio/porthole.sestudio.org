@@ -4,7 +4,7 @@
     "compare": "Sammenlign",
     "faq": "FAQ",
     "security": "Sikkerhed",
-    "wishlist": "Ønskeliste",
+    "wishlist": "Hent på Steam",
     "github": "GitHub"
   },
   "meta": {
@@ -15,7 +15,7 @@
     "ogAlt": "Porthole - deling af lokale porte over Steam"
   },
   "hero": {
-    "badge": "Kommer snart på Steam",
+    "badge": "Fås nu på Steam",
     "title": "Spil LAN- og selvhostede spil med",
     "titleAccent": "venner overalt",
     "sub": "Porthole er en proxy, der videresender en port, du vælger, til dine Steam-venner, så de kobler sig på, som var de på dit eget LAN. Ingen port forwarding, ingen offentlig IP, ingen router-opsætning. Som Hamachi og Radmin, men bygget på Steam.",
@@ -24,7 +24,7 @@
       "Ingen offentlig IP",
       "Kun de porte, du vælger"
     ],
-    "ctaPrimary": "Føj til ønskeliste på Steam",
+    "ctaPrimary": "Hent på Steam",
     "ctaSecondary": "Se hvordan det virker",
     "note": "Gratis. Virker bag NAT og CGNAT. Windows og Linux/SteamOS."
   },
@@ -242,13 +242,13 @@
     ]
   },
   "steam": {
-    "heading": "Føj Porthole til din ønskeliste",
-    "body": "Porthole udkommer på Steam som en gratis app. Føj den til din ønskeliste, så får du besked i samme øjeblik, den går live."
+    "heading": "Hent Porthole på Steam",
+    "body": "Porthole er ude nu på Steam, og den er helt gratis. Hent den, og kom i gang med at spille med venner allerede i dag."
   },
   "cta": {
     "heading": "Vælg en port, del en kode, og spil",
-    "body": "Føj Porthole til din ønskeliste på Steam for at få besked ved lanceringen. Det er helt gratis.",
-    "primary": "Føj til ønskeliste på Steam",
+    "body": "Hent Porthole på Steam, og kom i gang med at spille i dag. Det er helt gratis.",
+    "primary": "Hent på Steam",
     "secondary": "Følg på GitHub"
   },
   "security": {
@@ -297,7 +297,9 @@
     "links": {
       "security": "Privatliv og sikkerhed",
       "steam": "Steam-side",
+      "support": "Støt os",
       "github": "GitHub",
+      "discord": "Discord",
       "studio": "SeStudio"
     },
     "copyright": "© SeStudio",

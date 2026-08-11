@@ -1,6 +1,6 @@
 <script>
   import { localizedPath } from '$lib/i18n/index.js';
-  import { STEAM_APP_URL, GITHUB_URL, STUDIO_URL } from '$lib/data/site.js';
+  import { STEAM_APP_URL, GITHUB_URL, STUDIO_URL, DISCORD_URL, SUPPORTER_URL } from '$lib/data/site.js';
   import Logo from './Logo.svelte';
 
   let { t, lang } = $props();
@@ -16,7 +16,9 @@
       <nav class="links" aria-label="Footer">
         <a href={localizedPath(lang, 'security')}>{t.footer.links.security}</a>
         <a href={STEAM_APP_URL} target="_blank" rel="noopener">{t.footer.links.steam}</a>
+        <a href={SUPPORTER_URL} target="_blank" rel="noopener">{t.footer.links.support}</a>
         <a href={GITHUB_URL} target="_blank" rel="noopener">{t.footer.links.github}</a>
+        <a href={DISCORD_URL} target="_blank" rel="noopener">{t.footer.links.discord}</a>
         <a href={STUDIO_URL} target="_blank" rel="noopener">{t.footer.links.studio}</a>
       </nav>
     </div>

@@ -4,7 +4,7 @@
     "compare": "Vertailu",
     "faq": "UKK",
     "security": "Tietoturva",
-    "wishlist": "Toivelista",
+    "wishlist": "Hanki Steamista",
     "github": "GitHub"
   },
   "meta": {
@@ -15,7 +15,7 @@
     "ogAlt": "Porthole - paikallisten porttien jakaminen Steamin kautta"
   },
   "hero": {
-    "badge": "Tulossa pian Steamiin",
+    "badge": "Saatavilla Steamissa",
     "title": "Pelaa lähiverkkopelejä ja omia servereitä",
     "titleAccent": "kavereiden kanssa mistä tahansa",
     "sub": "Porthole on proxy, joka välittää valitsemasi portin Steam-kavereillesi, jotta he yhdistävät kuin olisivat samassa lähiverkossa kanssasi. Ei porttiohjauksia, ei julkista IP:tä, ei reititinsäätöjä. Steamin päällä toimiva vastine Hamachille ja Radminille.",
@@ -24,7 +24,7 @@
       "Ei julkista IP:tä",
       "Vain valitsemasi portit"
     ],
-    "ctaPrimary": "Lisää toivelistalle Steamissa",
+    "ctaPrimary": "Hanki Steamista",
     "ctaSecondary": "Katso, miten se toimii",
     "note": "Ilmainen. Toimii NAT:n ja CGNAT:n takaa. Windows ja Linux / SteamOS."
   },
@@ -242,13 +242,13 @@
     ]
   },
   "steam": {
-    "heading": "Lisää Porthole toivelistalle",
-    "body": "Porthole julkaistaan Steamissa ilmaisena sovelluksena. Lisää se toivelistallesi, niin saat tiedon heti kun se julkaistaan."
+    "heading": "Hanki Porthole Steamista",
+    "body": "Porthole on nyt saatavilla Steamissa, ja se on täysin ilmainen. Hanki se ja ala pelata kavereiden kanssa jo tänään."
   },
   "cta": {
     "heading": "Valitse portti, jaa koodi ja pelatkaa",
-    "body": "Lisää Porthole toivelistallesi Steamissa, niin saat ilmoituksen julkaisusta. Se on täysin ilmainen.",
-    "primary": "Lisää toivelistalle Steamissa",
+    "body": "Hanki Porthole Steamista ja ala pelata jo tänään. Se on täysin ilmainen.",
+    "primary": "Hanki Steamista",
     "secondary": "Seuraa GitHubissa"
   },
   "security": {
@@ -297,7 +297,9 @@
     "links": {
       "security": "Yksityisyys ja tietoturva",
       "steam": "Steam-sivu",
+      "support": "Tue meitä",
       "github": "GitHub",
+      "discord": "Discord",
       "studio": "SeStudio"
     },
     "copyright": "© SeStudio",

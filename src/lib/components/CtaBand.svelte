@@ -1,5 +1,5 @@
 <script>
-  import { STEAM_APP_URL, GITHUB_URL } from '$lib/data/site.js';
+  import { STEAM_APP_URL, GITHUB_URL, SUPPORTER_URL } from '$lib/data/site.js';
   import Icon from './Icon.svelte';
   let { t } = $props();
 </script>
@@ -13,6 +13,10 @@
         <a class="btn btn-primary" href={STEAM_APP_URL} target="_blank" rel="noopener">
           <Icon name="steam" size={19} />
           {t.cta.primary}
+        </a>
+        <a class="btn btn-support" href={SUPPORTER_URL} target="_blank" rel="noopener">
+          <Icon name="heart" size={18} />
+          {t.footer.links.support}
         </a>
         <a class="btn btn-ghost" href={GITHUB_URL} target="_blank" rel="noopener">
           <Icon name="github" size={18} />

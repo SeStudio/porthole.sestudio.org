@@ -4,7 +4,7 @@
     "compare": "เปรียบเทียบ",
     "faq": "คำถามที่พบบ่อย",
     "security": "ความปลอดภัย",
-    "wishlist": "เพิ่มลง Wishlist",
+    "wishlist": "รับบน Steam",
     "github": "GitHub"
   },
   "meta": {
@@ -15,7 +15,7 @@
     "ogAlt": "Porthole - แชร์พอร์ตในเครื่องผ่าน Steam"
   },
   "hero": {
-    "badge": "เร็วๆ นี้บน Steam",
+    "badge": "พร้อมใช้งานบน Steam",
     "title": "เล่นเกม LAN และเกมที่โฮสต์เองกับ",
     "titleAccent": "เพื่อนได้ทุกที่",
     "sub": "Porthole เป็นพร็อกซีที่ส่งต่อพอร์ตที่คุณเลือกไปให้เพื่อน Steam ของคุณ เพื่อนจึงเชื่อมต่อเข้ามาได้เหมือนนั่งอยู่ในวงแลนเดียวกับคุณ ไม่ต้องเปิดพอร์ต ไม่ต้องมี IP สาธารณะ ไม่ต้องตั้งค่าเราเตอร์ เป็น Hamachi และ Radmin ในแบบที่ทำงานบน Steam",
@@ -24,7 +24,7 @@
       "ไม่ต้องมี IP สาธารณะ",
       "เฉพาะพอร์ตที่คุณเลือก"
     ],
-    "ctaPrimary": "เพิ่มลง Wishlist บน Steam",
+    "ctaPrimary": "รับบน Steam",
     "ctaSecondary": "ดูวิธีการทำงาน",
     "note": "ฟรี ใช้ได้แม้อยู่หลัง NAT และ CGNAT รองรับ Windows และ Linux / SteamOS"
   },
@@ -242,13 +242,13 @@
     ]
   },
   "steam": {
-    "heading": "เพิ่ม Porthole ลง Wishlist",
-    "body": "Porthole เตรียมเปิดตัวบน Steam แบบแอปฟรี เพิ่มลง Wishlist ไว้ แล้วคุณจะรู้ทันทีที่มันเปิดให้ใช้งาน"
+    "heading": "รับ Porthole บน Steam",
+    "body": "Porthole เปิดให้ใช้งานบน Steam แล้ว และฟรีทั้งหมด รับมาแล้วเริ่มเล่นกับเพื่อนได้เลยวันนี้"
   },
   "cta": {
     "heading": "เลือกพอร์ต แชร์รหัส แล้วลุยเลย",
-    "body": "กด Wishlist ให้ Porthole บน Steam ไว้ แล้วรอรับแจ้งเตือนตอนเปิดตัว ฟรีทั้งหมด",
-    "primary": "เพิ่มลง Wishlist บน Steam",
+    "body": "รับ Porthole บน Steam แล้วเริ่มเล่นได้เลยวันนี้ ฟรีทั้งหมด",
+    "primary": "รับบน Steam",
     "secondary": "ติดตามบน GitHub"
   },
   "security": {
@@ -297,7 +297,9 @@
     "links": {
       "security": "ความเป็นส่วนตัวและความปลอดภัย",
       "steam": "หน้า Steam",
+      "support": "สนับสนุนเรา",
       "github": "GitHub",
+      "discord": "Discord",
       "studio": "SeStudio"
     },
     "copyright": "© SeStudio",

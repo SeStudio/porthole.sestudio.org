@@ -4,7 +4,7 @@
     "compare": "Comparar",
     "faq": "FAQ",
     "security": "Segurança",
-    "wishlist": "Lista de desejos",
+    "wishlist": "Baixar na Steam",
     "github": "GitHub"
   },
   "meta": {
@@ -15,7 +15,7 @@
     "ogAlt": "Porthole - compartilhamento de portas locais pela Steam"
   },
   "hero": {
-    "badge": "Em breve na Steam",
+    "badge": "Disponível na Steam",
     "title": "Jogue jogos de LAN e com servidor próprio junto de",
     "titleAccent": "amigos de qualquer lugar",
     "sub": "O Porthole é um proxy que encaminha uma porta que você escolhe para seus amigos da Steam, para eles se conectarem como se estivessem na sua LAN. Sem abrir portas, sem IP público e sem mexer no roteador. Uma versão do Hamachi e do Radmin que roda na Steam.",
@@ -24,7 +24,7 @@
       "Sem IP público",
       "Só as portas que você escolher"
     ],
-    "ctaPrimary": "Adicionar à lista de desejos na Steam",
+    "ctaPrimary": "Baixar na Steam",
     "ctaSecondary": "Veja como funciona",
     "note": "Grátis. Funciona atrás de NAT e CGNAT. Windows e Linux / SteamOS."
   },
@@ -242,13 +242,13 @@
     ]
   },
   "steam": {
-    "heading": "Adicione o Porthole à lista de desejos",
-    "body": "O Porthole chega à Steam como um app gratuito. Adicione à sua lista de desejos para saber na hora em que ele for lançado."
+    "heading": "Baixe o Porthole na Steam",
+    "body": "O Porthole já está disponível na Steam, e é totalmente grátis. Baixe agora e comece a jogar com os amigos hoje mesmo."
   },
   "cta": {
     "heading": "Escolha uma porta, compartilhe um código e jogue",
-    "body": "Adicione o Porthole à sua lista de desejos na Steam para ser avisado no lançamento. É totalmente grátis.",
-    "primary": "Adicionar à lista de desejos na Steam",
+    "body": "Baixe o Porthole na Steam e comece a jogar hoje mesmo. É totalmente grátis.",
+    "primary": "Baixar na Steam",
     "secondary": "Seguir no GitHub"
   },
   "security": {
@@ -297,7 +297,9 @@
     "links": {
       "security": "Privacidade e segurança",
       "steam": "Página na Steam",
+      "support": "Apoie o projeto",
       "github": "GitHub",
+      "discord": "Discord",
       "studio": "SeStudio"
     },
     "copyright": "© SeStudio",

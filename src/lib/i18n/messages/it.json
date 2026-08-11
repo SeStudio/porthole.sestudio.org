@@ -4,7 +4,7 @@
     "compare": "Confronto",
     "faq": "FAQ",
     "security": "Sicurezza",
-    "wishlist": "Lista dei desideri",
+    "wishlist": "Scaricalo su Steam",
     "github": "GitHub"
   },
   "meta": {
@@ -15,7 +15,7 @@
     "ogAlt": "Porthole - condivisione di porte locali tramite Steam"
   },
   "hero": {
-    "badge": "Presto su Steam",
+    "badge": "Disponibile su Steam",
     "title": "Gioca ai titoli LAN e a quelli che ospiti tu con",
     "titleAccent": "amici ovunque",
     "sub": "Porthole è un proxy che inoltra una porta che scegli tu ai tuoi amici Steam, così si collegano come se fossero sulla tua LAN. Niente port forwarding, niente IP pubblico, niente configurazione del router. Un'alternativa a Hamachi e Radmin basata su Steam.",
@@ -24,7 +24,7 @@
       "Niente IP pubblico",
       "Solo le porte che scegli tu"
     ],
-    "ctaPrimary": "Aggiungi alla lista dei desideri su Steam",
+    "ctaPrimary": "Scaricalo su Steam",
     "ctaSecondary": "Scopri come funziona",
     "note": "Gratis. Funziona dietro NAT e CGNAT. Windows e Linux / SteamOS."
   },
@@ -242,13 +242,13 @@
     ]
   },
   "steam": {
-    "heading": "Aggiungi Porthole alla lista dei desideri",
-    "body": "Porthole arriva su Steam come app gratuita. Aggiungilo alla tua lista dei desideri per scoprire subito quando sarà disponibile."
+    "heading": "Scarica Porthole su Steam",
+    "body": "Porthole è disponibile su Steam ed è completamente gratis. Scaricalo e inizia a giocare con gli amici oggi stesso."
   },
   "cta": {
     "heading": "Scegli una porta, condividi un codice e gioca",
-    "body": "Aggiungi Porthole alla lista dei desideri su Steam per ricevere una notifica al lancio. È completamente gratis.",
-    "primary": "Aggiungi alla lista dei desideri su Steam",
+    "body": "Scarica Porthole su Steam e inizia a giocare oggi stesso. È completamente gratis.",
+    "primary": "Scaricalo su Steam",
     "secondary": "Segui su GitHub"
   },
   "security": {
@@ -297,7 +297,9 @@
     "links": {
       "security": "Privacy e sicurezza",
       "steam": "Pagina Steam",
+      "support": "Sostienici",
       "github": "GitHub",
+      "discord": "Discord",
       "studio": "SeStudio"
     },
     "copyright": "© SeStudio",

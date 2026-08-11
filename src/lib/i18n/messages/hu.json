@@ -4,7 +4,7 @@
     "compare": "Összehasonlítás",
     "faq": "GYIK",
     "security": "Biztonság",
-    "wishlist": "Kívánságlista",
+    "wishlist": "Beszerzés a Steamen",
     "github": "GitHub"
   },
   "meta": {
@@ -15,7 +15,7 @@
     "ogAlt": "Porthole - helyi portok megosztása a Steamen át"
   },
   "hero": {
-    "badge": "Hamarosan a Steamen",
+    "badge": "Elérhető a Steamen",
     "title": "Játssz LAN-os és saját szerveres játékokkal",
     "titleAccent": "a barátaiddal, bárhol is legyenek",
     "sub": "A Porthole egy proxy, amely egy általad választott portot továbbít a Steam-barátaidnak, így úgy csatlakoznak, mintha a LAN-odon ülnének. Nincs portnyitás, nincs publikus IP, nincs routerbeállítás. Steam-alapú válasz a Hamachira és a Radminra.",
@@ -24,7 +24,7 @@
       "Nincs publikus IP",
       "Csak az általad választott portok"
     ],
-    "ctaPrimary": "Fel a Steam-kívánságlistára",
+    "ctaPrimary": "Beszerzés a Steamen",
     "ctaSecondary": "Nézd meg, hogyan működik",
     "note": "Ingyenes. NAT és CGNAT mögött is működik. Windows és Linux / SteamOS."
   },
@@ -242,13 +242,13 @@
     ]
   },
   "steam": {
-    "heading": "Tedd a Porthole-t a kívánságlistádra",
-    "body": "A Porthole ingyenes alkalmazásként jelenik meg a Steamen. Tedd a kívánságlistádra, és abban a pillanatban szólunk, amint elérhető lesz."
+    "heading": "Szerezd meg a Porthole-t a Steamen",
+    "body": "A Porthole elérhető a Steamen, és teljesen ingyenes. Szerezd meg, és még ma kezdj el játszani a barátaiddal."
   },
   "cta": {
     "heading": "Válassz portot, oszd meg a kódot, és irány a játék",
-    "body": "Tedd a Porthole-t a Steam-kívánságlistádra, hogy értesülj a megjelenéséről. Teljesen ingyenes.",
-    "primary": "Fel a Steam-kívánságlistára",
+    "body": "Szerezd meg a Porthole-t a Steamen, és kezdj el játszani még ma. Teljesen ingyenes.",
+    "primary": "Beszerzés a Steamen",
     "secondary": "Kövesd a GitHubon"
   },
   "security": {
@@ -297,7 +297,9 @@
     "links": {
       "security": "Adatvédelem és biztonság",
       "steam": "Steam-oldal",
+      "support": "Támogass minket",
       "github": "GitHub",
+      "discord": "Discord",
       "studio": "SeStudio"
     },
     "copyright": "© SeStudio",

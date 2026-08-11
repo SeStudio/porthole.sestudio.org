@@ -4,7 +4,7 @@
     "compare": "Jämför",
     "faq": "Vanliga frågor",
     "security": "Säkerhet",
-    "wishlist": "Önskelista",
+    "wishlist": "Hämta på Steam",
     "github": "GitHub"
   },
   "meta": {
@@ -15,7 +15,7 @@
     "ogAlt": "Porthole - dela lokala portar via Steam"
   },
   "hero": {
-    "badge": "Snart på Steam",
+    "badge": "Finns på Steam",
     "title": "Spela LAN- och egenhostade spel med",
     "titleAccent": "kompisar var de än är",
     "sub": "Porthole är en proxy som vidarebefordrar en port du väljer till dina Steam-vänner, så att de ansluter som om de satt på ditt LAN. Ingen portöppning, ingen publik IP, inget strul med routern. En Steam-baserad variant av Hamachi och Radmin.",
@@ -24,7 +24,7 @@
       "Ingen publik IP",
       "Bara portarna du väljer"
     ],
-    "ctaPrimary": "Lägg till i önskelistan på Steam",
+    "ctaPrimary": "Hämta på Steam",
     "ctaSecondary": "Se hur det funkar",
     "note": "Gratis. Funkar bakom NAT och CGNAT. Windows och Linux / SteamOS."
   },
@@ -242,13 +242,13 @@
     ]
   },
   "steam": {
-    "heading": "Lägg Porthole på önskelistan",
-    "body": "Porthole släpps på Steam som en gratis app. Lägg det på önskelistan så får du veta så snart det går live."
+    "heading": "Hämta Porthole på Steam",
+    "body": "Porthole finns nu på Steam och är helt gratis. Hämta det och börja spela med kompisarna redan idag."
   },
   "cta": {
     "heading": "Välj en port, dela en kod och spela",
-    "body": "Lägg Porthole på önskelistan på Steam så får du en notis vid lanseringen. Det är helt gratis.",
-    "primary": "Lägg till i önskelistan på Steam",
+    "body": "Hämta Porthole på Steam och börja spela redan idag. Det är helt gratis.",
+    "primary": "Hämta på Steam",
     "secondary": "Följ på GitHub"
   },
   "security": {
@@ -297,7 +297,9 @@
     "links": {
       "security": "Integritet och säkerhet",
       "steam": "Steam-sida",
+      "support": "Stötta oss",
       "github": "GitHub",
+      "discord": "Discord",
       "studio": "SeStudio"
     },
     "copyright": "© SeStudio",

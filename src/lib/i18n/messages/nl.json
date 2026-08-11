@@ -4,7 +4,7 @@
     "compare": "Vergelijken",
     "faq": "FAQ",
     "security": "Beveiliging",
-    "wishlist": "Verlanglijst",
+    "wishlist": "Nu op Steam",
     "github": "GitHub"
   },
   "meta": {
@@ -15,7 +15,7 @@
     "ogAlt": "Porthole - lokale poorten delen via Steam"
   },
   "hero": {
-    "badge": "Binnenkort op Steam",
+    "badge": "Beschikbaar op Steam",
     "title": "Speel LAN- en zelfgehoste games met",
     "titleAccent": "vrienden waar ook ter wereld",
     "sub": "Porthole is een proxy die een door jou gekozen poort doorstuurt naar je Steam-vrienden, zodat ze verbinden alsof ze bij jou op het LAN zitten. Geen port forwarding, geen publiek IP, geen routerinstellingen. Hamachi en Radmin, maar dan via Steam.",
@@ -24,7 +24,7 @@
       "Geen publiek IP",
       "Alleen de poorten die jij kiest"
     ],
-    "ctaPrimary": "Zet op je Steam-verlanglijst",
+    "ctaPrimary": "Haal het op Steam",
     "ctaSecondary": "Bekijk hoe het werkt",
     "note": "Gratis. Werkt achter NAT en CGNAT. Windows en Linux / SteamOS."
   },
@@ -242,13 +242,13 @@
     ]
   },
   "steam": {
-    "heading": "Zet Porthole op je verlanglijst",
-    "body": "Porthole verschijnt op Steam als gratis app. Zet het op je verlanglijst, dan hoor je het meteen zodra het live gaat."
+    "heading": "Haal Porthole op Steam",
+    "body": "Porthole staat nu op Steam en is helemaal gratis. Haal het binnen en speel vandaag nog met je vrienden."
   },
   "cta": {
     "heading": "Kies een poort, deel een code en speel",
-    "body": "Zet Porthole op je Steam-verlanglijst en krijg bericht bij de lancering. Het is helemaal gratis.",
-    "primary": "Zet op je Steam-verlanglijst",
+    "body": "Haal Porthole op Steam en speel vandaag nog. Het is helemaal gratis.",
+    "primary": "Haal het op Steam",
     "secondary": "Volg op GitHub"
   },
   "security": {
@@ -297,7 +297,9 @@
     "links": {
       "security": "Privacy en beveiliging",
       "steam": "Steam-pagina",
+      "support": "Steun ons",
       "github": "GitHub",
+      "discord": "Discord",
       "studio": "SeStudio"
     },
     "copyright": "© SeStudio",

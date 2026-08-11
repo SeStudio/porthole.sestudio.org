@@ -4,7 +4,7 @@
     "compare": "Comparatif",
     "faq": "FAQ",
     "security": "Sécurité",
-    "wishlist": "Liste de souhaits",
+    "wishlist": "Obtenir sur Steam",
     "github": "GitHub"
   },
   "meta": {
@@ -15,7 +15,7 @@
     "ogAlt": "Porthole - partage de ports locaux via Steam"
   },
   "hero": {
-    "badge": "Bientôt sur Steam",
+    "badge": "Disponible sur Steam",
     "title": "Jouez à vos jeux en réseau local et auto-hébergés avec",
     "titleAccent": "des amis, où qu'ils soient",
     "sub": "Porthole est un proxy qui transfère un port de votre choix à vos amis Steam, pour qu'ils se connectent comme s'ils étaient sur votre réseau local. Sans redirection de ports, sans IP publique, sans configurer le routeur. Une alternative à Hamachi et Radmin, propulsée par Steam.",
@@ -24,7 +24,7 @@
       "Sans IP publique",
       "Uniquement les ports que vous choisissez"
     ],
-    "ctaPrimary": "Ajouter à la liste de souhaits Steam",
+    "ctaPrimary": "Obtenir sur Steam",
     "ctaSecondary": "Voir le fonctionnement",
     "note": "Gratuit. Fonctionne derrière un NAT et un CGNAT. Windows et Linux / SteamOS."
   },
@@ -242,13 +242,13 @@
     ]
   },
   "steam": {
-    "heading": "Ajoutez Porthole à votre liste de souhaits",
-    "body": "Porthole sort sur Steam en tant qu'application gratuite. Ajoutez-le à votre liste de souhaits pour être prévenu dès sa sortie."
+    "heading": "Obtenez Porthole sur Steam",
+    "body": "Porthole est disponible sur Steam, et c'est entièrement gratuit. Obtenez-le et commencez à jouer avec vos amis dès aujourd'hui."
   },
   "cta": {
     "heading": "Choisissez un port, partagez un code et jouez",
-    "body": "Ajoutez Porthole à votre liste de souhaits Steam pour être averti au lancement. C'est entièrement gratuit.",
-    "primary": "Ajouter à la liste de souhaits Steam",
+    "body": "Obtenez Porthole sur Steam et commencez à jouer dès aujourd'hui. C'est entièrement gratuit.",
+    "primary": "Obtenir sur Steam",
     "secondary": "Suivre sur GitHub"
   },
   "security": {
@@ -297,7 +297,9 @@
     "links": {
       "security": "Confidentialité et sécurité",
       "steam": "Page Steam",
+      "support": "Nous soutenir",
       "github": "GitHub",
+      "discord": "Discord",
       "studio": "SeStudio"
     },
     "copyright": "© SeStudio",

@@ -4,7 +4,7 @@
     "compare": "So sánh",
     "faq": "Hỏi đáp",
     "security": "Bảo mật",
-    "wishlist": "Yêu thích",
+    "wishlist": "Tải trên Steam",
     "github": "GitHub"
   },
   "meta": {
@@ -15,7 +15,7 @@
     "ogAlt": "Porthole - chia sẻ cổng nội bộ qua Steam"
   },
   "hero": {
-    "badge": "Sắp có trên Steam",
+    "badge": "Đã có trên Steam",
     "title": "Chơi game LAN và game tự host cùng",
     "titleAccent": "bạn bè ở khắp nơi",
     "sub": "Porthole là một proxy chuyển tiếp cổng bạn chọn tới bạn bè Steam, để họ kết nối như thể đang chung mạng LAN với bạn. Khỏi mở cổng, khỏi cần IP tĩnh, khỏi phải cấu hình router. Kiểu Hamachi và Radmin, nhưng chạy trên nền Steam.",
@@ -24,7 +24,7 @@
       "Khỏi cần IP tĩnh",
       "Chỉ đúng những cổng bạn chọn"
     ],
-    "ctaPrimary": "Thêm vào yêu thích trên Steam",
+    "ctaPrimary": "Tải trên Steam",
     "ctaSecondary": "Xem cách hoạt động",
     "note": "Miễn phí. Chạy ngon sau NAT và CGNAT. Windows và Linux / SteamOS."
   },
@@ -242,13 +242,13 @@
     ]
   },
   "steam": {
-    "heading": "Thêm Porthole vào yêu thích",
-    "body": "Porthole ra mắt trên Steam dưới dạng ứng dụng miễn phí. Thêm nó vào danh sách yêu thích để biết ngay khoảnh khắc nó lên kệ."
+    "heading": "Tải Porthole trên Steam",
+    "body": "Porthole đã có trên Steam, và hoàn toàn miễn phí. Tải về và bắt đầu chơi cùng bạn bè ngay hôm nay."
   },
   "cta": {
     "heading": "Chọn cổng, chia sẻ mã, rồi chơi thôi",
-    "body": "Thêm Porthole vào yêu thích trên Steam để được báo ngay khi ra mắt. Hoàn toàn miễn phí.",
-    "primary": "Thêm vào yêu thích trên Steam",
+    "body": "Tải Porthole trên Steam và bắt đầu chơi ngay hôm nay. Hoàn toàn miễn phí.",
+    "primary": "Tải trên Steam",
     "secondary": "Theo dõi trên GitHub"
   },
   "security": {
@@ -297,7 +297,9 @@
     "links": {
       "security": "Quyền riêng tư và bảo mật",
       "steam": "Trang Steam",
+      "support": "Ủng hộ tụi mình",
       "github": "GitHub",
+      "discord": "Discord",
       "studio": "SeStudio"
     },
     "copyright": "© SeStudio",

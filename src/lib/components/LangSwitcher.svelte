@@ -32,6 +32,7 @@
 <style>
   .lang {
     position: relative;
+    min-width: 0;
   }
   summary {
     list-style: none;
@@ -46,19 +47,22 @@
     font-weight: 500;
     cursor: pointer;
     user-select: none;
+    min-width: 0;
   }
   summary::-webkit-details-marker {
     display: none;
+  }
+  summary :global(svg) {
+    flex: none;
   }
   summary:hover {
     color: var(--text);
     background: rgba(255, 255, 255, 0.11);
   }
+  /* The trigger stays a compact globe so a long endonym can never crowd or
+     truncate in the header; full language names live in the dropdown below. */
   .cur {
-    max-width: 12rem;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    display: none;
   }
   .caret {
     transition: transform 150ms ease;

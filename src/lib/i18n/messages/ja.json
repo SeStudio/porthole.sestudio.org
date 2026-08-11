@@ -4,7 +4,7 @@
     "compare": "比較",
     "faq": "よくある質問",
     "security": "セキュリティ",
-    "wishlist": "ウィッシュリスト",
+    "wishlist": "Steamで入手",
     "github": "GitHub"
   },
   "meta": {
@@ -15,7 +15,7 @@
     "ogAlt": "Porthole - Steam経由のローカルポート共有"
   },
   "hero": {
-    "badge": "Steamにて近日公開",
+    "badge": "Steamで配信中",
     "title": "LANや自前ホストのゲームを",
     "titleAccent": "どこにいるフレンドとも一緒に",
     "sub": "Portholeは、選んだポートをSteamのフレンドへ転送するプロキシです。フレンドはまるで同じLANにいるかのように接続できます。ポート開放もグローバルIPもルーター設定も不要。HamachiやRadminをSteamで実現したようなツールです。",
@@ -24,7 +24,7 @@
       "グローバルIPなし",
       "共有するのは選んだポートだけ"
     ],
-    "ctaPrimary": "Steamでウィッシュリストに追加",
+    "ctaPrimary": "Steamで入手",
     "ctaSecondary": "仕組みを見る",
     "note": "無料。NATやCGNATの内側でも動作。WindowsとLinux／SteamOSに対応。"
   },
@@ -242,13 +242,13 @@
     ]
   },
   "steam": {
-    "heading": "Portholeをウィッシュリストに",
-    "body": "Portholeは無料アプリとしてSteamでリリースされます。ウィッシュリストに追加しておけば、公開された瞬間にお知らせが届きます。"
+    "heading": "PortholeをSteamで入手",
+    "body": "PortholeはSteamで配信中。しかも完全無料です。今すぐ入手して、フレンドと一緒に遊びましょう。"
   },
   "cta": {
     "heading": "ポートを選んで、コードを共有して、さあ遊ぼう",
-    "body": "SteamでPortholeをウィッシュリストに追加すれば、リリース時に通知が届きます。もちろん完全無料です。",
-    "primary": "Steamでウィッシュリストに追加",
+    "body": "SteamでPortholeを入手して、今日から遊びましょう。もちろん完全無料です。",
+    "primary": "Steamで入手",
     "secondary": "GitHubでフォロー"
   },
   "security": {
@@ -297,7 +297,9 @@
     "links": {
       "security": "プライバシーとセキュリティ",
       "steam": "Steamページ",
+      "support": "応援する",
       "github": "GitHub",
+      "discord": "Discord",
       "studio": "SeStudio"
     },
     "copyright": "© SeStudio",
