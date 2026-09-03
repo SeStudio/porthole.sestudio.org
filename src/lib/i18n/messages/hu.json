@@ -26,7 +26,7 @@
     ],
     "ctaPrimary": "Beszerzés a Steamen",
     "ctaSecondary": "Nézd meg, hogyan működik",
-    "note": "Ingyenes. NAT és CGNAT mögött is működik. Windows és Linux / SteamOS."
+    "note": "Ingyenes. NAT és CGNAT mögött is működik. Windows, macOS és Linux / SteamOS."
   },
   "demo": {
     "heading": "Egy megosztókód, és a haverod már bent is van",
@@ -101,7 +101,7 @@
       },
       {
         "title": "Natív alkalmazás és CLI",
-        "body": "Letisztult tálcaalkalmazás Windowsra és Linuxra / SteamOS-re, plusz egy szkriptelhető parancssor."
+        "body": "Letisztult tálcaalkalmazás Windowsra, macOS-re és Linuxra / SteamOS-re, plusz egy szkriptelhető parancssor."
       }
     ]
   },
@@ -181,7 +181,7 @@
       },
       {
         "label": "Platformok",
-        "porthole": "Windows, Linux / SteamOS",
+        "porthole": "Windows, macOS, Linux / SteamOS",
         "hamachi": "Windows, macOS, Linux",
         "radmin": "Windows",
         "zerotier": "Minden nagyobb platform",
@@ -237,7 +237,7 @@
       },
       {
         "q": "Mely platformokat támogatja?",
-        "a": "Windows és Linux, beleértve a Steam Deck és a Steam Machine SteamOS rendszerét is. A Steam kliensnek futnia kell, és be kell jelentkezned."
+        "a": "Windows, macOS és Linux, beleértve a Steam Deck és a Steam Machine SteamOS rendszerét is. A Steam kliensnek futnia kell, és be kell jelentkezned."
       }
     ]
   },

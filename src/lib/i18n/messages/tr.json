@@ -26,7 +26,7 @@
     ],
     "ctaPrimary": "Steam'de edin",
     "ctaSecondary": "Nasıl çalıştığını gör",
-    "note": "Ücretsiz. NAT ve CGNAT arkasında çalışır. Windows ve Linux / SteamOS."
+    "note": "Ücretsiz. NAT ve CGNAT arkasında çalışır. Windows, macOS ve Linux / SteamOS."
   },
   "demo": {
     "heading": "Tek bir paylaşım kodu, arkadaşın oyunda",
@@ -101,7 +101,7 @@
       },
       {
         "title": "Yerel uygulama ve CLI",
-        "body": "Windows ve Linux / SteamOS için sade bir tepsi uygulaması, üstüne betiklerle kullanabileceğin bir komut satırı."
+        "body": "Windows, macOS ve Linux / SteamOS için sade bir tepsi uygulaması, üstüne betiklerle kullanabileceğin bir komut satırı."
       }
     ]
   },
@@ -181,7 +181,7 @@
       },
       {
         "label": "Platformlar",
-        "porthole": "Windows, Linux / SteamOS",
+        "porthole": "Windows, macOS, Linux / SteamOS",
         "hamachi": "Windows, macOS, Linux",
         "radmin": "Windows",
         "zerotier": "Tüm büyük platformlar",
@@ -237,7 +237,7 @@
       },
       {
         "q": "Hangi platformlar destekleniyor?",
-        "a": "Windows ve Linux, Steam Deck ve Steam Machine üzerindeki SteamOS dahil. Steam istemcisinin çalışıyor ve giriş yapılmış olması gerekir."
+        "a": "Windows, macOS ve Linux, Steam Deck ve Steam Machine üzerindeki SteamOS dahil. Steam istemcisinin çalışıyor ve giriş yapılmış olması gerekir."
       }
     ]
   },

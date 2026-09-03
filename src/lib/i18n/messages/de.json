@@ -26,7 +26,7 @@
     ],
     "ctaPrimary": "Auf Steam holen",
     "ctaSecondary": "So funktioniert's",
-    "note": "Kostenlos. Läuft hinter NAT und CGNAT. Windows und Linux / SteamOS."
+    "note": "Kostenlos. Läuft hinter NAT und CGNAT. Windows, macOS und Linux / SteamOS."
   },
   "demo": {
     "heading": "Ein Share-Code, und dein Freund ist drin",
@@ -101,7 +101,7 @@
       },
       {
         "title": "Native App und CLI",
-        "body": "Eine aufgeräumte Tray-App für Windows und Linux / SteamOS, dazu eine skriptbare Kommandozeile."
+        "body": "Eine aufgeräumte Tray-App für Windows, macOS und Linux / SteamOS, dazu eine skriptbare Kommandozeile."
       }
     ]
   },
@@ -181,7 +181,7 @@
       },
       {
         "label": "Plattformen",
-        "porthole": "Windows, Linux / SteamOS",
+        "porthole": "Windows, macOS, Linux / SteamOS",
         "hamachi": "Windows, macOS, Linux",
         "radmin": "Windows",
         "zerotier": "Alle gängigen Plattformen",
@@ -237,7 +237,7 @@
       },
       {
         "q": "Welche Plattformen werden unterstützt?",
-        "a": "Windows und Linux, einschließlich SteamOS auf dem Steam Deck und der Steam Machine. Der Steam-Client muss laufen und angemeldet sein."
+        "a": "Windows, macOS und Linux, einschließlich SteamOS auf dem Steam Deck und der Steam Machine. Der Steam-Client muss laufen und angemeldet sein."
       }
     ]
   },

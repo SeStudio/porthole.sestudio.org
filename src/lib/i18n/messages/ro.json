@@ -26,7 +26,7 @@
     ],
     "ctaPrimary": "Ia-l de pe Steam",
     "ctaSecondary": "Vezi cum funcționează",
-    "note": "Gratuit. Merge în spatele NAT și CGNAT. Windows și Linux / SteamOS."
+    "note": "Gratuit. Merge în spatele NAT și CGNAT. Windows, macOS și Linux / SteamOS."
   },
   "demo": {
     "heading": "Un cod de invitație și prietenul tău e conectat",
@@ -101,7 +101,7 @@
       },
       {
         "title": "Aplicație nativă și CLI",
-        "body": "O aplicație curată în bara de sistem pentru Windows și Linux / SteamOS, plus o linie de comandă pentru scripturi."
+        "body": "O aplicație curată în bara de sistem pentru Windows, macOS și Linux / SteamOS, plus o linie de comandă pentru scripturi."
       }
     ]
   },
@@ -181,7 +181,7 @@
       },
       {
         "label": "Platforme",
-        "porthole": "Windows, Linux / SteamOS",
+        "porthole": "Windows, macOS, Linux / SteamOS",
         "hamachi": "Windows, macOS, Linux",
         "radmin": "Windows",
         "zerotier": "Toate platformele majore",
@@ -237,7 +237,7 @@
       },
       {
         "q": "Ce platforme sunt suportate?",
-        "a": "Windows și Linux, inclusiv SteamOS pe Steam Deck și Steam Machine. Clientul Steam trebuie să ruleze și să fie autentificat."
+        "a": "Windows, macOS și Linux, inclusiv SteamOS pe Steam Deck și Steam Machine. Clientul Steam trebuie să ruleze și să fie autentificat."
       }
     ]
   },

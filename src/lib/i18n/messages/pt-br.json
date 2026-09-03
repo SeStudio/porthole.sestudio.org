@@ -26,7 +26,7 @@
     ],
     "ctaPrimary": "Baixar na Steam",
     "ctaSecondary": "Veja como funciona",
-    "note": "Grátis. Funciona atrás de NAT e CGNAT. Windows e Linux / SteamOS."
+    "note": "Grátis. Funciona atrás de NAT e CGNAT. Windows, macOS e Linux / SteamOS."
   },
   "demo": {
     "heading": "Um código, e seu amigo já está dentro",
@@ -101,7 +101,7 @@
       },
       {
         "title": "App nativo e CLI",
-        "body": "Um app enxuto na bandeja do sistema para Windows e Linux / SteamOS, além de uma linha de comando para automatizar."
+        "body": "Um app enxuto na bandeja do sistema para Windows, macOS e Linux / SteamOS, além de uma linha de comando para automatizar."
       }
     ]
   },
@@ -181,7 +181,7 @@
       },
       {
         "label": "Plataformas",
-        "porthole": "Windows, Linux / SteamOS",
+        "porthole": "Windows, macOS, Linux / SteamOS",
         "hamachi": "Windows, macOS, Linux",
         "radmin": "Windows",
         "zerotier": "Todas as principais plataformas",
@@ -237,7 +237,7 @@
       },
       {
         "q": "Quais plataformas são suportadas?",
-        "a": "Windows e Linux, incluindo o SteamOS no Steam Deck e no Steam Machine. O cliente da Steam precisa estar rodando e com login feito."
+        "a": "Windows, macOS e Linux, incluindo o SteamOS no Steam Deck e no Steam Machine. O cliente da Steam precisa estar rodando e com login feito."
       }
     ]
   },

@@ -26,7 +26,7 @@
     ],
     "ctaPrimary": "Pobierz na Steam",
     "ctaSecondary": "Zobacz, jak to działa",
-    "note": "Za darmo. Działa za NAT i CGNAT. Windows oraz Linux / SteamOS."
+    "note": "Za darmo. Działa za NAT i CGNAT. Windows, macOS oraz Linux / SteamOS."
   },
   "demo": {
     "heading": "Jeden kod i znajomy jest w grze",
@@ -101,7 +101,7 @@
       },
       {
         "title": "Natywna aplikacja i CLI",
-        "body": "Przejrzysta aplikacja w zasobniku systemowym dla Windows i Linux / SteamOS oraz wiersz poleceń do skryptów."
+        "body": "Przejrzysta aplikacja w zasobniku systemowym dla Windows, macOS i Linux / SteamOS oraz wiersz poleceń do skryptów."
       }
     ]
   },
@@ -181,7 +181,7 @@
       },
       {
         "label": "Platformy",
-        "porthole": "Windows, Linux / SteamOS",
+        "porthole": "Windows, macOS, Linux / SteamOS",
         "hamachi": "Windows, macOS, Linux",
         "radmin": "Windows",
         "zerotier": "Wszystkie główne platformy",
@@ -237,7 +237,7 @@
       },
       {
         "q": "Jakie platformy są obsługiwane?",
-        "a": "Windows i Linux, w tym SteamOS na Steam Deck i Steam Machine. Klient Steam musi być uruchomiony i zalogowany."
+        "a": "Windows, macOS i Linux, w tym SteamOS na Steam Deck i Steam Machine. Klient Steam musi być uruchomiony i zalogowany."
       }
     ]
   },

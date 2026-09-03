@@ -26,7 +26,7 @@
     ],
     "ctaPrimary": "Απόκτησέ το στο Steam",
     "ctaSecondary": "Δες πώς λειτουργεί",
-    "note": "Δωρεάν. Δουλεύει πίσω από NAT και CGNAT. Windows και Linux / SteamOS."
+    "note": "Δωρεάν. Δουλεύει πίσω από NAT και CGNAT. Windows, macOS και Linux / SteamOS."
   },
   "demo": {
     "heading": "Ένας κωδικός πρόσκλησης και ο φίλος σου είναι μέσα",
@@ -101,7 +101,7 @@
       },
       {
         "title": "Εγγενής εφαρμογή και CLI",
-        "body": "Μια καθαρή εφαρμογή στο system tray για Windows και Linux / SteamOS, μαζί με μια γραμμή εντολών για scripting."
+        "body": "Μια καθαρή εφαρμογή στο system tray για Windows, macOS και Linux / SteamOS, μαζί με μια γραμμή εντολών για scripting."
       }
     ]
   },
@@ -181,7 +181,7 @@
       },
       {
         "label": "Πλατφόρμες",
-        "porthole": "Windows, Linux / SteamOS",
+        "porthole": "Windows, macOS, Linux / SteamOS",
         "hamachi": "Windows, macOS, Linux",
         "radmin": "Windows",
         "zerotier": "Όλες οι βασικές πλατφόρμες",
@@ -237,7 +237,7 @@
       },
       {
         "q": "Ποιες πλατφόρμες υποστηρίζονται;",
-        "a": "Windows και Linux, μαζί με το SteamOS στο Steam Deck και το Steam Machine. Ο client του Steam πρέπει να τρέχει και να είναι συνδεδεμένος."
+        "a": "Windows, macOS και Linux, μαζί με το SteamOS στο Steam Deck και το Steam Machine. Ο client του Steam πρέπει να τρέχει και να είναι συνδεδεμένος."
       }
     ]
   },

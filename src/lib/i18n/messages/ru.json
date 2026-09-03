@@ -26,7 +26,7 @@
     ],
     "ctaPrimary": "Скачать в Steam",
     "ctaSecondary": "Как это работает",
-    "note": "Бесплатно. Работает за NAT и CGNAT. Windows и Linux / SteamOS."
+    "note": "Бесплатно. Работает за NAT и CGNAT. Windows, macOS и Linux / SteamOS."
   },
   "demo": {
     "heading": "Один код - и друг уже в игре",
@@ -101,7 +101,7 @@
       },
       {
         "title": "Нативное приложение и CLI",
-        "body": "Аккуратное приложение в трее для Windows и Linux / SteamOS плюс командная строка для скриптов."
+        "body": "Аккуратное приложение в трее для Windows, macOS и Linux / SteamOS плюс командная строка для скриптов."
       }
     ]
   },
@@ -181,7 +181,7 @@
       },
       {
         "label": "Платформы",
-        "porthole": "Windows, Linux / SteamOS",
+        "porthole": "Windows, macOS, Linux / SteamOS",
         "hamachi": "Windows, macOS, Linux",
         "radmin": "Windows",
         "zerotier": "Все основные платформы",
@@ -237,7 +237,7 @@
       },
       {
         "q": "Какие платформы поддерживаются?",
-        "a": "Windows и Linux, в том числе SteamOS на Steam Deck и Steam Machine. Клиент Steam должен быть запущен, и в него нужно войти."
+        "a": "Windows, macOS и Linux, в том числе SteamOS на Steam Deck и Steam Machine. Клиент Steam должен быть запущен, и в него нужно войти."
       }
     ]
   },

@@ -26,7 +26,7 @@
     ],
     "ctaPrimary": "Отримати у Steam",
     "ctaSecondary": "Подивитися, як це працює",
-    "note": "Безкоштовно. Працює за NAT і CGNAT. Windows і Linux / SteamOS."
+    "note": "Безкоштовно. Працює за NAT і CGNAT. Windows, macOS і Linux / SteamOS."
   },
   "demo": {
     "heading": "Один код запрошення - і друг уже в грі",
@@ -101,7 +101,7 @@
       },
       {
         "title": "Нативна програма і CLI",
-        "body": "Охайна програма в системному треї для Windows і Linux / SteamOS, а також командний рядок для скриптів."
+        "body": "Охайна програма в системному треї для Windows, macOS і Linux / SteamOS, а також командний рядок для скриптів."
       }
     ]
   },
@@ -181,7 +181,7 @@
       },
       {
         "label": "Платформи",
-        "porthole": "Windows, Linux / SteamOS",
+        "porthole": "Windows, macOS, Linux / SteamOS",
         "hamachi": "Windows, macOS, Linux",
         "radmin": "Windows",
         "zerotier": "Усі основні платформи",
@@ -237,7 +237,7 @@
       },
       {
         "q": "Які платформи підтримуються?",
-        "a": "Windows і Linux, зокрема SteamOS на Steam Deck і Steam Machine. Клієнт Steam має бути запущений, і ви маєте бути в ньому авторизовані."
+        "a": "Windows, macOS і Linux, зокрема SteamOS на Steam Deck і Steam Machine. Клієнт Steam має бути запущений, і ви маєте бути в ньому авторизовані."
       }
     ]
   },

@@ -26,7 +26,7 @@
     ],
     "ctaPrimary": "Scaricalo su Steam",
     "ctaSecondary": "Scopri come funziona",
-    "note": "Gratis. Funziona dietro NAT e CGNAT. Windows e Linux / SteamOS."
+    "note": "Gratis. Funziona dietro NAT e CGNAT. Windows, macOS e Linux / SteamOS."
   },
   "demo": {
     "heading": "Un codice di invito e il tuo amico è dentro",
@@ -101,7 +101,7 @@
       },
       {
         "title": "App nativa e CLI",
-        "body": "Una comoda app nella system tray per Windows e Linux / SteamOS, più una riga di comando adatta agli script."
+        "body": "Una comoda app nella system tray per Windows, macOS e Linux / SteamOS, più una riga di comando adatta agli script."
       }
     ]
   },
@@ -181,7 +181,7 @@
       },
       {
         "label": "Piattaforme",
-        "porthole": "Windows, Linux / SteamOS",
+        "porthole": "Windows, macOS, Linux / SteamOS",
         "hamachi": "Windows, macOS, Linux",
         "radmin": "Windows",
         "zerotier": "Tutte le principali piattaforme",
@@ -237,7 +237,7 @@
       },
       {
         "q": "Quali piattaforme sono supportate?",
-        "a": "Windows e Linux, incluso SteamOS su Steam Deck e Steam Machine. Il client Steam deve essere in esecuzione e con l'accesso effettuato."
+        "a": "Windows, macOS e Linux, incluso SteamOS su Steam Deck e Steam Machine. Il client Steam deve essere in esecuzione e con l'accesso effettuato."
       }
     ]
   },

@@ -26,7 +26,7 @@
     ],
     "ctaPrimary": "รับบน Steam",
     "ctaSecondary": "ดูวิธีการทำงาน",
-    "note": "ฟรี ใช้ได้แม้อยู่หลัง NAT และ CGNAT รองรับ Windows และ Linux / SteamOS"
+    "note": "ฟรี ใช้ได้แม้อยู่หลัง NAT และ CGNAT รองรับ Windows, macOS และ Linux / SteamOS"
   },
   "demo": {
     "heading": "รหัสแชร์อันเดียว เพื่อนก็เข้าร่วมได้เลย",
@@ -101,7 +101,7 @@
       },
       {
         "title": "แอปเนทีฟและ CLI",
-        "body": "แอปในถาดระบบที่เรียบสวยสำหรับ Windows และ Linux / SteamOS พร้อมโหมดบรรทัดคำสั่งไว้เขียนสคริปต์"
+        "body": "แอปในถาดระบบที่เรียบสวยสำหรับ Windows, macOS และ Linux / SteamOS พร้อมโหมดบรรทัดคำสั่งไว้เขียนสคริปต์"
       }
     ]
   },
@@ -181,7 +181,7 @@
       },
       {
         "label": "แพลตฟอร์ม",
-        "porthole": "Windows, Linux / SteamOS",
+        "porthole": "Windows, macOS, Linux / SteamOS",
         "hamachi": "Windows, macOS, Linux",
         "radmin": "Windows",
         "zerotier": "ทุกแพลตฟอร์มหลัก",
@@ -237,7 +237,7 @@
       },
       {
         "q": "รองรับแพลตฟอร์มไหนบ้าง",
-        "a": "Windows และ Linux รวมถึง SteamOS บน Steam Deck และ Steam Machine ด้วย โดยต้องเปิดโปรแกรม Steam ค้างไว้และล็อกอินอยู่"
+        "a": "Windows, macOS และ Linux รวมถึง SteamOS บน Steam Deck และ Steam Machine ด้วย โดยต้องเปิดโปรแกรม Steam ค้างไว้และล็อกอินอยู่"
       }
     ]
   },

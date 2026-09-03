@@ -26,7 +26,7 @@
     ],
     "ctaPrimary": "Haal het op Steam",
     "ctaSecondary": "Bekijk hoe het werkt",
-    "note": "Gratis. Werkt achter NAT en CGNAT. Windows en Linux / SteamOS."
+    "note": "Gratis. Werkt achter NAT en CGNAT. Windows, macOS en Linux / SteamOS."
   },
   "demo": {
     "heading": "Eén deelcode en je vriend doet mee",
@@ -101,7 +101,7 @@
       },
       {
         "title": "Native app en CLI",
-        "body": "Een strakke systeemvak-app voor Windows en Linux / SteamOS, plus een scriptbare opdrachtregel."
+        "body": "Een strakke systeemvak-app voor Windows, macOS en Linux / SteamOS, plus een scriptbare opdrachtregel."
       }
     ]
   },
@@ -181,7 +181,7 @@
       },
       {
         "label": "Platforms",
-        "porthole": "Windows, Linux / SteamOS",
+        "porthole": "Windows, macOS, Linux / SteamOS",
         "hamachi": "Windows, macOS, Linux",
         "radmin": "Windows",
         "zerotier": "Alle grote platforms",
@@ -237,7 +237,7 @@
       },
       {
         "q": "Welke platforms worden ondersteund?",
-        "a": "Windows en Linux, inclusief SteamOS op de Steam Deck en Steam Machine. De Steam-client moet draaien en ingelogd zijn."
+        "a": "Windows, macOS en Linux, inclusief SteamOS op de Steam Deck en Steam Machine. De Steam-client moet draaien en ingelogd zijn."
       }
     ]
   },

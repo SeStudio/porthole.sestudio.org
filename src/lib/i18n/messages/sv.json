@@ -26,7 +26,7 @@
     ],
     "ctaPrimary": "Hämta på Steam",
     "ctaSecondary": "Se hur det funkar",
-    "note": "Gratis. Funkar bakom NAT och CGNAT. Windows och Linux / SteamOS."
+    "note": "Gratis. Funkar bakom NAT och CGNAT. Windows, macOS och Linux / SteamOS."
   },
   "demo": {
     "heading": "En delningskod, och kompisen är inne",
@@ -101,7 +101,7 @@
       },
       {
         "title": "Inbyggd app och CLI",
-        "body": "En snygg app i aktivitetsfältet för Windows och Linux / SteamOS, plus en kommandorad du kan skripta."
+        "body": "En snygg app i aktivitetsfältet för Windows, macOS och Linux / SteamOS, plus en kommandorad du kan skripta."
       }
     ]
   },
@@ -181,7 +181,7 @@
       },
       {
         "label": "Plattformar",
-        "porthole": "Windows, Linux / SteamOS",
+        "porthole": "Windows, macOS, Linux / SteamOS",
         "hamachi": "Windows, macOS, Linux",
         "radmin": "Windows",
         "zerotier": "Alla större plattformar",
@@ -237,7 +237,7 @@
       },
       {
         "q": "Vilka plattformar stöds?",
-        "a": "Windows och Linux, inklusive SteamOS på Steam Deck och Steam Machine. Steam-klienten måste vara igång och inloggad."
+        "a": "Windows, macOS och Linux, inklusive SteamOS på Steam Deck och Steam Machine. Steam-klienten måste vara igång och inloggad."
       }
     ]
   },
