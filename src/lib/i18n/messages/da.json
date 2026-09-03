@@ -26,7 +26,7 @@
     ],
     "ctaPrimary": "Hent på Steam",
     "ctaSecondary": "Se hvordan det virker",
-    "note": "Gratis. Virker bag NAT og CGNAT. Windows og Linux/SteamOS."
+    "note": "Gratis. Virker bag NAT og CGNAT. Windows, macOS og Linux/SteamOS."
   },
   "demo": {
     "heading": "Én delekode, og din ven er inde",
@@ -101,7 +101,7 @@
       },
       {
         "title": "Native app og CLI",
-        "body": "En ren app i systembakken til Windows og Linux/SteamOS plus en kommandolinje, du kan skripte."
+        "body": "En ren app i systembakken til Windows, macOS og Linux/SteamOS plus en kommandolinje, du kan skripte."
       }
     ]
   },
@@ -181,7 +181,7 @@
       },
       {
         "label": "Platforme",
-        "porthole": "Windows, Linux/SteamOS",
+        "porthole": "Windows, macOS, Linux/SteamOS",
         "hamachi": "Windows, macOS, Linux",
         "radmin": "Windows",
         "zerotier": "Alle større platforme",
@@ -237,7 +237,7 @@
       },
       {
         "q": "Hvilke platforme understøttes?",
-        "a": "Windows og Linux, herunder SteamOS på Steam Deck og Steam Machine. Steam-klienten skal køre og være logget ind."
+        "a": "Windows, macOS og Linux, herunder SteamOS på Steam Deck og Steam Machine. Steam-klienten skal køre og være logget ind."
       }
     ]
   },

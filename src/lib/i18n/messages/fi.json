@@ -26,7 +26,7 @@
     ],
     "ctaPrimary": "Hanki Steamista",
     "ctaSecondary": "Katso, miten se toimii",
-    "note": "Ilmainen. Toimii NAT:n ja CGNAT:n takaa. Windows ja Linux / SteamOS."
+    "note": "Ilmainen. Toimii NAT:n ja CGNAT:n takaa. Windows, macOS ja Linux / SteamOS."
   },
   "demo": {
     "heading": "Yksi jakokoodi, ja kaveri on mukana",
@@ -101,7 +101,7 @@
       },
       {
         "title": "Natiivisovellus ja CLI",
-        "body": "Siisti ilmaisinaluesovellus Windowsille ja Linuxille / SteamOS:lle sekä skriptattava komentorivi."
+        "body": "Siisti ilmaisinaluesovellus Windowsille, macOS:lle ja Linuxille / SteamOS:lle sekä skriptattava komentorivi."
       }
     ]
   },
@@ -181,7 +181,7 @@
       },
       {
         "label": "Alustat",
-        "porthole": "Windows, Linux / SteamOS",
+        "porthole": "Windows, macOS, Linux / SteamOS",
         "hamachi": "Windows, macOS, Linux",
         "radmin": "Windows",
         "zerotier": "Kaikki tärkeimmät alustat",
@@ -237,7 +237,7 @@
       },
       {
         "q": "Mitä alustoja tuetaan?",
-        "a": "Windows ja Linux, mukaan lukien SteamOS Steam Deckillä ja Steam Machinella. Steam-clientin täytyy olla käynnissä ja sisäänkirjautuneena."
+        "a": "Windows, macOS ja Linux, mukaan lukien SteamOS Steam Deckillä ja Steam Machinella. Steam-clientin täytyy olla käynnissä ja sisäänkirjautuneena."
       }
     ]
   },

@@ -26,7 +26,7 @@
     ],
     "ctaPrimary": "Steamで入手",
     "ctaSecondary": "仕組みを見る",
-    "note": "無料。NATやCGNATの内側でも動作。WindowsとLinux／SteamOSに対応。"
+    "note": "無料。NATやCGNATの内側でも動作。Windows、macOS、Linux／SteamOSに対応。"
   },
   "demo": {
     "heading": "共有コードひとつで、フレンドが参加",
@@ -101,7 +101,7 @@
       },
       {
         "title": "ネイティブアプリとCLI",
-        "body": "WindowsとLinux／SteamOS向けのすっきりしたトレイ常駐アプリに加え、スクリプトから使えるコマンドラインも用意。"
+        "body": "Windows、macOS、Linux／SteamOS向けのすっきりしたトレイ常駐アプリに加え、スクリプトから使えるコマンドラインも用意。"
       }
     ]
   },
@@ -181,7 +181,7 @@
       },
       {
         "label": "対応プラットフォーム",
-        "porthole": "Windows、Linux／SteamOS",
+        "porthole": "Windows、macOS、Linux／SteamOS",
         "hamachi": "Windows、macOS、Linux",
         "radmin": "Windows",
         "zerotier": "主要プラットフォーム全対応",
@@ -237,7 +237,7 @@
       },
       {
         "q": "対応プラットフォームは？",
-        "a": "WindowsとLinuxに対応し、Steam DeckやSteam MachineのSteamOSも含みます。Steamクライアントが起動していて、ログイン済みである必要があります。"
+        "a": "Windows、macOS、Linuxに対応し、Steam DeckやSteam MachineのSteamOSも含みます。Steamクライアントが起動していて、ログイン済みである必要があります。"
       }
     ]
   },

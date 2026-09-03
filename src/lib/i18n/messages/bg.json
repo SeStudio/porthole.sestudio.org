@@ -26,7 +26,7 @@
     ],
     "ctaPrimary": "Вземете в Steam",
     "ctaSecondary": "Вижте как работи",
-    "note": "Безплатно. Работи зад NAT и CGNAT. Windows и Linux / SteamOS."
+    "note": "Безплатно. Работи зад NAT и CGNAT. Windows, macOS и Linux / SteamOS."
   },
   "demo": {
     "heading": "Един код за споделяне и приятелят ви е вътре",
@@ -101,7 +101,7 @@
       },
       {
         "title": "Нативно приложение и CLI",
-        "body": "Изчистено приложение в системния трей за Windows и Linux / SteamOS, плюс команден ред за скриптове."
+        "body": "Изчистено приложение в системния трей за Windows, macOS и Linux / SteamOS, плюс команден ред за скриптове."
       }
     ]
   },
@@ -181,7 +181,7 @@
       },
       {
         "label": "Платформи",
-        "porthole": "Windows, Linux / SteamOS",
+        "porthole": "Windows, macOS, Linux / SteamOS",
         "hamachi": "Windows, macOS, Linux",
         "radmin": "Windows",
         "zerotier": "Всички основни платформи",
@@ -237,7 +237,7 @@
       },
       {
         "q": "Кои платформи се поддържат?",
-        "a": "Windows и Linux, включително SteamOS на Steam Deck и Steam Machine. Клиентът на Steam трябва да е стартиран и да сте влезли в него."
+        "a": "Windows, macOS и Linux, включително SteamOS на Steam Deck и Steam Machine. Клиентът на Steam трябва да е стартиран и да сте влезли в него."
       }
     ]
   },

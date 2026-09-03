@@ -26,7 +26,7 @@
     ],
     "ctaPrimary": "Získej na Steamu",
     "ctaSecondary": "Podívej se, jak to funguje",
-    "note": "Zdarma. Funguje i za NAT a CGNAT. Windows a Linux / SteamOS."
+    "note": "Zdarma. Funguje i za NAT a CGNAT. Windows, macOS a Linux / SteamOS."
   },
   "demo": {
     "heading": "Jeden kód a kamarád je ve hře",
@@ -101,7 +101,7 @@
       },
       {
         "title": "Nativní aplikace i CLI",
-        "body": "Přehledná aplikace v systémové liště pro Windows a Linux / SteamOS, plus příkazová řádka pro skriptování."
+        "body": "Přehledná aplikace v systémové liště pro Windows, macOS a Linux / SteamOS, plus příkazová řádka pro skriptování."
       }
     ]
   },
@@ -181,7 +181,7 @@
       },
       {
         "label": "Platformy",
-        "porthole": "Windows, Linux / SteamOS",
+        "porthole": "Windows, macOS, Linux / SteamOS",
         "hamachi": "Windows, macOS, Linux",
         "radmin": "Windows",
         "zerotier": "Všechny hlavní platformy",
@@ -237,7 +237,7 @@
       },
       {
         "q": "Které platformy jsou podporované?",
-        "a": "Windows a Linux, včetně SteamOS na Steam Decku a Steam Machine. Klient Steamu musí běžet a být přihlášený."
+        "a": "Windows, macOS a Linux, včetně SteamOS na Steam Decku a Steam Machine. Klient Steamu musí běžet a být přihlášený."
       }
     ]
   },

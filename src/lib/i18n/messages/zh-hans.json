@@ -26,7 +26,7 @@
     ],
     "ctaPrimary": "在 Steam 获取",
     "ctaSecondary": "看看工作原理",
-    "note": "免费。在 NAT 和 CGNAT 后面也能用。支持 Windows 与 Linux / SteamOS。"
+    "note": "免费。在 NAT 和 CGNAT 后面也能用。支持 Windows、macOS 与 Linux / SteamOS。"
   },
   "demo": {
     "heading": "一串分享码，好友就进来了",
@@ -101,7 +101,7 @@
       },
       {
         "title": "原生应用与命令行",
-        "body": "面向 Windows 与 Linux / SteamOS 的清爽托盘应用，另附可用于脚本的命令行。"
+        "body": "面向 Windows、macOS 与 Linux / SteamOS 的清爽托盘应用，另附可用于脚本的命令行。"
       }
     ]
   },
@@ -181,7 +181,7 @@
       },
       {
         "label": "支持平台",
-        "porthole": "Windows、Linux / SteamOS",
+        "porthole": "Windows、macOS、Linux / SteamOS",
         "hamachi": "Windows、macOS、Linux",
         "radmin": "Windows",
         "zerotier": "所有主流平台",
@@ -237,7 +237,7 @@
       },
       {
         "q": "支持哪些平台？",
-        "a": "Windows 和 Linux，包括 Steam Deck 和 Steam Machine 上的 SteamOS。Steam 客户端需要处于运行并已登录的状态。"
+        "a": "Windows、macOS 和 Linux，包括 Steam Deck 和 Steam Machine 上的 SteamOS。Steam 客户端需要处于运行并已登录的状态。"
       }
     ]
   },

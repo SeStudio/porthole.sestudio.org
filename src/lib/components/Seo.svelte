@@ -26,7 +26,7 @@
     '@type': 'SoftwareApplication',
     name: 'Porthole',
     applicationCategory: 'UtilitiesApplication',
-    operatingSystem: 'Windows, Linux, SteamOS',
+    operatingSystem: 'Windows, macOS, Linux, SteamOS',
     description: t.meta.homeDescription,
     url: SITE + '/',
     downloadUrl: STEAM_APP_URL,

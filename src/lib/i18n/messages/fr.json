@@ -26,7 +26,7 @@
     ],
     "ctaPrimary": "Obtenir sur Steam",
     "ctaSecondary": "Voir le fonctionnement",
-    "note": "Gratuit. Fonctionne derrière un NAT et un CGNAT. Windows et Linux / SteamOS."
+    "note": "Gratuit. Fonctionne derrière un NAT et un CGNAT. Windows, macOS et Linux / SteamOS."
   },
   "demo": {
     "heading": "Un code de partage, et votre ami est de la partie",
@@ -101,7 +101,7 @@
       },
       {
         "title": "Application native et CLI",
-        "body": "Une application soignée logée dans la zone de notification pour Windows et Linux / SteamOS, plus une ligne de commande scriptable."
+        "body": "Une application soignée logée dans la zone de notification pour Windows, macOS et Linux / SteamOS, plus une ligne de commande scriptable."
       }
     ]
   },
@@ -181,7 +181,7 @@
       },
       {
         "label": "Plateformes",
-        "porthole": "Windows, Linux / SteamOS",
+        "porthole": "Windows, macOS, Linux / SteamOS",
         "hamachi": "Windows, macOS, Linux",
         "radmin": "Windows",
         "zerotier": "Toutes les grandes plateformes",
@@ -237,7 +237,7 @@
       },
       {
         "q": "Quelles plateformes sont prises en charge ?",
-        "a": "Windows et Linux, dont SteamOS sur le Steam Deck et la Steam Machine. Le client Steam doit être lancé et connecté."
+        "a": "Windows, macOS et Linux, dont SteamOS sur le Steam Deck et la Steam Machine. Le client Steam doit être lancé et connecté."
       }
     ]
   },

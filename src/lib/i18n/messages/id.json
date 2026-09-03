@@ -26,7 +26,7 @@
     ],
     "ctaPrimary": "Dapatkan di Steam",
     "ctaSecondary": "Lihat cara kerjanya",
-    "note": "Gratis. Jalan di balik NAT dan CGNAT. Windows dan Linux / SteamOS."
+    "note": "Gratis. Jalan di balik NAT dan CGNAT. Windows, macOS dan Linux / SteamOS."
   },
   "demo": {
     "heading": "Satu share code, dan temanmu langsung masuk",
@@ -101,7 +101,7 @@
       },
       {
         "title": "Aplikasi native dan CLI",
-        "body": "Aplikasi tray yang rapi untuk Windows dan Linux / SteamOS, plus baris perintah yang bisa diotomasi lewat skrip."
+        "body": "Aplikasi tray yang rapi untuk Windows, macOS dan Linux / SteamOS, plus baris perintah yang bisa diotomasi lewat skrip."
       }
     ]
   },
@@ -181,7 +181,7 @@
       },
       {
         "label": "Platform",
-        "porthole": "Windows, Linux / SteamOS",
+        "porthole": "Windows, macOS, Linux / SteamOS",
         "hamachi": "Windows, macOS, Linux",
         "radmin": "Windows",
         "zerotier": "Semua platform utama",
@@ -237,7 +237,7 @@
       },
       {
         "q": "Platform apa saja yang didukung?",
-        "a": "Windows dan Linux, termasuk SteamOS di Steam Deck dan Steam Machine. Klien Steam harus sedang berjalan dan sudah login."
+        "a": "Windows, macOS dan Linux, termasuk SteamOS di Steam Deck dan Steam Machine. Klien Steam harus sedang berjalan dan sudah login."
       }
     ]
   },
